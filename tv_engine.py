@@ -3,12 +3,16 @@
 import os
 import sys
 import re
+import io
 import json
 import time
 import random
+import string
+import zipfile
 import threading
 import urllib.parse
 from datetime import datetime, timezone
+
 
 import requests
 from urllib3.exceptions import InsecureRequestWarning
