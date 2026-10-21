@@ -6,12 +6,18 @@ import re
 import io
 import json
 import time
+import uuid
+import glob
+import base64
 import random
 import string
+import secrets
+import hashlib
 import zipfile
 import threading
 import urllib.parse
 from datetime import datetime, timezone
+
 
 
 import requests
@@ -1080,12 +1086,9 @@ def crunchyroll_validate_cookie(cookies, proxy=None):
         except Exception:
             return "network_error", None, None, None
 
-    # Strict Proxy Mode: Only validate through proxy, never leak or use direct local IP
-    if proxy is not None:
-        return _do_validate(proxy)
+    # Validate through proxy if configured; otherwise validate directly
+    return _do_validate(proxy)
 
-    # If no proxy configured, return network_error
-    return "network_error", None, None, None
 
 
 def crunchyroll_submit_tv_code(auth_data, tv_code, proxy=None):
