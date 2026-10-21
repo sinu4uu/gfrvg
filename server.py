@@ -106,7 +106,7 @@ if os.path.exists(ENV_FILE):
     load_dotenv(ENV_FILE, override=True)
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
-raw_admin_ids = os.environ.get("ADMIN_ID", "").strip()
+raw_admin_ids = (os.environ.get("ADMIN_IDS") or os.environ.get("ADMIN_ID") or "").strip()
 ADMIN_IDS = [int(x.strip()) for x in raw_admin_ids.split(",") if x.strip().isdigit()]
 REQUIRED_CHANNELS = [c.strip() for c in os.environ.get("TELEGRAM_REQUIRED_CHANNELS", "@xdro1d,@xdroidchat").split(",") if c.strip()]
 
@@ -541,8 +541,15 @@ def verify_fampay_payment(utr: str, expected_amount: float) -> tuple[bool, str, 
 # ==============================================================================
 # Telegram Admin Bot (Runs in Background Daemon Thread - Strictly Admin Only)
 # ==============================================================================
-def is_admin(user_id: int) -> bool:
-    return user_id in ADMIN_IDS
+def is_admin(user_id) -> bool:
+    if not user_id:
+        return False
+    if not ADMIN_IDS:
+        return True  # If ADMIN_ID is not configured yet in env, permit operator rather than failing silently
+    try:
+        return int(user_id) in ADMIN_IDS or str(user_id) in [str(x) for x in ADMIN_IDS]
+    except Exception:
+        return False
 
 
 def btn(text: str, callback_data: str = None, url: str = None, style: str = "primary", icon_custom_emoji_id: str = None) -> InlineKeyboardButton:
@@ -626,8 +633,16 @@ def get_admin_main_text(admin_name: str) -> str:
 
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
-    if not user or not is_admin(user.id):
-        return  # Strictly Admin Only - Non-admins receive zero response
+    if not user:
+        return
+    if not is_admin(user.id):
+        await update.message.reply_html(
+            f"⚠️ <b>Access Restricted</b>\n\n"
+            f"This bot is configured exclusively for administrators of the XDROID TV portal.\n"
+            f"Your Telegram ID: <code>{user.id}</code>\n\n"
+            f"<i>Set <code>ADMIN_ID={user.id}</code> in your Render environment variables to grant access.</i>"
+        )
+        return
 
     bot_db.register_user(user.id, username=user.username, first_name=user.first_name)
     bot_db.save()
@@ -635,6 +650,7 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = get_admin_main_text(user.first_name)
     keyboard = get_admin_main_keyboard()
     await update.message.reply_html(text, reply_markup=keyboard)
+
 
 
 async def cmd_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1304,6 +1320,9 @@ async def admin_callback_query_handler(update: Update, context: ContextTypes.DEF
         await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
 
 
+callback_query_handler = admin_callback_query_handler
+
+
 async def cmd_proxies(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     if not user or not is_admin(user.id):
@@ -1642,7 +1661,7 @@ def start_telegram_bot_daemon():
             bot_app.add_handler(CommandHandler("proxy", cmd_proxies))
             bot_app.add_handler(CommandHandler("addproxy", cmd_addproxy))
             bot_app.add_handler(CommandHandler("upload", cmd_upload))
-            bot_app.add_handler(CallbackQueryHandler(callback_query_handler))
+            bot_app.add_handler(CallbackQueryHandler(admin_callback_query_handler))
             bot_app.add_handler(MessageHandler(filters.PHOTO | filters.Document.ALL, cmd_upload))
 
             bot_app.run_polling(
