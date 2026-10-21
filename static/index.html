@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XDROIDTV — Smart TV Device Activation</title>
+  <meta name="description" content="Quick and secure Smart TV device authorization portal for popular streaming platforms.">
+  
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/static/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Firebase App & Auth SDK (v9 compat) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+  
+  <!-- Client-side QR Code Reader for TV QR scanning -->
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+  
+  <!-- Clean Studio CSS -->
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Top Ambient Hero Background with Smooth Bottom Fade -->
+  <div class="hero-backdrop" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="brand" aria-label="XDROIDTV Home">
+      <img src="/static/logo.png" alt="XDROIDTV" class="brand-logo-img">
+    </a>
+    
+    <div class="nav-links" id="nav-links">
+      <a href="#services-grid" class="nav-link">Platforms</a>
+      <a href="#how-to-use" class="nav-link">How To Use</a>
+      <a href="#about-xdroid" class="nav-link">About</a>
+      <a href="#terms-section" class="nav-link">Terms</a>
+      <a href="#privacy-section" class="nav-link">Privacy</a>
+    </div>
+
+    <div class="nav-auth-actions">
+      <!-- Premium Upgrade Button -->
+      <button type="button" class="nav-premium-badge-btn" id="nav-buy-premium-btn" title="View Premium Plans">
+        <i class="fa-solid fa-crown"></i>
+        <span>Premium</span>
+      </button>
+
+      <!-- Unauthenticated: Circle-Square (Squircle) User Login Button -->
+      <button type="button" class="nav-squircle-btn" id="google-login-btn" title="Sign In / Register">
+        <i class="fa-solid fa-user"></i>
+      </button>
+
+      <!-- Authenticated: User Avatar Squircle with Dropdown -->
+      <div class="nav-user-profile-wrap" id="user-profile-wrap" style="display: none;">
+        <button type="button" class="nav-squircle-avatar" id="user-profile-btn" title="My Account">
+          <img src="" alt="Profile" class="nav-avatar-img" id="user-avatar">
+          <span class="active-dot"></span>
+        </button>
+
+        <!-- Dropdown Card -->
+        <div class="user-dropdown-card" id="user-dropdown-card">
+          <div class="dropdown-header">
+            <span class="dropdown-name" id="user-name">User</span>
+            <span class="dropdown-email" id="user-email-display">user@gmail.com</span>
+            <span class="dropdown-plan" id="user-plan-tag">0 Logins Remaining</span>
+          </div>
+          <div class="dropdown-divider"></div>
+          <button type="button" class="dropdown-action-btn premium" id="open-plans-modal-btn">
+            <i class="fa-solid fa-crown" style="color: #f59e0b;"></i>
+            <span>Upgrade to Premium</span>
+          </button>
+          <button type="button" class="dropdown-action-btn" id="open-verify-modal-btn">
+            <i class="fa-solid fa-gift"></i>
+            <span>Claim 1-Day Trial</span>
+          </button>
+          <button type="button" class="dropdown-action-btn logout" id="logout-btn">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span>Sign Out</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Hamburger Toggle Button -->
+      <button type="button" class="nav-hamburger-btn" id="nav-hamburger-btn" aria-label="Toggle navigation menu" title="Navigation Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">
+        Activate Streaming Apps on <br>
+        <span class="highlight">Your Smart TV Screen</span>
+      </h1>
+      <p class="hero-subtitle">
+        Fast, passwordless device authorization. Select your streaming application, enter the code from your television screen, and start watching immediately.
+      </p>
+    </section>
+
+    <!-- Services Section Header -->
+    <div class="section-header" id="platforms">
+      <div>
+        <div class="section-title">
+          <i class="fa-solid fa-layer-group" style="color: var(--primary-accent);"></i>
+          Supported Streaming Platforms
+        </div>
+        <div class="section-desc">Select an app below to begin device activation</div>
+      </div>
+    </div>
+
+    <!-- Streaming Services Grid -->
+    <div class="services-grid" id="services-grid">
+      <!-- Populated dynamically with official app logos -->
+      <div class="service-card" style="min-height: 200px; display: flex; align-items: center; justify-content: center;">
+        <div style="text-align: center; color: var(--text-muted);">
+          <i class="fa-solid fa-spinner fa-spin" style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--primary-accent);"></i>
+          <p>Connecting to streaming gateways...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOW TO USE SECTION -->
+    <section class="page-section" id="how-to-use">
+      <h2 class="section-heading">How To Activate Your Smart TV App</h2>
+      <p class="section-subheading">Pair your television screen in under 30 seconds without typing passwords with a TV remote.</p>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon-wrap">
+            <i class="fa-solid fa-tv"></i>
+          </div>
+          <h3 class="step-title">Get TV Screen Code</h3>
+          <p class="step-desc">
+            Open Netflix, Prime Video, HBO Max, or any supported app on your Smart TV or streaming device and choose <strong>Sign In with Code</strong> to view your unique activation code.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon-wrap">
+            <i class="fa-solid fa-keyboard"></i>
+          </div>
+          <h3 class="step-title">Select Platform &amp; Input Code</h3>
+          <p class="step-desc">
+            Click your streaming service above on <strong>XDROIDTV</strong>, type the 4 to 8 digit code shown on your television, and press <strong>Authorize TV Device</strong>.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon-wrap">
+            <i class="fa-solid fa-circle-check"></i>
+          </div>
+          <h3 class="step-title">Instant TV Streaming</h3>
+          <p class="step-desc">
+            Our gateway securely authorizes your TV screen in real-time. Your TV screen automatically updates and begins playback instantly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT XDROID SECTION -->
+    <section class="page-section" id="about-xdroid">
+      <h2 class="section-heading">About XDROIDTV</h2>
+      <p class="section-subheading">A modern, secure authorization portal designed for seamless television screen activations across all major streaming services.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(37, 99, 235, 0.1); color: var(--primary-accent);">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <h3 class="feature-title">High-Speed Gateway</h3>
+          <p class="feature-desc">
+            Direct socket-level handshake technology that authorizes streaming codes in milliseconds with near-zero latency.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(5, 150, 105, 0.1); color: var(--success-color);">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3 class="feature-title">Zero Password Exposure</h3>
+          <p class="feature-desc">
+            You never enter personal passwords, usernames, or payment details. Authorization uses official temporary pairing tokens.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(147, 51, 234, 0.1); color: #9333ea;">
+            <i class="fa-solid fa-display"></i>
+          </div>
+          <h3 class="feature-title">Universal TV Compatibility</h3>
+          <p class="feature-desc">
+            Fully compatible with Samsung Tizen, LG webOS, Android TV, Google TV, Apple TV, Amazon Fire OS, and Roku streaming sticks.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon" style="background: rgba(225, 29, 72, 0.1); color: #e11d48;">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <h3 class="feature-title">High-Availability Infrastructure</h3>
+          <p class="feature-desc">
+            Built with redundant routing pathways and automatic failover to keep pairing gateways online 24/7 without interruption.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ON-PAGE VISIBLE TERMS & CONDITIONS SECTION -->
+    <section class="page-section" id="terms-section">
+      <h2 class="section-heading">Terms &amp; Conditions</h2>
+      <p class="section-subheading">Please review these terms governing the use of the XDROIDTV device activation gateway.</p>
+
+      <div class="legal-card">
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-circle-check"></i> 1. Acceptance of Terms</h4>
+          <p>
+            By accessing or using the <strong>XDROIDTV</strong> platform, you agree to be bound by these terms. If you do not agree with any part of these conditions, you must not use our activation services.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-circle-check"></i> 2. Permitted Use &amp; Code Authorization</h4>
+          <p>
+            XDROIDTV provides a bridging gateway intended exclusively to facilitate device pairing between consumer smart televisions and recognized streaming platforms. Users must only submit activation codes displayed on equipment they own or have lawful consent to operate.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-circle-check"></i> 3. Intellectual Property &amp; Trademarks</h4>
+          <p>
+            All third-party trademarks, service marks, platform names, and logos (including Netflix, Prime Video, HBO Max, Crunchyroll, Spotify, Surfshark, and JioHotstar) belong to their respective copyright owners. XDROIDTV is an independent tool and is not directly affiliated with, sponsored by, or endorsed by these platform providers.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-circle-check"></i> 4. Fair Usage &amp; Abuse Prevention</h4>
+          <p>
+            Automated code spamming, denial-of-service attempts, credential stuffing, or reverse-engineering of gateway endpoints is strictly prohibited and results in immediate IP blacklisting.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-circle-check"></i> 5. Disclaimer of Warranties &amp; Limitation of Liability</h4>
+          <p>
+            Services are provided on an "as is" and "as available" basis. While we strive for maximum uptime, XDROIDTV is not liable for remote streaming platform outages, code expiration delays, or geographical restrictions enforced by third-party streaming services.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ON-PAGE VISIBLE PRIVACY POLICY SECTION -->
+    <section class="page-section" id="privacy-section">
+      <h2 class="section-heading">Privacy Policy</h2>
+      <p class="section-subheading">We are committed to absolute data privacy and transparency for every device activation session.</p>
+
+      <div class="legal-card">
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-lock"></i> 1. Zero Credential Harvesting</h4>
+          <p>
+            XDROIDTV does not ask for, collect, store, or process user account passwords, payment card numbers, or personal billing addresses. Device pairing operates strictly via temporary TV screen codes.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-lock"></i> 2. Ephemeral In-Memory Processing</h4>
+          <p>
+            The activation code you submit is held in ephemeral memory solely for the duration of the gateway handshake (typically 2 to 6 seconds). Once authorization is confirmed or expired, the pairing string is automatically purged from active memory.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-lock"></i> 3. Cryptographic Security In Transit</h4>
+          <p>
+            All communications between your device browser, our activation server, and the respective streaming service gateways are secured with TLS 1.3 encryption to protect request confidentiality.
+          </p>
+        </div>
+
+        <div class="legal-item">
+          <h4><i class="fa-solid fa-lock"></i> 4. No Behavioral Tracking or Commercial Ad Pixels</h4>
+          <p>
+            We do not sell user data, nor do we load third-party surveillance scripts or behavioral ad trackers on our interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME SECTION (INSTAGRAM, EMAIL, TELEGRAM) -->
+    <section class="page-section" id="contact-section">
+      <h2 class="section-heading">Contact &amp; Support</h2>
+      <p class="section-subheading">Have questions, feedback, or need help with a Smart TV activation? Connect with us directly.</p>
+
+      <div class="contact-grid">
+        <!-- Telegram Card -->
+        <a href="https://t.me/xdro1d" target="_blank" rel="noopener noreferrer" class="contact-card telegram-card">
+          <div class="contact-icon-box">
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-channel">Telegram</span>
+            <span class="contact-value">@xdro1d</span>
+            <span class="contact-action">Join Channel &amp; Chat <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Instagram Card -->
+        <a href="https://instagram.com/xdro1d" target="_blank" rel="noopener noreferrer" class="contact-card instagram-card">
+          <div class="contact-icon-box">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-channel">Instagram</span>
+            <span class="contact-value">@xdro1d</span>
+            <span class="contact-action">Follow on Instagram <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <!-- Email Card -->
+        <a href="mailto:admin@sudhirxd.in" class="contact-card email-card">
+          <div class="contact-icon-box">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-channel">Email Support</span>
+            <span class="contact-value">admin@sudhirxd.in</span>
+            <span class="contact-action">Send an Email <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Login / Sign In Required Modal -->
+  <div class="modal-overlay" id="auth-modal">
+    <div class="modal-card auth-modal-card">
+      <button class="modal-close-btn" id="auth-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="auth-icon-squircle">
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <h2>Sign In Required</h2>
+        <p>Please sign in with your account to access streaming platform gateways and authorize your Smart TV.</p>
+      </div>
+
+      <div class="auth-action-box">
+        <button type="button" class="btn-google-auth-large" id="modal-google-signin-btn">
+          <i class="fa-brands fa-google"></i>
+          <span>Continue with Google</span>
+        </button>
+      </div>
+
+      <div class="auth-modal-note">
+        <i class="fa-solid fa-gift" style="color: var(--primary-accent);"></i>
+        <span>New users unlock 1-day free activation upon Telegram channel verification!</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Telegram Free Trial Verification Modal -->
+  <div class="modal-overlay" id="trial-modal">
+    <div class="modal-card trial-modal-card">
+      <button class="modal-close-btn" id="trial-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="trial-gift-icon">
+          <i class="fa-solid fa-gift"></i>
+        </div>
+        <h2>Complete Verification for 1-Day Free Trial</h2>
+        <p>Join our official Telegram channel and chat group to verify your Chat ID and unlock your 1-Day Free Trial immediately.</p>
+      </div>
+
+      <!-- Mandatory Telegram Channels to Join -->
+      <div class="trial-steps-box">
+        <div class="trial-step-label">
+          <i class="fa-solid fa-1"></i> Join Required Channels
+        </div>
+        <div class="channel-buttons-wrap">
+          <a href="https://t.me/xdro1d" target="_blank" rel="noopener noreferrer" class="btn-channel">
+            <i class="fa-brands fa-telegram"></i>
+            <span>Join @xdro1d</span>
+          </a>
+          <a href="https://t.me/xdroidchat" target="_blank" rel="noopener noreferrer" class="btn-channel">
+            <i class="fa-brands fa-telegram"></i>
+            <span>Join @xdroidchat</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Telegram Chat ID Input Form -->
+      <form id="tg-verify-form">
+        <div class="trial-step-label">
+          <i class="fa-solid fa-2"></i> Enter Your Telegram Chat ID
+        </div>
+        <div class="tg-input-group">
+          <input 
+            type="text" 
+            id="tg-chat-id-input" 
+            class="tg-input" 
+            placeholder="e.g. 5784912530" 
+            autocomplete="off" 
+            required
+          >
+        </div>
+        
+        <div class="tg-help-note">
+          <i class="fa-solid fa-circle-info"></i> Don't know your ID? Open <a href="https://t.me/userinfobot" target="_blank" rel="noopener noreferrer">@userinfobot</a> on Telegram to see your numeric Chat ID.
+        </div>
+
+        <!-- Real-time Verification Feedback Banner -->
+        <div class="verify-status-banner" id="verify-status-banner" style="display: none;"></div>
+
+        <button type="submit" class="btn-primary" id="verify-submit-btn">
+          <i class="fa-solid fa-shield-check"></i>
+          <span>Verify Membership &amp; Claim Trial</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Device Activation Modal -->
+  <div class="modal-overlay" id="activation-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Step 1: Input Code Form -->
+      <div id="modal-input-view">
+        <div class="modal-header">
+          <div class="modal-app-logo" id="modal-app-logo">
+            <!-- Official SVG App Logo Injected Here -->
+          </div>
+          <h2 id="modal-service-name">Pair Device</h2>
+          <p id="modal-service-desc">Enter the activation code displayed on your TV screen</p>
+        </div>
+
+        <form id="activation-form">
+          <div class="code-input-group">
+            <div class="code-input-label">
+              <span id="code-input-label-text">TV Screen Code</span>
+              <span id="code-length-hint">6 CHARACTERS</span>
+            </div>
+            <input 
+              type="text" 
+              id="tv-code-input" 
+              class="tv-input" 
+              placeholder="••••••" 
+              autocomplete="off" 
+              spellcheck="false" 
+              required
+            >
+          </div>
+
+          <button type="submit" class="btn-primary" id="submit-btn">
+            <i class="fa-solid fa-link"></i>
+            <span>Authorize TV Device</span>
+          </button>
+
+          <div class="qr-scan-option-wrap">
+            <div class="or-separator"><span>OR SCAN TV SCREEN</span></div>
+            <input type="file" id="direct-qr-file-input" accept="image/*" capture="environment" style="display: none;">
+            <div style="display: flex; gap: 0.6rem;">
+              <button type="button" class="btn-scan-tv-qr" id="btn-scan-tv-qr" style="flex: 1;">
+                <i class="fa-solid fa-camera"></i>
+                <span id="btn-scan-tv-qr-text">Scan QR</span>
+              </button>
+              <button type="button" class="btn-scan-tv-qr" id="btn-upload-direct-qr" style="flex: 1; border-style: solid; border-color: #cbd5e1; background: #ffffff;">
+                <i class="fa-solid fa-image" style="color: #64748b;"></i>
+                <span>Upload QR</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Step 2: Live Progress Stepper -->
+      <div class="activation-progress" id="modal-progress-view">
+        <div class="spinner-wrap">
+          <div class="spinner"></div>
+        </div>
+        <div class="progress-title">Authorizing Device</div>
+        <div class="progress-status" id="progress-status-text">Connecting to streaming gateway...</div>
+      </div>
+
+      <!-- Step 3: Success Screen -->
+      <div class="result-card" id="modal-success-view">
+        <div class="result-icon-success">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h2 style="font-size: 1.45rem; margin-bottom: 0.35rem; color: var(--text-primary);">Device Paired!</h2>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;" id="success-lead-text">
+          Your Smart TV screen has been successfully authorized.
+        </p>
+
+        <div class="result-details">
+          <div class="result-row">
+            <span>Platform:</span>
+            <span id="res-service">-</span>
+          </div>
+          <div class="result-row">
+            <span>Target Screen:</span>
+            <span id="res-device">Smart TV</span>
+          </div>
+          <div class="result-row">
+            <span>Status:</span>
+            <span id="res-plan" style="color: var(--success-color);">Active Subscription</span>
+          </div>
+          <div class="result-row">
+            <span>Region:</span>
+            <span id="res-country">Global</span>
+          </div>
+        </div>
+
+        <button class="btn-primary" id="success-done-btn">
+          <i class="fa-solid fa-check"></i> Done
+        </button>
+      </div>
+
+      <!-- Step 4: Clean Error Screen -->
+      <div class="result-card" id="modal-error-view">
+        <div class="result-icon-error">
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+        <h2 style="font-size: 1.45rem; margin-bottom: 0.35rem; color: var(--text-primary);">Pairing Failed</h2>
+        <p style="color: var(--error-color); font-size: 0.9rem; margin-bottom: 1.5rem;" id="error-message-text">
+          Could not authorize the TV code provided.
+        </p>
+
+        <button class="btn-primary" id="error-retry-btn" style="background: #ffffff; color: var(--text-primary); border: 1.5px solid var(--border-light); box-shadow: none;">
+          <i class="fa-solid fa-rotate-left"></i> Check Code & Try Again
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Access Denied Popup Modal -->
+  <div class="modal-overlay" id="access-denied-modal">
+    <div class="modal-card" style="text-align: center; max-width: 440px;">
+      <button class="modal-close-btn" id="access-denied-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: #fee2e2; color: #dc2626; display: flex; align-items: center; justify-content: center; font-size: 1.85rem; margin: 0.5rem auto 1.25rem;">
+        <i class="fa-solid fa-shield-halved"></i>
+      </div>
+
+      <h2 style="font-size: 1.5rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem;">Access Denied</h2>
+      <p style="color: #64748b; font-size: 0.92rem; line-height: 1.5; margin-bottom: 1.75rem;" id="access-denied-msg">
+        An active Access Token is required to authorize this Smart TV device. Generate a free access token below to unlock activation on all platforms.
+      </p>
+
+      <button type="button" class="btn-primary" id="btn-generate-access-token" style="background: linear-gradient(135deg, #2563eb, #1d4ed8); width: 100%; padding: 0.85rem; font-size: 0.98rem; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 0.6rem;">
+        <i class="fa-solid fa-key"></i>
+        <span>Generate Access Token</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Live Camera Viewfinder Modal -->
+  <div class="modal-overlay" id="camera-scanner-modal">
+    <div class="modal-card camera-scanner-card">
+      <button class="modal-close-btn" id="camera-modal-close-btn" title="Close Camera">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="scanner-camera-icon">
+          <i class="fa-solid fa-camera"></i>
+        </div>
+        <h2>Scan TV Screen QR</h2>
+        <p>Align the QR code shown on your television inside the frame</p>
+      </div>
+
+      <div class="camera-viewfinder-container">
+        <video id="camera-stream-video" autoplay playsinline muted></video>
+        <div class="scanner-crosshair-box">
+          <div class="scanner-laser-beam"></div>
+          <span class="corner-border tl"></span>
+          <span class="corner-border tr"></span>
+          <span class="corner-border bl"></span>
+          <span class="corner-border br"></span>
+        </div>
+      </div>
+
+      <div class="camera-status-hint" id="camera-status-hint">
+        <i class="fa-solid fa-camera-rotate"></i> Pointing camera at TV screen...
+      </div>
+
+      <div style="display: flex; gap: 0.6rem; margin-top: 1rem;">
+        <input type="file" id="qr-camera-input" accept="image/*" style="display: none;">
+        <button type="button" class="btn-primary" id="btn-upload-qr-file" style="background: rgba(37,99,235,0.08); color: #2563eb; border: 1.5px solid #2563eb; flex: 1; padding: 0.75rem 0.5rem; font-size: 0.88rem; box-shadow: none;">
+          <i class="fa-solid fa-image"></i> Upload Photo
+        </button>
+        <button type="button" class="btn-primary" id="btn-camera-cancel" style="background: #0f172a; flex: 1; padding: 0.75rem 0.5rem; font-size: 0.88rem;">
+          <i class="fa-solid fa-xmark"></i> Close Scanner
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Premium Plans & UPI QR Payment Modal -->
+  <div class="modal-overlay" id="payment-modal">
+    <div class="modal-card payment-modal-card">
+      <button class="modal-close-btn" id="payment-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- View 1: Plans Catalog -->
+      <div id="plan-selection-view">
+        <div class="modal-header">
+          <div class="plans-crown-icon">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <h2>Upgrade to Premium</h2>
+          <p>Choose an activation plan with instant UPI auto-verification</p>
+        </div>
+
+        <div class="plans-grid" id="plans-grid-cards">
+          <!-- Monthly Plan -->
+          <div class="plan-card" data-plan="monthly">
+            <div class="plan-header">
+              <span class="plan-name">Monthly</span>
+              <div class="plan-price">₹30<span class="plan-period">/mo</span></div>
+            </div>
+            <div class="plan-meta-tag">10 Activations • 30 Days</div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check"></i> 10 TV Device Pairings</li>
+              <li><i class="fa-solid fa-check"></i> All Streaming Apps Unlocked</li>
+              <li><i class="fa-solid fa-check"></i> 30 Days Validity</li>
+              <li><i class="fa-solid fa-check"></i> Instant Auto-Activation</li>
+            </ul>
+            <button type="button" class="btn-select-plan" data-plan="monthly">
+              <span>Choose Monthly</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Quarterly Plan (Popular) -->
+          <div class="plan-card popular" data-plan="quarterly">
+            <div class="plan-badge">MOST POPULAR</div>
+            <div class="plan-header">
+              <span class="plan-name">Quarterly</span>
+              <div class="plan-price">₹50<span class="plan-period">/3mo</span></div>
+            </div>
+            <div class="plan-meta-tag">35 Activations • 90 Days</div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check"></i> 35 TV Device Pairings</li>
+              <li><i class="fa-solid fa-check"></i> All Streaming Apps Unlocked</li>
+              <li><i class="fa-solid fa-check"></i> 90 Days Validity</li>
+              <li><i class="fa-solid fa-check"></i> Priority Gateway Routing</li>
+            </ul>
+            <button type="button" class="btn-select-plan btn-popular" data-plan="quarterly">
+              <span>Choose Quarterly</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Yearly Plan (Best Value) -->
+          <div class="plan-card best-value" data-plan="yearly">
+            <div class="plan-badge value">BEST VALUE</div>
+            <div class="plan-header">
+              <span class="plan-name">Yearly</span>
+              <div class="plan-price">₹321<span class="plan-period">/yr</span></div>
+            </div>
+            <div class="plan-meta-tag">150 Activations • 365 Days</div>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check"></i> 150 TV Device Pairings</li>
+              <li><i class="fa-solid fa-check"></i> All Streaming Apps Unlocked</li>
+              <li><i class="fa-solid fa-check"></i> 365 Days Full Access</li>
+              <li><i class="fa-solid fa-check"></i> VIP 24/7 Gateway Access</li>
+            </ul>
+            <button type="button" class="btn-select-plan" data-plan="yearly">
+              <span>Choose Yearly</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 2: Scan & Pay QR Code View (Hidden initially) -->
+      <div id="plan-qr-view" style="display: none;">
+        <div class="qr-header-nav">
+          <button type="button" class="btn-back-to-plans" id="btn-back-to-plans">
+            <i class="fa-solid fa-arrow-left"></i> <span>Change Plan</span>
+          </button>
+          <span class="qr-selected-plan-pill" id="qr-selected-plan-name">Monthly Plan • ₹30.00</span>
+        </div>
+
+        <div class="qr-container-box">
+          <div class="qr-code-frame">
+            <img src="" alt="Scan & Pay UPI QR" id="pay-qr-img" class="pay-qr-image">
+            <div class="qr-brand-overlay">
+              <span>SCAN WITH ANY UPI APP</span>
+            </div>
+          </div>
+
+          <div class="qr-upi-apps-icons">
+            <span class="app-pill">GPay</span>
+            <span class="app-pill">PhonePe</span>
+            <span class="app-pill">Paytm</span>
+            <span class="app-pill">Cred</span>
+            <span class="app-pill">BHIM</span>
+          </div>
+
+          <!-- Mobile Quick Pay Button -->
+          <a href="#" class="btn-pay-upi-mobile" id="btn-pay-upi-mobile">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <span>Pay Directly via UPI App</span>
+          </a>
+
+          <!-- Payment Details Box -->
+          <div class="payment-details-card">
+            <div class="pay-detail-row">
+              <span class="pay-lbl">Order ID:</span>
+              <span class="pay-val copyable" id="pay-order-id" title="Click to copy">SX-LOADING <i class="fa-regular fa-copy"></i></span>
+            </div>
+            <div class="pay-detail-row">
+              <span class="pay-lbl">Amount:</span>
+              <span class="pay-val font-bold" id="pay-amount-display">₹30.00</span>
+            </div>
+            <div class="pay-detail-row">
+              <span class="pay-lbl">UPI ID:</span>
+              <span class="pay-val copyable" id="pay-upi-id" title="Click to copy">sudhirxd@fam <i class="fa-regular fa-copy"></i></span>
+            </div>
+          </div>
+
+          <!-- Live Automatic Polling Banner -->
+          <div class="auto-verify-banner" id="auto-verify-banner">
+            <div class="auto-verify-spinner"></div>
+            <div class="auto-verify-text">
+              <strong>Auto-verifying payment...</strong>
+              <span>Waiting for bank transfer confirmation</span>
+            </div>
+          </div>
+
+          <!-- Manual UTR Submission Toggle -->
+          <div class="utr-toggle-wrap">
+            <button type="button" class="btn-toggle-utr" id="btn-toggle-utr">
+              <span>Paid? Enter UTR / Ref Number manually</span>
+              <i class="fa-solid fa-chevron-down" id="utr-toggle-icon"></i>
+            </button>
+            
+            <form id="utr-submit-form" class="utr-form" style="display: none;">
+              <div class="utr-input-wrap">
+                <input 
+                  type="text" 
+                  id="utr-input" 
+                  class="utr-input" 
+                  placeholder="Enter 12-digit UPI Ref / UTR" 
+                  autocomplete="off"
+                  maxlength="22"
+                  required
+                >
+                <button type="submit" class="btn-utr-submit" id="btn-utr-submit">
+                  <span>Verify</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- View 3: Payment Success View (Hidden initially) -->
+      <div id="plan-success-view" style="display: none;">
+        <div class="result-icon-success">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h2 style="font-size: 1.5rem; margin-bottom: 0.35rem; color: var(--text-primary);">Payment Verified!</h2>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">
+          Your Premium plan is now active. You have full access to pair TV devices.
+        </p>
+
+        <div class="result-details">
+          <div class="result-row">
+            <span>Active Plan:</span>
+            <span id="succ-plan-name" style="color: var(--primary-accent); font-weight: 700;">Monthly</span>
+          </div>
+          <div class="result-row">
+            <span>Remaining Logins:</span>
+            <span id="succ-logins" style="color: var(--success-color); font-weight: 700;">10 Logins</span>
+          </div>
+          <div class="result-row">
+            <span>Valid Until:</span>
+            <span id="succ-expiry">30 Days</span>
+          </div>
+        </div>
+
+        <button class="btn-primary" id="btn-start-pairing-now" style="margin-top: 1.5rem;">
+          <i class="fa-solid fa-tv"></i> Pair TV Device Now
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Terms & Privacy Policy Modal -->
+  <div class="modal-overlay" id="policy-modal">
+    <div class="modal-card policy-modal-card">
+      <button class="modal-close-btn" id="policy-close-btn" title="Close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Tabs Navigation -->
+      <div class="policy-tabs">
+        <button type="button" class="policy-tab-btn active" id="tab-btn-terms">
+          <i class="fa-solid fa-file-contract"></i> Terms &amp; Conditions
+        </button>
+        <button type="button" class="policy-tab-btn" id="tab-btn-privacy">
+          <i class="fa-solid fa-shield-halved"></i> Privacy Policy
+        </button>
+      </div>
+
+      <!-- Tab Content 1: Terms & Conditions -->
+      <div class="policy-content" id="terms-content">
+        <h3>xdroidtv Terms &amp; Conditions</h3>
+        <p class="policy-meta">Last Updated: October 2026</p>
+        
+        <div class="policy-section">
+          <h4>1. Acceptance of Terms</h4>
+          <p>By accessing and utilizing <strong>xdroidtv</strong>, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using the device authorization service.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>2. Device Pairing &amp; Authorization</h4>
+          <p>xdroidtv provides an automated bridge facilitating authorization between smart television hardware and streaming service gateways via temporary activation codes displayed on your television screen.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>3. Lawful &amp; Authorized Use</h4>
+          <p>Users must submit only genuine activation codes for television displays and equipment that they own or hold explicit authorization to control. Reverse abuse, automated scraping, or denial-of-service attempts are strictly prohibited.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>4. Third-Party Trademarks</h4>
+          <p>All brand names, streaming platforms, and trademarks (including Netflix, Prime Video, HBO Max, Crunchyroll, Spotify, Surfshark, JioHotstar) remain the sole property of their respective copyright holders. xdroidtv is an independent pairing utility.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>5. Disclaimer of Warranties</h4>
+          <p>Services are provided on an "as is" and "as available" basis without warranties of uninterrupted service or third-party uptime guarantees.</p>
+        </div>
+      </div>
+
+      <!-- Tab Content 2: Privacy Policy -->
+      <div class="policy-content" id="privacy-content" style="display: none;">
+        <h3>xdroidtv Privacy Policy</h3>
+        <p class="policy-meta">Effective Date: October 2026</p>
+
+        <div class="policy-section">
+          <h4>1. Information Processed</h4>
+          <p>xdroidtv operates strictly under a zero-unnecessary-data policy. We only process the temporary alphanumeric TV pairing code entered by you to execute authorization with the corresponding platform gateway.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>2. No Password or Payment Storage</h4>
+          <p>We do not collect, request, or retain personal streaming credentials, passwords, or payment data. Device authorization occurs via official tokenized handshakes.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>3. Security &amp; Encryption</h4>
+          <p>All data transit between your client browser, our pairing interface, and streaming endpoints is protected with modern TLS/SSL cryptographic protocols.</p>
+        </div>
+
+        <div class="policy-section">
+          <h4>4. Minimal Logging &amp; Tracking</h4>
+          <p>We do not deploy cross-site tracking pixels or commercial ad-networks. Session records are purged upon completion of the device pairing lifecycle.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-info" id="toast-icon"></i>
+    <span id="toast-msg">Notification</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand-wrap">
+      <img src="/static/logo.png" alt="XDROIDTV" class="footer-logo-img">
+    </div>
+
+    <div class="footer-nav">
+      <a href="#services-grid">Streaming Platforms</a>
+      <a href="#how-to-use">How To Use</a>
+      <a href="#about-xdroid">About XDROIDTV</a>
+      <a href="#terms-section">Terms &amp; Conditions</a>
+      <a href="#privacy-section">Privacy Policy</a>
+      <a href="#contact-section">Support</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://t.me/xdro1d" target="_blank" rel="noopener noreferrer" title="Telegram" class="footer-social-link">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+      <a href="https://instagram.com/xdro1d" target="_blank" rel="noopener noreferrer" title="Instagram" class="footer-social-link">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="mailto:admin@sudhirxd.in" title="Email" class="footer-social-link">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+    <p class="footer-copy">© 2026 XDROIDTV • Fast, Safe &amp; Secure Smart TV Device Authorization Engine</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/static/app.js"></script>
+</body>
+</html>
