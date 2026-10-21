@@ -1600,45 +1600,18 @@ def start_backup_daemon():
 _BOT_THREAD_STARTED = False
 
 def start_telegram_bot_daemon():
-    """Starts the embedded Telegram Admin Bot in a dedicated background daemon thread."""
+    """Starts the embedded Telegram Bot in a dedicated background daemon thread."""
     global _BOT_THREAD_STARTED
     if _BOT_THREAD_STARTED:
         return
     _BOT_THREAD_STARTED = True
 
-    def _run_bot():
-        try:
-            print("[*] Starting embedded Telegram Admin Bot polling...")
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-
-            bot_app = ApplicationBuilder().token(BOT_TOKEN).build()
-            bot_app.add_handler(CommandHandler("start", cmd_start))
-            bot_app.add_handler(CommandHandler("admin", cmd_start))
-            bot_app.add_handler(CommandHandler("help", cmd_help))
-            bot_app.add_handler(CommandHandler("stats", cmd_stats))
-            bot_app.add_handler(CommandHandler("vault", cmd_vault))
-            bot_app.add_handler(CommandHandler("userstats", cmd_userstats))
-            bot_app.add_handler(CommandHandler("addpremium", cmd_addpremium))
-            bot_app.add_handler(CommandHandler("removepremium", cmd_removepremium))
-            bot_app.add_handler(CommandHandler("setlogins", cmd_setlogins))
-            bot_app.add_handler(CommandHandler("setplan", cmd_setplan))
-            bot_app.add_handler(CommandHandler("setservice", cmd_setservice))
-            bot_app.add_handler(CommandHandler("service", cmd_setservice))
-            bot_app.add_handler(CommandHandler("orders", cmd_orders))
-            bot_app.add_handler(CommandHandler("broadcast", cmd_broadcast))
-            bot_app.add_handler(CommandHandler("proxies", cmd_proxies))
-            bot_app.add_handler(CommandHandler("proxy", cmd_proxies))
-            bot_app.add_handler(CommandHandler("addproxy", cmd_addproxy))
-            bot_app.add_handler(CommandHandler("upload", cmd_upload))
-            bot_app.add_handler(CallbackQueryHandler(callback_query_handler))
-
-            bot_app.run_polling(close_loop=False)
-        except Exception as e:
-            print(f"[!] Telegram Admin Bot encountered error: {e}")
-
-    t = threading.Thread(target=_run_bot, daemon=True, name="telegram_admin_bot")
-    t.start()
+    if BOT_TOKEN:
+        print("[*] Starting embedded Telegram Bot worker in background thread...")
+        t = threading.Thread(target=run_telegram_bot_sync, daemon=True, name="TelegramBotWorker")
+        t.start()
+    else:
+        print("[!] Warning: BOT_TOKEN not configured. Telegram Bot worker skipped.")
 
 
 # ==============================================================================
@@ -9885,13 +9858,8 @@ def run_telegram_bot_sync():
 
 
 
-@app.on_event("startup")
-async def on_startup():
-    if BOT_TOKEN:
-        print("[*] Starting embedded Telegram Bot worker in background thread...")
-        threading.Thread(target=run_telegram_bot_sync, daemon=True, name="TelegramBotWorker").start()
-    else:
-        print("[!] Warning: BOT_TOKEN not configured. Telegram Bot worker skipped.")
+# Note: Telegram Bot worker and background daemons are launched via FastAPI lifespan
+
 
 if __name__ == "__main__":
     import uvicorn
