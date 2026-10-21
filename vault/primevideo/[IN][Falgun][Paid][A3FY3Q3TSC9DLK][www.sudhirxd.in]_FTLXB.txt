@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Falgun
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A3FY3Q3TSC9DLK
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1819500621	at-main-av	Atza|gQCeYI64AwEBAuGVCrlOoD0SA99-iSFlbjWgxKMBEkAL0ExNVVjlOwIxeH05fexZ1mOp-D2UAYGBIFnwq2llF-Y8G8huC_dtYMN_M0BDzq2LPuY08RtmXJ_3MVMDIMDAbEJg05vhPyMcODqJRqdpmTWe_c6c9qvUWlIU-nyNqaO6IBigFb5twkn-UKk5qXuJp150z66dPhczHw-_WUfpXEbCG5vR79hwaZCbO7Tmtig5alLSSuE_ZbyHazZR5TF6Sptw5FEjKW1RAQNWI6FglvBnXX6NM5ZfhhtA0hm7CCEeMi2H2A3M_Zy06L7VoTej4Kd6lKtFqa_zytoxx42vJW9YPELHOezzFV9uiX6D0FFQuWFCL6kQlfEiQQ
+.primevideo.com	TRUE	/	TRUE	1790556621	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFPMjVWSVQ0Q1o5OVYmdGltZXN0YW1wPTE3ODc5Mzg3OTcwNjYmdmVyc2lvbj12MQ.g1LsyudH-6sFsWfA2LOzPp4FH1RJO-Wmafz6i4WgHoOCAAAAAQAAAABqkcftcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1819500621	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1819500621	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1819500621	sess-at-main-av	VsmToS0uGW94H/tPNb66iGcfqB53F5641OaJU8WtDqI=
+.primevideo.com	TRUE	/	TRUE	1819500621	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1819500621	sst-main-av	Sst1|PQJRwrK9OH47QHvVPClGI2e0ByhaiLEspg97GKs9arhH4uNSAnLrFQWCRFBprrhEKGhkZpXHjIQ872YwvXeMzv_QCZaeJZEjPaFfYu6C92MJNGAN0wJteS2TPiaTpHT7oS7ZJnJxW6ddjQxTYoZtYQ5RSywKC7f_64lZayEOSg5u33eVjH7MR3ZZgg7Y2H4i5_fRx-n-RlrlFTciVyHBlGpIcfTgu9hE1wgoaDwG5mBIjFNKs07xNTQW3utGarTRLH_Q
+.primevideo.com	TRUE	/	TRUE	1819500621	ubid-main-av	261-5725414-6322502
+.primevideo.com	TRUE	/	FALSE	1819500942	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1822524956	session-id	261-9127532-3001466
+.primevideo.com	TRUE	/	TRUE	1819500952	session-token	"VQ2jFPwgmdZLOJ6K3Ojg3ZK0/f3g0WcuaM46Sef5fb5PEN+MFOGlmEwC/CWvsdaz+InJhMXtBj7EY5yxHqm7budJqBHSUIg2HA3Dh4l+xhBsJNqpHD362DkdPZ89TtDgiMsicFB6AQlyfL7lIFOgTacWAD8rotjKNdCp8z4fX1YDXUFzVf5ez50LyF7nMvtqiJMFbZgOWUUyuknQc7SSYUv0QkYc/HAQmzMVk9JEPy9mds3/o2aWCuhVw+l9jfhDYTA/HtAA51A="
+www.primevideo.com	FALSE	/	FALSE	1818205216	csm-hit	tb:W0R5A4A3TVM0JNF00Q67+s-B2Y4VSLGHSR5SXJJMWVQ|1787965216201&t:1787965216202&adb:adblk_no

@@ -1,0 +1,32 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: deepnirmal2706@gmail.com
+– Username: Deepnirmal
+– Subscription: First Party
+– Country: DE
+– Payment: UPI Mandate
+- Cookies: @ U L P f i l e
+
+.www.crunchyroll.com	TRUE	/	FALSE	1822825313	OptanonAlertBoxClosed	2026-10-06T12:21:53.081Z
+.crunchyroll.com	TRUE	/	FALSE	1823111939	_clck	7x72yb%5E2%5Ega5%5E0%5E2470
+.sso.crunchyroll.com	TRUE	/	FALSE	1823112021	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Oct+10+2026+01%3A30%3A21+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=e0b35f51-ae93-4de8-8c70-8919121ea8bb&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1&crTime=1791575671661&fclco=&lastConsentTs=1791575670&intType=1&geolocation=IN%3BUP&AwaitingReconsent=false
+.sso.crunchyroll.com	TRUE	/	FALSE	1823111670	OptanonAlertBoxClosed	2026-10-09T19:54:30.596Z
+sso.crunchyroll.com	FALSE	/	FALSE	1823112047	_dd_s	aid=099eb6ba-92a4-4225-9ee3-02ebd0a1a0d6&rum=2&id=4b6e6efe-9559-4df0-9ff1-0a2002f0ceba&created=1791575670610&expire=1791576947023
+.www.crunchyroll.com	TRUE	/	TRUE	1823112062	__stripe_mid	85b3fea2-70c1-4f0f-a1e7-8828f90f172309ad1b
+.crunchyroll.com	TRUE	/	TRUE	1826136048	etp_rt	3df50731-0de7-451f-8ebf-3bedfffe0a07
+.crunchyroll.com	TRUE	/	FALSE	1825272167	_uetvid	f1b748d0c17d11f19926b1fd2c2b6123
+www.crunchyroll.com	FALSE	/	FALSE	1823112153	anonymous_antiphishing_warning	1791289185048
+www.crunchyroll.com	FALSE	/	FALSE	1792349619	Ac_aqK8DtrDS	5
+.www.crunchyroll.com	TRUE	/	FALSE	1823497334	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Oct+14+2026+12%3A32%3A14+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=7ea70cf0-10c6-43c7-a594-4bb120639867&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&crTime=1791289314000&AwaitingReconsent=false&fclco=&lastConsentTs=1791289313&intType=2&geolocation=IN%3BUP
+.crunchyroll.com	TRUE	/	FALSE	1826521336	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3A8d7a2db4-6bc9-416c-b7c4-c91f4da4df4b%7Ce%3Aundefined%7Cc%3A1791961336500%7Cl%3A1791961336500
+.crunchyroll.com	TRUE	/	FALSE	1826521336	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3Ac6369177-a405-4aea-98c2-9fed2e48aaaa%7Ce%3A1791963136505%7Cc%3A1791961336498%7Cl%3A1791961336505
+.crunchyroll.com	TRUE	/	FALSE	1826521336	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3A9bde4635-4864-5a42-98be-c132e8316e32%7Ce%3Aundefined%7Cc%3A1791961336497%7Cl%3A1791961336499
+www.crunchyroll.com	FALSE	/	FALSE	1823497335	bitmovin_analytics_uuid	b1e769ad-ca8b-4272-95e3-a901802f05fd
+.crunchyroll.com	TRUE	/	TRUE	1823497334	c_locale	en-US
+.crunchyroll.com	TRUE	/	TRUE	1823497334	cf_clearance	3N98eF0Q1JOZHbTs7ccRRVKKh3h61psiUFfQXkWJjmI-1791961333-1.2.1.1-ggeyCHglK2vMLJNcw1Y_MjexLg.fRtuXILkhi0voOdJWDgAXUlE8uh758fRnBn2KqpJ7Xq2kYCMTD2uFjO07ddFqjWWb3MdNvSBt2mvhoMDTPbd3Lom89C5F3m3smyi4SUjfsQTNW31VOl625RDNM5UaNbY3z1te2ZhEE11mQzd0n97SCa6IyR70APzM2Fi6rtZmlz3NUERd_Elv.jIEWp5ohZVAW01KPHPy2.Up80sb10.F0_auadn7It95amn1.7jmq.eqeJHjx5iHlnbmrs9uJRSed5780d.DUZ7K3w8DCZHxwOlJgxrcXoL_zb3rGcV8MMMFqfV5vyTza9_eGu4WXYyhB3FEKTlyHwa4aBA
+.crunchyroll.com	TRUE	/	FALSE	1823501832	ajs_anonymous_id	e78b85ab-74ab-4fd8-9157-8712d94df707
+.crunchyroll.com	TRUE	/	TRUE	1826525619	device_id	c8b121ac-180e-40a9-9ff9-0bed15a26cb6
+www.crunchyroll.com	FALSE	/	FALSE	1823501832	muxData	=undefined&mux_viewer_id=ceb0f99a-762a-4697-b9fd-84dd112e1d8c&msn=0.1464722322268528&sid=3baced1d-2ea6-47bc-af5e-653e392d8bce&sst=1791960648654&sex=1791967332497
+.crunchyroll.com	TRUE	/	FALSE	1823501832	ajs_user_id	9bde4635-4864-5a42-98be-c132e8316e32

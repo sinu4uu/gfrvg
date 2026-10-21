@@ -1,0 +1,20 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : tambayan
+Email         : tambayan@rommiui.com
+Country       : EC
+Plan          : Spotify Premium 🎵
+Next Billing  : 15 Days | 03 Nov 2026
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	FALSE	/	TRUE	1795012911	sp_dc	AQAs6LduGKJy9U7jcMcgDD006p9dvivK_HTru1njzmd8NWoqlpm_IiSR362RsxNS-f7LRp4VF5RYFaP26PMa2y-KfNJENyMJMsW-jVv0Rg7Sfh-LvJ6NoU0gmQi8V8P6JK5F7bbfpY6zvONlLd-IcpCxEcjI9OST_beDrqCZ9jYcIqlnoKawR_kJ1wpIjRNUwCiPiOiAGIcXZ0GWh5A
+.spotify.com	FALSE	/	TRUE	1795012911	sp_gaid	0088fcb774e8a55fd5665cec54adf4314a30d493a62ab1e7387380
+.spotify.com	FALSE	/	TRUE	1795012911	sp_key	b9c1e961-6962-4bfc-8db9-269445ae9eee
+.spotify.com	FALSE	/	TRUE	1795012911	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fdesktop%2Fauth%2Fsuccess
+.spotify.com	FALSE	/	TRUE	1795012911	sp_t	8b0c2c28-e3bd-4945-b921-1571d2ec30a5

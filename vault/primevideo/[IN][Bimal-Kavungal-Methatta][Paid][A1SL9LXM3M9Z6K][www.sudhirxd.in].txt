@@ -1,0 +1,27 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Bimal Kavungal Methatta
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1SL9LXM3M9Z6K
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1799420257	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1799420257	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1799420257	ubid-main-av	261-0251317-5293508
+.primevideo.com	TRUE	/	TRUE	1799420257	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1803576952	at-main-av	Atza|gQBDAahKAwEBAk_OCwn6xLmkIMeO0yCcpGyv3YpdG2TH8nGuEgGE2KmvrJhpsxHnpqU07nIrCYF0ucdNW_x1ASrdOl_htfpKVqIVkoNEW6p6-iJpZK6len1hzjSa8T9w9wkcwV3lVT4hlDht0wT85A_lGd0GhTmPVe9lp4-tZ6hFOhOyOOc_xZz_1Wwjdf8uddXA3nNqP2BGeX-B2RfeEwr91M0ezWuT3WRKG5K0vozCnxKHvwX317SVrtuUXq1AEeWoa0-lF4RLkfvD_ZsXJTiOe9qXhUYvzrAqWJSl-8_ZUy6AjtTvs0gtfdZCL_pAIjheeKVcjxQpsBmpQ2nouZ4Y6ZEJ3G1ZNvjl0C5bmDeucPmUNsCGGVm8E0yREX1BNvT4lm3It54Ocz_CA0Bo_I3CPCSzv7zVFJgXMYCxSJ9OWT4q8WSlxGlrfdcU-2e4kLEWwWeKnzecLlXhargEtFnBylh8U6SeHojEnpx9
+.primevideo.com	TRUE	/	TRUE	1803576952	sess-at-main-av	5iJjIIGPyEiXdB0StgwuosTH74V2f4ERsMiLOlSgigw=
+.primevideo.com	TRUE	/	TRUE	1819728257	sst-main-av	Sst1|PQJW49KgdMafNpTDaVt-UKIjB6uomcnRX5gG2YSFRVuN_AY0bQh919DK60d0FKPskkrisNCk4WXgv7iOP6JqvC7vGxau7fpezOpfmaGRXs95Xcrd4JDP5kuwL36Lk2hKonlZLP5VyVuDpgpSceJr1SiD4T0pebmJoQcWkh2ExTvwgr25fY5ODZlKTC4TaDlZgPDm6r-Ryr8-WE9D8Cf6Tapbz9i-cUDWewECQFBDQqD41nb8Ha8EkVEgQNMUxJ-wcl3c
+www.primevideo.com	FALSE	/	FALSE	1819161801	csm-hit	adb:adblk_no&t:1788921801107&tb:8B1ZEAZ4EMCYP99CBKK7+s-8B1ZEAZ4EMCYP99CBKK7|1788921801107
+.primevideo.com	TRUE	/	TRUE	1791513805	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFJTDRTNjVLME5IMU4mdGltZXN0YW1wPTE3ODg5MjE4MDU1MzQmdmVyc2lvbj12MQ.g3E_pG8va_25oi77lnfLj-zuIslnpz48wmzz3if1kmvpAAAAAQAAAABqoMfNcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1823481806	session-id	262-5391461-0169737
+.primevideo.com	TRUE	/	TRUE	1820457806	session-token	"SBhsh+DSOqYjfY4AVvh0rbFCp6nSszZx8WUz4VEqNyRxXRn373LdXaNmPR7vJHvNA6Tq2/kyM5EfjiEvxfjRh6meW5diRY+OGvK/HtO2Sj2h0BaeaI03FSU06RgxuVcwr9ohvUqWqQoiTW7ZTHPjYfEhQzw1gVo3u2H5sHDjDQ4DLUH1fq83MYbJY2mkNfOZq/6wqKz3wb2VqvFhKPERsdd23DA+vFL+dNNoZVfbOJQT4QZpccw8mU/6gZzkTOWykzU31Ovw2T+lrnwGnuwqoo0+Oz6jVXmQfE1tYdLhLgvyF4NjnkrywA=="
+.primevideo.com	TRUE	/	TRUE	1820457806	x-main-av	"1yD2OWgfjL5IPi?3MvTkOMQ3wnnE3KxfaW3HU@y@zvs4TgKj9ckTNTl12lx@KBz9"
+.primevideo.com	TRUE	/	FALSE	1820486022	av-timezone	Asia/Calcutta

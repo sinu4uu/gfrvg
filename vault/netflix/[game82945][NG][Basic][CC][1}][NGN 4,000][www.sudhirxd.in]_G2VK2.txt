@@ -1,0 +1,38 @@
+NETFLIX HIT :👇
+
+Name: game82945
+Email: game82945@gmail.com
+Country: NG
+Plan: Basic
+Member Since: July 2026
+Next Billing: October 27, 2026
+Payment: CC
+Phone: +2347065714373
+Quality: HD720p
+Streams: 1
+Price: NGN 4,000
+Email Verified: Yes
+Profiles (3): game82945, Naruto, Kids
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLDAWXhulN/5YlBYHvNEAedMIWMR/g8eQ2njohknsA1bPeeXyAAeeMz+c2W0KY4mZ80J1sgiCSIPmYXU8/8wxbPLbjFomvJp9+wInePzKSICK3zRGYS8/6P/KLhatMYRH94fO0Jpy9laJ9iZsqhEuDJ+aKTbNlgfns3zO1fZek7LSWngysP9JVXf4LT31+DtKxjmcnUqeIRfsPmWxvCEZ+ZVlDkIbIJtCCDSIObjdVmXGh5nFSE5eHbF7NbNhxeLMssaCy9xxgGIg4KDGmOkathfEAf900RHg==
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLDAWXhulN/5YlBYHvNEAedMIWMR/g8eQ2njohknsA1bPeeXyAAeeMz+c2W0KY4mZ80J1sgiCSIPmYXU8/8wxbPLbjFomvJp9+wInePzKSICK3zRGYS8/6P/KLhatMYRH94fO0Jpy9laJ9iZsqhEuDJ+aKTbNlgfns3zO1fZek7LSWngysP9JVXf4LT31+DtKxjmcnUqeIRfsPmWxvCEZ+ZVlDkIbIJtCCDSIObjdVmXGh5nFSE5eHbF7NbNhxeLMssaCy9xxgGIg4KDGmOkathfEAf900RHg==
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLDAWXhulN/5YlBYHvNEAedMIWMR/g8eQ2njohknsA1bPeeXyAAeeMz+c2W0KY4mZ80J1sgiCSIPmYXU8/8wxbPLbjFomvJp9+wInePzKSICK3zRGYS8/6P/KLhatMYRH94fO0Jpy9laJ9iZsqhEuDJ+aKTbNlgfns3zO1fZek7LSWngysP9JVXf4LT31+DtKxjmcnUqeIRfsPmWxvCEZ+ZVlDkIbIJtCCDSIObjdVmXGh5nFSE5eHbF7NbNhxeLMssaCy9xxgGIg4KDGmOkathfEAf900RHg==
+Valid Till (UTC): 2026-10-19 18:47:25 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	FALSE	1816807147	nfvdid	BQFmAAEBEIbaaJw0o5FO9GU5Odpx3w9g3ABwkpeGbUDAwEDQFg7j1CC368R3AMaxUDvNlyAdRYH_S1LTtvcKs00fqIJpOF-Hej9Lj8YLEAlnxN08qiOVkel7NNhEcPIP0HewBmUE4deMWmqptQv9DaEAQJ50z5BU
+.netflix.com	TRUE	/	TRUE	1822978518	NetflixId	ct%3DBgjHlOvcAxKDBGXyAYyoLufWT-8Q7v4NATN-OP4olG2GNUaJOxkM5SW0OuOSzsB2-AMtYkGRIDSG2pmdAmncIZRh91amw5MKWJkJaR6p5d7ifus37dqdt4wKnxnMyeqbsx-dbU-Q1w7F24bIPvuzY313I80G0eXtwX4eiJRGCEWTAHDazjpD4lXVWke0RPjN9erBMYo68e8VHyqkv-Kd4Ywuufsgk2x-WXF0Ye5cEnw57vvnbhNyBxNtUNCZBHVrxSmC7VMDbDNTX3Zvh2y9BDj894PwRNbe5MV5CD_Z1dIwq0Gb9KmSmZW7cJYl6Hbysa5uWw5-MXd-EMXE74MVZdVy5SseIzB_myFaJ704Y7zk7lCGkwCHhdQXbVVUqzNrPblXXZR0mzWOn_k8OJv7D93wtJF1g4y4iVsxL2d7UKWp7uHMf6nFUMAZuGE071SPNVpNgoxfXdB5gFD2ZhPr0U0iSYs0QWOMk1iMW4RtYAcoiIXtwIUvKepIa6teurcJn8FnRD4XbgNXUM0Aa-VCtt3idBUZj61ekeSabv0hscd5jtUxYmvdvjOkQOeHKzaRVVE5COAFV1nJkr5_QW3e-D0eXhm7-FL7tuKVduHsB4AExpa3f8sJiLLU4Xkq6R9WO_1Sg6pp-buzdRqg4xVq4LnlRPJ9isLZnpsqWm9o1eU15_Pn3CI4elNq8W33GAYiDgoMhHWNAOGfBIPOabq_%26ch%3DAQEAEAABABQMf2d9rWKdWK7bEh7AjTe4lOGsn7n3CCs.%26v%3D3%26pg%3DK2JLXS55ZZHCBDZTMRCSNGBRTU
+.netflix.com	TRUE	/	TRUE	1822978518	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQm4gInlfbp7bhp9rCJp9YGHlyWVEQEt0U.%26dt%3D1791561123713
+.netflix.com	TRUE	/	TRUE	1794919779	gsid	44f47d7c-b45f-450d-83a6-eb1e3a60fa58
+.netflix.com	TRUE	/	FALSE	1823118536	OptanonConsent	isGpcEnabled=0&datestamp=Fri+Oct+09+2026+22%3A48%3A56+GMT%2B0100+(West+Africa+Time)&version=202607.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=a87c5c66-6309-4fa3-87ad-104d232d0d00&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1783605285003&AwaitingReconsent=false
+.netflix.com	TRUE	/	FALSE	1799358536	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1799358536	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1799358536	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

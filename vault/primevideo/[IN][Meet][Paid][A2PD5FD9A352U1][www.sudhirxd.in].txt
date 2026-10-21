@@ -1,0 +1,28 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Meet
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A2PD5FD9A352U1
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1820059831	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1820059831	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1820059831	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1820059831	sst-main-av	Sst1|PQKvNxnLH1UoQ3RV7e_dvt2MB_LKzJOvdn9NyLI8HcXAQlRujFkt3FkLABbrbQO686sQtMP0SNtD282THCXUQ7GLkOm3uNjP3T4daqPvHZm7DWh3_GdYf1AzQHl4HN8Wir3v_bu4RhbNcpc0K3ZdPHWrkxzhPqnnFenTbzQKzvHKVEMsLmgVK6NXv3mMuu6hoAL-e969vycJ94nKh9topfZTzN2dbF0fGz2z-EvFbPSKely8aT53nr7rHp6ZGxbheDSc
+.www.primevideo.com	TRUE	/	TRUE	1820242546	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=A21E3A1722594212B5911E3679809E1D"
+.primevideo.com	TRUE	/	TRUE	1820242547	ubid-main-av	259-7031893-5785262
+.primevideo.com	TRUE	/	TRUE	1820246031	x-main-av	"O6rohYAnbHOVWxBDKLhIqhpbN?wQG6?WibCgKlLU@oOlEH3spJk2A90GC0bXaqij"
+.primevideo.com	TRUE	/	TRUE	1791302040	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNITFcyWFIwRDdKTyZ0aW1lc3RhbXA9MTc4ODcxMDA0MTE0MCZ2ZXJzaW9uPXYx.g-99kOYPLg1vrl4VJ8_TKjoUPFEqbA7bSlXtqCGAqpZ4AAAAAQAAAABqnYyZcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1820246040	sess-at-main-av	giNg7e15VCIzHKZCf3z69siPpy1cv1oElROcOQHrQMQ=
+.primevideo.com	TRUE	/	TRUE	1820246040	session-token	WggVjjz+XSep1WNlGIyenBbC4GqCtj1++GltZih7lw9QoLAaq/c+eGqsl8wsAOxgPUs9lIutyGyubHriBoRAUL4Ihmh7Xfq5j4UQXfiWlhS0co5uKZOjot3lqeUw9gzZ1+nWKg2c7D6m2frLKuOMnrXaMMHdxSAw4sNiDNA+SQmmKVorlHuFEKP2AdgdpvaLpT5abL4q6MI7udq8WXZ5GcqmmIXJzgjIScyIeIgUDJTFrjbvDY4e+zQxzTvlZmeqnIRsJ+4Z/j/aauePV22hvimyp+Tcxv0viUgGnzN01V3nYoKt2VNqXQ==
+.primevideo.com	TRUE	/	TRUE	1820246040	at-main-av	Atza|gQAHLvhWAwEBAsDZ8pMf16PxlsEAWCBLlZysCbPaZSHl4gxeVKb96PdIDfRXZVlqM3h2tZfrIoJy-3mhnS-rS8NzZPVG6kLVqMPevxQw2Z4zF_V8rpuX1LgAuuEPnMh4rMFJAEWqZx5RHvgI3cum5tf4XGfBYJ7GfRAbQ4vPnxkJrta3vlCthzwzqN9SvdIf_IqWJ95TVFDaM_me0sv1snPU1rT4zJGLatyQKwG51j5euzSl3hT6SaxiK58yaRAwNiS1Ckr2HbD1mAI8NG3SBXmG7NL1nvWGuF-nIjUnzd2zNPn0kyAvlAb3VqPic5M1eAYK9rhVwLXZzUdcy6jCwO7inAXV1k6rhHaWHnE943rg1eq3WJqIBbC5QTjqxJfHcfcuzpSKgiZLrv8h3Jo2oiriUEsgeFXVfhE2XLVy61xub1QZ9Kpb5StuVOBS3Dfof-ol134bqEg1ZeWrKFtSwD6PxMWuykciCuW310ipI3sq0l6mMJWogFu1i7-QYZlFlRooNE_C4dGGgQdEAvQIWYU4-dI6LrECnLAP8CP8DhRS_sC45YUuyjYR_EAYlm2S4JU7q7bz56M2I7jVpx5WqTvmkTEhdobnus-x7nH1KDlp1aV9nQvesrpbsQr9dL_Q-Oj_i8wn3Rl09eoj
+.primevideo.com	TRUE	/	FALSE	1820246067	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1823270078	session-id	258-4702617-0129041
+www.primevideo.com	FALSE	/	FALSE	1818950080	csm-hit	tb:W0MH31JW6YP6FE2VNEWH+b-R0WM4065TF6ZZTF9BZT0|1788710080212&t:1788710080212&adb:adblk_no

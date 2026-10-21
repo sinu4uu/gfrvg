@@ -1,0 +1,32 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : brigidbradley
+Email         : brigidbradley@gmail.com
+Country       : NZ
+Plan          : Spotify Premium 🎵
+Next Billing  : 13 Days | 01 Nov 2026
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	TRUE	/	TRUE	1808162843	sp_t	f019c291-c4e4-482c-92b8-c08bbb4e1a48
+.spotify.com	TRUE	/	FALSE	1810754953	_scid	n-gnfNlUJ6tYVac9gMvI9XX94_GNyViE
+.spotify.com	TRUE	/	FALSE	1810754958	_sctr	1%7C1776596400000
+.spotify.com	TRUE	/	TRUE	1808162932	sp_dc	AQBdurUiNBd4A5HpI2Ll4NrqkLFk6Z3G51jEGPQNZJLkvGcsoKLV33UtNsn7okcP2uMFgrXkWru_KYuV0GOpBCtjAklkkQuwe7xeKnzM24zxcaedhSJYqxN2SpVoAsOhhcH01IWCtw1-z3O_XEkTj7VxmCnsby5TEC0Wq0gBPlDZ9p8xNPXZ5XfPc-mx-R2CDdYFPM2srDEG-bGJwEE
+.spotify.com	TRUE	/	TRUE	1808162932	sp_key	2422262d-ed86-4ff4-be90-40176402ff59
+.spotify.com	TRUE	/	FALSE	1808163253	AMP_5048e0c51e	JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjJiODdjYmI1NS00OTk0LTRmZDYtYjBhYi0zNTk2YTVmMTBkMjclMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzc2NjI2OTUzOTY2JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc3NjYyNzI1MzgwOCUyQyUyMmxhc3RFdmVudElkJTIyJTNBOSUyQyUyMnBhZ2VDb3VudGVyJTIyJTNBOCUyQyUyMmNvb2tpZURvbWFpbiUyMiUzQSUyMi5zcG90aWZ5LmNvbSUyMiU3RA==
+.spotify.com	TRUE	/	FALSE	1808163253	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Apr+20+2026+08%3A34%3A13+GMT%2B1300+(Samoa+Standard+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf11%3A1%2Cm02%3A1%2Ct02%3A1%2Cm03%3A1%2CID01%3A1&AwaitingReconsent=false
+.spotify.com	TRUE	/	FALSE	1811187253	_ga	GA1.1.1655231344.1776626953
+.spotify.com	TRUE	/	FALSE	1811187236	_ga_BMC5VGR8YS	GS2.2.s1776627236$o1$g0$t1776627236$j60$l0$h0
+.spotify.com	TRUE	/	FALSE	1808163248	_pin_unauth	dWlkPU1HWTVORFl4T0RrdE56azVZaTAwWlRNMExUZ3dNVFF0TXpjd05EVTVaREUwTldKbQ
+.spotify.com	TRUE	/	FALSE	1810755253	_scid_r	rWgnfNlUJ6tYVac9gMvI9XX94_GNyViES7PVOQ
+.spotify.com	TRUE	/	FALSE	1810323248	_tt_enable_cookie	1
+.spotify.com	TRUE	/	FALSE	1810323248	_ttp	01KPKKRVB549T6DPP4HAS1XEEF_.tt.1
+.spotify.com	TRUE	/	TRUE	1808163246	sp_adid	f38608ac-5713-4ab8-b67d-96389eec6c0a
+.spotify.com	TRUE	/	FALSE	1810323248	ttcsid	1776627248488::9D15pL0_4-_s0yGfHSZU.1.1776627248494.0::1.-5870.0::0.0.0.0::0.0.0
+.spotify.com	TRUE	/	FALSE	1810323248	ttcsid_C4LTLTT1KC6QQ9D157OG	1776627248487::zvlSJfg3Do12v7RwyfnU.1.1776627248494.0
+.spotify.com	TRUE	/	FALSE	1811187274	_ga_S35RN5WNT2	GS2.1.s1776626953$o1$g1$t1776627274$j12$l0$h0

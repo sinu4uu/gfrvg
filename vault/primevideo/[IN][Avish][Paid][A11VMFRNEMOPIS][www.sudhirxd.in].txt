@@ -1,0 +1,36 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Avish
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A11VMFRNEMOPIS
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/handle-third-party-callback	TRUE	1786814123469	session-id	262-7293167-1912005
+.primevideo.com	TRUE	/aips/handle-third-party-callback	TRUE	1786814123469	session-id	262-7293167-1912005
+.primevideo.com	TRUE	/confirmTPR	TRUE	1786814123469	session-id	262-7293167-1912005
+.primevideo.com	TRUE	/aips/confirmTPR	TRUE	1786814123469	session-id	262-7293167-1912005
+.primevideo.com	TRUE	/handle-third-party-callback	TRUE	1786814123469	session-token	TQl9oBKC6xgboLQsPVM7bbK99vn8DHG+y2Be91MYoxeTa4AODxqQoCtCLAGdNqdTeGp8pqmTudNHEPymUATAPsCyzLhFdz/yhmwxz4BtYIJ6WxCyOt7XyU0TbAsAoDDy+TuQYiwVqhoGi7SXKDwGX6hkwvNVXR1r75aCb4vbLnz7gtKee1OKcIbsZcZvmVxAJkLUjrxMKkJ9uyTzTDkX3dSbvR0rXR3RjY3y02pzTiMAca1VJ8rB9eJfNI7ZVzTA0KdNvYsOWtk=
+.primevideo.com	TRUE	/aips/handle-third-party-callback	TRUE	1786814123469	session-token	TQl9oBKC6xgboLQsPVM7bbK99vn8DHG+y2Be91MYoxeTa4AODxqQoCtCLAGdNqdTeGp8pqmTudNHEPymUATAPsCyzLhFdz/yhmwxz4BtYIJ6WxCyOt7XyU0TbAsAoDDy+TuQYiwVqhoGi7SXKDwGX6hkwvNVXR1r75aCb4vbLnz7gtKee1OKcIbsZcZvmVxAJkLUjrxMKkJ9uyTzTDkX3dSbvR0rXR3RjY3y02pzTiMAca1VJ8rB9eJfNI7ZVzTA0KdNvYsOWtk=
+.primevideo.com	TRUE	/confirmTPR	TRUE	1786814123469	session-token	TQl9oBKC6xgboLQsPVM7bbK99vn8DHG+y2Be91MYoxeTa4AODxqQoCtCLAGdNqdTeGp8pqmTudNHEPymUATAPsCyzLhFdz/yhmwxz4BtYIJ6WxCyOt7XyU0TbAsAoDDy+TuQYiwVqhoGi7SXKDwGX6hkwvNVXR1r75aCb4vbLnz7gtKee1OKcIbsZcZvmVxAJkLUjrxMKkJ9uyTzTDkX3dSbvR0rXR3RjY3y02pzTiMAca1VJ8rB9eJfNI7ZVzTA0KdNvYsOWtk=
+.primevideo.com	TRUE	/aips/confirmTPR	TRUE	1786814123469	session-token	TQl9oBKC6xgboLQsPVM7bbK99vn8DHG+y2Be91MYoxeTa4AODxqQoCtCLAGdNqdTeGp8pqmTudNHEPymUATAPsCyzLhFdz/yhmwxz4BtYIJ6WxCyOt7XyU0TbAsAoDDy+TuQYiwVqhoGi7SXKDwGX6hkwvNVXR1r75aCb4vbLnz7gtKee1OKcIbsZcZvmVxAJkLUjrxMKkJ9uyTzTDkX3dSbvR0rXR3RjY3y02pzTiMAca1VJ8rB9eJfNI7ZVzTA0KdNvYsOWtk=
+.primevideo.com	TRUE	/	TRUE	1787354786858	_sso_t	1
+.primevideo.com	TRUE	/	TRUE	1818865616243	at-main-av	Atza|gQCbJlZjAwEBAMgHrSEWsAEgQVfBaiBUUuoJ86wQ8WmBAWCG2cm4qaCzMu4SmMS11tNFjdcujoFcpWRiaM_SVeyj3vPvwrYLgWNf5VKYmLPKUwCU8x7kcJc6AVn2C9QXGoCOGKEcrvDXcNbD0Nx5abdXBDEzgBLtJ9weptqwXEHuagiNIfTSmqOH7w2tXF7gU-86fP27A9MKMcmQewVI1vOCLEEZFkmwNguyN-XgI_f37FCOTfXix9DJLtPRAk7AvPFf-A5X2t6kel5dZJRZ6GgGLyxfsMDP_Et910HIXnx1lM1VlJGO6pH0RCoxTSHybIBamuQnYb9cierr-8-yrgpQV2cWj_o1V2P_B8p-8GhpbrH29kC0wgz7vM_h0P42-Wy_m9O1IxApb8yYgQiutLJGZ4aKzgnOS5-RtGhy5ZvXQfM1W3kTsuvAM1iRUv7DD2oqHvEy
+.primevideo.com	TRUE	/	TRUE	1818865616243	sess-at-main-av	OxK59XapvkyPaVlYroaOQrTRj50BL8+TLmWbCEP0+Pk=
+.primevideo.com	TRUE	/	TRUE	1818865616857	ubid-main-av	258-7781536-7159336
+.primevideo.com	TRUE	/	TRUE	1818865616857	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1818865616857	sst-main-av	Sst1|PQJE4xzasSnTIIfQ94_IG2bjB__wP06X01CblDs1YxQjg0p4b56ZFQt8FGyOgmae-ufh9Zjx4qKWZDjzpZsD6VHXdO9kS9umnx-6DFXw7ZRXzP2ucxpif5bcg-nSoyaqSldBeI835ObB0iq-Q7A6TxPx-5dxNsEUcxOE6jckeh6aI-ojmEaqVXzaHeGnURfS9pv0T0jOcc1H75-UhHocnj0mWLxFpRCBW2KtwQ9uBUimUs8KOM7WX7e0MEKGxbe44lGC
+.primevideo.com	TRUE	/	FALSE	1818865616857	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1818865616857	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1789921616974	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFPSzdYNUJaMzdBODUmdGltZXN0YW1wPTE3ODczMjk2MTc4MzgmdmVyc2lvbj12MQ.g33UGy62EKlO_5xHvpDjo7OFCxlfrMUT06S-0aU8ypNQAAAAAQAAAABqiHxRcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1818865921219	session-token	"gh0kLVkEgD/BdEi6IAHhbWqs5o0V+XnqESDkrNrdP+j7OqGkExYt3515+bA6VPF+6sQstoxl5a/D56iZvanT8zYZ4XzxGj9Ndcb2pWhcodkEr5dLgJNVzz4QW2viYwkfv4eYxVOF0XjVXs/z35XY/I3O9ctc5lvaNeQ3TC7P6BwxsyG9gvMaz4ArFF+J5KegMk9w2n8GSL6DlBFp7pWJhT8VS27fh1oodZhpO5KUnofleQzzlPyUO+w/1Mqd4pnRRt4gI5rtR8o="
+.primevideo.com	TRUE	/	TRUE	1818865921219	x-main-av	"6u3DjQD8?PTtw2mK8ClvLfz6onu6f9rRgRpzW4UhY6c1vY?PSuYafrrEZCeDgQVA"
+www.primevideo.com	FALSE	/	FALSE	1817570186000	csm-hit	tb:SHY1GRMZ3TBZ8BZTXZ5D+s-K51HHTZYTS38EQ6TNC6T|1787330186970&t:1787330186970&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1821890202652	session-id	262-7293167-1912005
+.primevideo.com	TRUE	/	FALSE	1818866214000	av-timezone	Asia/Kolkata

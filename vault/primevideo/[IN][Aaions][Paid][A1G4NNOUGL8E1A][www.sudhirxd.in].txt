@@ -1,0 +1,30 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Aaions
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1G4NNOUGL8E1A
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1810475011	at-main-av	Atza|gQA5K2QkAwEBAldrYOCU9ayrlgc1YiBu721REYHrrGKXfFwLXHyi9LoHMqxuHAZnMweSUN3aYYF0oGre0CHM8GiieoGb1EAOi9B1BxRyzWcy_Im0bJcS1aPPjPbA4m8TpyQeWNnVkDSlpYoVPQg5tLVt-ff1FrfVnLx_pcMXnm80bb62ypa4b6J0eZSpw7k3Q4dfqPtsHfSCbT02KLkgCJVGa4TemGi9bJBztEbdNhmrctk5aSC6BZF0S35dVzOPygnqT8qqo3WHhyhebpG244uvj4rcungxiaUcj-yUB8DQzEfzb74k90ESUQcp7JiamtbAewiz3aM30Wit9eetC1x0F4nPZBkrkq9uHdnJB1xroXtFg3Pgty67zCgeaqA4xCERnM--yG0ytwsIKkCIw1IYxR8pzXujnmOywoqalqrG7iHRTfBUsa3tnyIHDTRgLcoWTjbdzxODNx04sJIYroCb1CtI9R5Mz9IkHswe
+.primevideo.com	TRUE	/	FALSE	1810475012	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1810475012	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1810475011	sess-at-main-av	LIIa5IIRevHtFe4TywU4Lj6Oe9p9cDK1SLVd63ErUlk=
+.primevideo.com	TRUE	/	TRUE	1810475012	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1810475012	ubid-main-av	258-2463226-8484241
+.primevideo.com	TRUE	/	TRUE	1790692493	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFGU0lYMU1PMklGV1QmdGltZXN0YW1wPTE3ODgxMDA0OTUzMTMmdmVyc2lvbj12MQ.gw9JWWe754i7N8OAkMyT-lh1XSWByZNVkAglDHm1Q5hTAAAAAQAAAABqlD-PcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1819636500	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1819636495	bhacls	369a1e1f-9a18-55c7-923d-34542c0e4dc6
+www.primevideo.com	FALSE	/	FALSE	1818340494	csm-hit	tb:s-DGEQGNFJQTXDZ93T3BDB|1788100494405&t:1788100494648&adb:adblk_yes
+www.primevideo.com	FALSE	/	FALSE	1822660495	ext_name	ojplmecpdpgccookcobabopnaifgidhf
+www.primevideo.com	FALSE	/	FALSE	1789310096	perf_dv6Tr4b	1
+.primevideo.com	TRUE	/	TRUE	1822660501	session-id	258-0902583-7508106
+.primevideo.com	TRUE	/	TRUE	1819636494	session-token	"5Q+cpbFODrOY6KIh2FP2DhxjNRVnFZV0gdVGwf9AP5gNYgHA2e9vnc8z0+CGoklOkkqamOoohw+r5EXv5vjz8oI9a8T+X8kW+rl3weaD1XAXNK+9wfTn2yysrU5zI7k1NLwxkfv/3pIBU3aaQPsQvFyf6/n3G6n/BltGEndjqnRh2p9cpbLM+KQHcPIcyWIc/UgnVLA/o5Q6u4rjPz7E86rh5FH+vH7/+dPMXHn8y1nElLuI+PAoD8jR4qPLVAOh+1pjIaSe0KK9UQpkIMoCxkPp8MgSKh0LNaposToDpVPckxQZvt8Z2Q=="
+.primevideo.com	TRUE	/	TRUE	1819636494	sst-main-av	Sst1|PQK28D9IKn1qi0kasoygRFJ6Bzu1jlehjqZ8WStor3LfQHfGxni3K5o4JWlo5EjPuQIs9Drv7eWHMx5sp85qg861MoGbb68jnEO6CTT7taBBkxblPKpb1r4PRXjG5oDlbyZia_4wHnz_NBBFn4JnNKLNXiT8vSNv0I4ug1lSsAyZPts9t-hFe2SVdXk_YeJcehuzHEgrj2pVh8YA3x1w2BOzZFZZtAK_YyKpXp-iskV4dUA7q3O7GcHClbcmhovifDpA
+.primevideo.com	TRUE	/	TRUE	1819636494	x-main-av	"u?z25aa8uV3FEyvU3MAOvB7vVQ28JDAV6ngH?XqSoDw5q9HAqyeYc1frDnAl4Xuw"

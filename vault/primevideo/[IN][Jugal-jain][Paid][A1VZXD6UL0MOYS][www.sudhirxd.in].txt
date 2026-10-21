@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Jugal jain
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1VZXD6UL0MOYS
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1799874605	at-main-av	Atza|gQDTXlecAwEBAuDU0Dv7Dww0DUhFCSCmbMkvAe4dAKTNlEdFSD0y0oGY7fuqbmKgSshcgyCrz4Fa3FJ0-JqvbBQDRRBJ5QBYcmrEDqshthxS3JLUO4uyfTI7rHYjaUWjny_5pMy8q31Z2nBOqKLONPgm9hMEGPemqOCFrzPv8I4oJ-1K-QAfTWEvDXpaS16eT27tHY1UEaJ34cGfthAb-Ic7Lcspx4pwZ0bayVm66l5DvIKqXB2TSlmTb1iVrE38B-GRGzNBNYZUdrOstMkRDxz4S2kohCLh6tjaHX8l--Moje13Fn6pRbGcFWDI6KR-QcX_7ZGBujyLTef4ckJ4cW3Ot_IIpt_ungRXhbnT_q4nVc1AUvIpydFAWNzxyt7BAAU5iuw4GTqAk9ONkF4nPopuuRDlc1mSGJFtkAOPNZF0-jcL2M9lFOzxUL-6ldga2bQ0nw
+.primevideo.com	TRUE	/	FALSE	1799874606	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1799874606	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1799874605	sess-at-main-av	lGZiji/S4uV8Kjl2zciCbDTU4nfNpw2PjBz9XDVfGJw=
+.primevideo.com	TRUE	/	TRUE	1799874606	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1799874606	ubid-main-av	258-3076301-3299723
+.primevideo.com	TRUE	/	FALSE	1811241189	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1809945181	csm-hit	tb:s-JM65XVR1WT72QAA3P5DQ|1779705180763&t:1779705181015&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1814265182	session-id	258-5520834-7376717
+.primevideo.com	TRUE	/	TRUE	1811241180	session-token	"/vb7xkjHVTg4/NGMju3tggz/CbHZaM8Tkzbz9QZ1Ah11O833W+LGsJf6R3DVRjySIF+t+hwEqdQAkBTBcZXDyfbWFDcWbGVpo0x7tNoIgBRD51ctq0k44Fd1E+nIRnPj1kk5Kg9ccRd41M2vudZh9PY06d8UBEUJaWnzeJf8UwTN3PBM2mA/hb37yXsEDm/XuV8f+B1Y9kKlFWZftcUz9hon2xn4HtskezxBRjXEwHZ5FdOntTIIazbMsRaIn1JOmvRWptdV1RE="
+.primevideo.com	TRUE	/	TRUE	1811241180	x-main-av	"kS4iqq?ZgAi3VPjdTZzaxSxel?Vup9EAb5mlA?yowzudiQ9pCMZAOx0dYkRr3O6K"

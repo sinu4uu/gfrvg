@@ -1,0 +1,36 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : v.viader123
+Email         : v.viader123@gmail.com
+Country       : FR
+Plan          : Spotify Premium 🎵
+Next Billing  : 63 Days | 21 Dec 2026
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	FALSE	/	FALSE	1795012911	OptanonAlertBoxClosed	2026-07-12T11:19:33.413Z
+.spotify.com	FALSE	/	FALSE	1795012911	eupubconsent-v2	CQnO2DAQnO2DAAcABBFRCnFgAP_AAEOAAAYgLTQS4AFAAYABAACsAFwAZAA8ACAAEgAKAAZAA0gB4AHoAPwAhABFACTAE0ATgAogBbAC8AGEAMsAbQBuAD8AIAAQYAlABOACuAGCAOIAc8A7gDvAHwAPwAhABEwCLAEwAJ2AUgArMBXgFfALqAacA4gB1QDtgHtAPhAfsB_AEMAIdARqAlYBRoClgFsALzAXuAxMBiwDGQGTAMsAbaA6IB1YD6gH-AQFAgOBGICMwEzgLTAtNApgAUABYAFQALgAeABAACQAFAAMgAaQA8AD0AH4AQgAigBOAC8AH4ATgArgBzgDuAH4AQgAiYBFoCvAK-AcQA9sB-wH8AQ7AlUCVgFsALsAXmAxYBjIDJgGWAQFAjMBM4C0wARSAgAAsACoAIIAZABoADwAPwA5wB3gD8AIsAe0BDoC2AF5gMsAmcUADgAXABIAJwAdwB2wGLAMmAAA.f_gACHAAAAAA.ILTQTIAFAAYABAACsAFwAZAA8ACAAEgAKAAZAA0gB4AHoAPwAhABFACTAE0ATgAogBbAC8AGEAMsAbQBuAD8AIAAQYAlABOACuAGCAOIAc8A7gDvAHwAPwAhABEwCLAEwAJ2AUgArMBXgFfALqAacA4gB1QDtgHtAPhAfsB_AEMAIdARrAlUCVgFGgKWAWwAuwBeYC9wGJgMWAYyAyYBlgDbQHRAOrAfUA_wCAoEBwIxARmAmcBaYAAA
+.spotify.com	FALSE	/	FALSE	1795012911	_scid	OtRLAsqREmoiLJhInJZPK03pB4kt6mdS
+.spotify.com	FALSE	/	FALSE	1795012911	AMP_MKTG_5048e0c51e	JTdCJTIycmVmZXJyZXIlMjIlM0ElMjJodHRwcyUzQSUyRiUyRnd3dy5nb29nbGUuY29tJTJGJTIyJTJDJTIycmVmZXJyaW5nX2RvbWFpbiUyMiUzQSUyMnd3dy5nb29nbGUuY29tJTIyJTdE
+.spotify.com	FALSE	/	TRUE	1795012911	sp_dc	AQBxrY0l1t1pG8070eYfmBf7UMyky93e2_kk8cbVyxLkmrUvEpYA3HjRPdoogzqyFht0n3qEFRhxHthkmPyuEhacrrQ5yIxcoExISNgK9NUBN010lSwmUq4nv1Kg3onJp4L5r19pkrEfEtVw6hsqwBoVfbNU2EGf0oGs8jHsut0huVxh-rI_tMtbsif51Xa0ZRAUIVk28z2t6cQHrDA
+.spotify.com	FALSE	/	TRUE	1795012911	sp_gaid	0088fcf7e18d5088d0b6c86c40c0f344ce861c387b2a570044b78f
+.spotify.com	FALSE	/	TRUE	1795012911	sp_key	dfbb1c69-ae1d-474b-b49b-44955e8ae330
+.spotify.com	FALSE	/	FALSE	1795012911	AMP_5048e0c51e	JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI3YmU1MGM2NC03YmIxLTQ4YTUtYmIwYy04ZGZiNDg5ODU2MTglMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjIwMDg4ZmNmN2UxOGQ1MDg4ZDBiNmM4NmM0MGMwZjM0NGNlODYxYzM4N2IyYTU3MDA0NGI3OGYlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzkwMzU4OTY0NjMzJTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc5MDM1OTAxNzg4MCUyQyUyMmxhc3RFdmVudElkJTIyJTNBNDUlMkMlMjJwYWdlQ291bnRlciUyMiUzQTklMkMlMjJjb29raWVEb21haW4lMjIlM0ElMjIuc3BvdGlmeS5jb20lMjIlN0Q=
+.spotify.com	FALSE	/	FALSE	1795012911	_ga_S35RN5WNT2	GS2.1.s1790358964$o6$g1$t1790359017$j7$l0$h0
+.spotify.com	FALSE	/	FALSE	1795012911	_scid_r	TFRLAsqREmoiLJhInJZPK03pB4kt6mdSV45cYw
+.spotify.com	FALSE	/	FALSE	1795012911	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Oct+10+2026+16%3A49%3A40+GMT%2B0200+(heure+d%E2%80%99%C3%A9t%C3%A9+d%E2%80%99Europe+centrale)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e8bc4988-e42f-48ef-8852-770942d5da37&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Cf11%3A1%2CID01%3A1%2Ci00%3A1%2CV2STACK3%3A1%2CV2STACK11%3A1%2CV2STACK20%3A1%2Cm03%3A1%2Cm02%3A1%2Ct02%3A1%2Cf02%3A0&crTime=1783855173620&intType=1&geolocation=FR%3BPAC&AwaitingReconsent=false
+.spotify.com	FALSE	/	TRUE	1795012911	_cs_mk_ga	0.7884685178754622_1791643780234
+.spotify.com	FALSE	/	FALSE	1795012911	_ga	GA1.1.132914462.1783855174
+.spotify.com	FALSE	/	FALSE	1795012911	_ga_BMC5VGR8YS	GS2.2.s1791643780$o10$g1$t1791643780$j60$l0$h0
+.spotify.com	FALSE	/	FALSE	1795012911	_ga_ZWG1NSHWD8	GS2.1.s1791643780$o10$g0$t1791643780$j60$l0$h0
+.spotify.com	FALSE	/	FALSE	1795012911	_gat_UA-5784146-31	1
+.spotify.com	FALSE	/	FALSE	1795012911	_gid	GA1.2.601518726.1791643780
+.spotify.com	FALSE	/	TRUE	1795012911	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fsocialsession%2F5cKybziwimCekn7HvYyX4E%3Fsi%3D0tRYH0IgQ-6vQWsccwUzJA%26utm_source%3Dshare-options-sheet%26utm_medium%3Dshare-link
+.spotify.com	FALSE	/	TRUE	1795012911	sp_landingref	https%3A%2F%2Fspotify.app.link%2F
+.spotify.com	FALSE	/	TRUE	1795012911	sp_last_utm	%7B%22utm_medium%22%3A%22share-link%22%2C%22utm_source%22%3A%22share-options-sheet%22%7D
+.spotify.com	FALSE	/	TRUE	1795012911	sp_t	b1658d81-000e-49ca-8930-7dee7521be59

@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Davinder
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A2MBAGRCQAUERF
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1811082598	at-main-av	Atza|gQBqXJbQAwEBAhIR_64bY0ELuJcKoCFe-XAkkff22GeSmqID6CsedagFHMvR4qSut4yaCoF8-bmBL_z8z12rqur3eoBjw9GzvlPXQqS5BP8J5-s-pfj3RpDE4_453QQrHzSQ8F4g9NsvypHFHvkzOq9SAwrmvXajatlWuZ6rszpQFOnZvaKOfSfyhzGjs9cVTDJOz-wd0PrKgbqhArfZY4PGLXSExKPPsL9hRbX3N9tWydlj4Y01CJ1CNAkj1WdLpC7HKDsObqTK3-MKnXzJsbkbLcgJy7PzscgyDJHdiwDfqgX3bd_8-HxAzsB5GmDxHZBWzhyZrRdkdp4U4UIMb5Mye3pz01aeIyhnaW5novMO-XK7Xchcc44KfORAqWesm12wSZysJ3vSdQ
+.primevideo.com	TRUE	/	FALSE	1811082598	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1811082598	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1811082598	sess-at-main-av	zcPma5OshLj/W8oMmJARGX7PU6+3l2QAyhzsTKQiFFA=
+.primevideo.com	TRUE	/	TRUE	1811082598	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1811082598	ubid-main-av	258-6663415-1050739
+.primevideo.com	TRUE	/	FALSE	1811260226	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1809964219	csm-hit	tb:JG0WHNSF1SR2MKHPSF2T+s-Z1D36Y6KJSH81FM5X6SS|1779724219525&t:1779724219525&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1814284221	session-id	261-4071019-9241053
+.primevideo.com	TRUE	/	TRUE	1811260221	session-token	"ijJy3MiVk0uzQQ1gkqbzzyPCTSs8pxPkCbhm4Rj/JgARkgGNM+/ZlxfeQJ10SRxrfr5d+37QMRKeIWRBxrMOj3YnajXGTxK3jKik7h+1h2e8a5CoBepKQ4bhNEyCA/mS+R57SbZfzPVoRVsppUSJNbGT9a1QA2QcklrV2CxMypsFwjfplByF3pSWmBSURx24XM3bUfrVGTIq6h4L4tLde3skJn9AqqYl9RAwFgS+ACI3gEPg+PlH49gzrUrkgTtnaMoyx/JQxH8="
+.primevideo.com	TRUE	/	TRUE	1811260221	x-main-av	EUiq8Kvt7bkKBacLg7Opa0mrUPP2g8IrIsEEKotMxCfkZYuiXpEv2wRYmn0aFmMi

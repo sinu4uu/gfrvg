@@ -1,0 +1,24 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Mimii
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A12A3UJWA9GQC4
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1807207808	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1807207808	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1807207808	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1807207808	ubid-main-av	258-0234616-1381147
+.primevideo.com	TRUE	/	TRUE	1807207845	at-main-av	Atza|gQBSvySiAwEBAgnM6eq5E4PHM9Wt8CCsVk2CkkX9kYyMiQQQdTALt6f2h8Bhd8wiAAzIW3XGaoF48aqzsQvx4-bTKncfi-J4ZmxtABTIf49omanPABCbYCsuOrHsOd8mQRs_MBR8ERnP2w9XGposnDmGhXDHLV6geTyWbfMH6VmJ7HVvKOvopcj-wcUcJv-VHWM2IOUlrNEc04W8XNuUdq3sbv-hXGgw9Tt4FP-efFUjmYRwkrmh5Jn6JNnrA0-2ES6I66T5shcd_FpssVNRG62lwtfpmMW2LkeMA1GxlZiggHoCda2YMlLiYv6rGPl744EhmlO-ciRn5U0pvpIt_6iAkJDuFZuIq8gHkBrAeHK0r31n3vwbD1UTi5TkPM2tVgeicbKXyF7H0M2NQuQ8VRFADKPQTauBvzRiLy811bshYf2LipMp3X-GvWNvlLVPaVOIpgMXH6ahaOGkoKlKeHKmHB7gpmuvZ-4vlJtVtEnTHA
+.primevideo.com	TRUE	/	TRUE	1807207845	sess-at-main-av	QO0EtjI3S5ZdtdlGChGkGMXHRHooGIgJ24Z14Wj5ivI=
+.primevideo.com	TRUE	/	TRUE	1810231847	session-id	260-8213294-9908004
+.primevideo.com	TRUE	/	TRUE	1807207845	session-token	5OpyR6wy+awRcB6QxwZT8xfw/kDFWJ3Rf8dD10g31ivTbyDyMlRp5/yxHOzPe5fuFJiMoDWN3gDV5q6cJ66ZKVugJe7gz49pOktvQPMDKj4CMJ6w7FBgnPaBH51+yB9Qz5xG5xsvXvnvp7AUhl3QRn7MI16/GOaiblmoesOwlwRL9FRnXZFQMMspEKZ2/MKSZby14zBAPg1rZetQ412515kP388c3I9c7AZj5ojJghc+cQRUw1FGIsFJVSc3fe6S/yS5D7BMCxiASH4lg3ORcc2QDm9uXpzvB2Cim9jP+a2VsRpM8zpXYA==
+www.primevideo.com	FALSE	/	FALSE	1805912458	csm-hit	tb:HNFPC9Y29BBN9QXCN6EG+s-3DPRNENWDFKQA041FSRY|1775672458663&t:1775672458663&adb:adblk_yes
+.primevideo.com	TRUE	/	FALSE	1807208473	av-timezone	Asia/Calcutta

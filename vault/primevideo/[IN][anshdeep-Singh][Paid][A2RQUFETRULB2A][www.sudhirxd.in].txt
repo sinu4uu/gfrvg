@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : anshdeep Singh
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A2RQUFETRULB2A
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1811074857	at-main-av	Atza|gQCFDeCsAwEBAmvDWFfVqMHyxUNqLCHZ1jiaPvjZptKDwm3CDWcwoYjypNwZwTtCwsT1cEpl-Q6BHo_ODjjjmfPFkVU9c_TMmsJq9uMLqsq4h6D8u0Xosn_H7IOlYqOvarv2pnanTXhjg5Z8K3uBWsdQEOzfCJVOhCiDXkCUCqPqP2y7VPTc6yB_nxQAnm7V67wQJmw93KvbAggfz61nhUJlHCkjpZFbClD_Q4JIBJKwFASUV6oTdlkaksvtXHIhQEYULuK3XwscEhZMOCb4AubWvgavJ4b7QMNK0n2GnwAoEYuGRrmWdlALSMpx_0aj0tiQozhAEb5PbNdyNyHLGCCl0TPFKxmsABLJVtxhnFmuAWmhBFOsZAI
+.primevideo.com	TRUE	/	FALSE	1811074857	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1811074857	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1811074857	sess-at-main-av	AJLwJJh7Ml3EBK134lfy0qrA/zriNQxpv27RYf2Irkc=
+.primevideo.com	TRUE	/	TRUE	1811074857	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1811074857	ubid-main-av	261-4107882-0172406
+.primevideo.com	TRUE	/	TRUE	1785363807	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQVIwRFVLTUc1QUM2SyZ0aW1lc3RhbXA9MTc4Mjc3MTgyMDA1NSZ2ZXJzaW9uPXYx.g9ary_yDLl01EyH9cQyXj2xdtAia1GP_IabxUFBpzJzfAAAAAQAAAABqQvBscmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1814307812	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1813011808	csm-hit	adb:adblk_no&t:1782771808819&tb:s-EJQQPH7BB4Q43GKHVYBW|1782771808607
+.primevideo.com	TRUE	/	TRUE	1817331810	session-id	261-0197782-3754375
+.primevideo.com	TRUE	/	TRUE	1814307808	session-token	"f8rWPUufAI0Yc8SYwKJblYze7Xl30HscZ300iOUr07yLoYn8GpsVMnOANb3JHeGf14AVy4aT/p6Pt625YslG2Jxob6Cysu4ZecylJ2gqiMFG+VjVwPEictmWzOxgD2YOTWE5pliDG7gktgta919SkFQ8kbXKYSGWimi97ZEML2wMo7A6ktxu4QguoLpuCDsAqpPAD5p4UiVFC6dp+mmlxEA+5qC0x1g+k/m2xeA5mS84HiWZYQGhMoZdcF8cgPRjpXfxN2AkaZQ="
+.primevideo.com	TRUE	/	TRUE	1814307808	x-main-av	"JBmXpcGhqCWXxeCOE?g1ulLFFIWeBpIP3n5INmaw35@Z@p69UVItVaLKgqdZcySW"

@@ -1,0 +1,27 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Adithya D Kushalappa
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1NJME43O1XVXX
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.www.primevideo.com	TRUE	/	TRUE	1819981678	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=B4E9A0AEFB344343914A9D27C846E4BF"
+.primevideo.com	TRUE	/	FALSE	1819986659	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1819986659	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1819986659	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1819986659	sst-main-av	Sst1|PQJ04M38L16P6_YH9VKCy1uHB0CWMo4Y3bBOLusKk9p9IZtp996_il3Vxob5Nggc0mig2VqHd5eAKL8-w72xCW01odtdMqrZy6cSyDh18wMp6zmE83fLLsDXfQodpe45zafUV8YwjwBLMi_IJmXVFcx-Po9sYLY5AslPRE522v4xS5Z3s_TsuVwypzzRPlnseIOnV9iwa_2tPcedLbqGD7Z2t7RmICX1k8gtxjnpKmuEsZB6xTSFBE4wdiRxOm3rU5Fa
+.primevideo.com	TRUE	/	TRUE	1819986659	ubid-main-av	259-2257288-2089935
+.primevideo.com	TRUE	/	TRUE	1791298857	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJNMFJJMUo5NVJSRVYmdGltZXN0YW1wPTE3ODg3MDY4NTg4NjkmdmVyc2lvbj12MQ.g3rG8sZeafvpyphmJ4EEozenvqH8qWBooSqSgNlij2lZAAAAAQAAAABqnYAqcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1820242857	sess-at-main-av	UCCgBKysM8kqh2tlOfn8EMW1WpWnAmaj0FK4Ro62OJ0=
+.primevideo.com	TRUE	/	TRUE	1820242857	at-main-av	Atza|gQBYzFZ0AwEBAgzLGRFSF6pasgPbIyCoXB8N4xSnn6JUSYPGzPYTRSkWtnB3YTrbZW0HyFJQVIJnlSgjK0mk7qesQKYC47BxMeBQL35jz5S7oUPsG9iocvQMCzoq4wcRDyx_ES9qko91y4HWof6RJ1PX0w8Ynzg9VHbY20pfVevSCDNevdelGv0v40HrdtCKDlzCFUmnMR_9anBtCjr_Mjnq7DS6OlDEmygbfrZm8jiCICTze9PzBjIG382aup9Uh1FF7_GdwOMWjHjldaJqww7pjfctkwRh3TrlxiZYbDfRJXWQb3KI_s2kBobaNXyEovamc_fIM6tZjzDO8vhmfGiAaek-VEdNcnG7dr34Gntrj3ylTZZhjrma0RcD6D3UWI2W--QpesNDEikiRKiKFGsJrTya0s7MYQ77WJwaF2UuNwrKVyJYJB6ZuN6JFDp8o0xycLrH9oBXity-UVhlvmj9KA0DzY7jOaObkwhyauz0COr6IdncuWk7i71rVWYSE0DUYVTvR_ryOsp039CDQ-PWLrU2cCJYWfZZzDILVI1AAnlNH0p9lheimckLd-TL9F16zDwYXATJf7PaurtO4NUW6DIBubZg0dEdjAf-Y9UO-UUp8PRoyeNI4P90RHdvrg
+www.primevideo.com	FALSE	/	FALSE	1819203097	csm-hit	tb:s-VSBZG1Y9ACA1E8XT2A93|1788963096607&t:1788963097934&adb:adblk_no
+.primevideo.com	TRUE	/	FALSE	1820499464	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1823523453	session-id	261-0542138-5659312
+.primevideo.com	TRUE	/	TRUE	1820499449	session-token	"faDdGU0ouHh8G+iEYqtGJrjwgZyUX6L5RXefKC5CPcf0h27c7hBDECuHaihkMbQrMSgFnoEVI2n7GLxttBerKLeCx3OIgAyGS0wc/fTbj/CZL7DMrzcJ+A6/zCXO03eldu0SborOt/sVhJyv8kzZjZdwn6yMZ3YMfQej5gpmCn6zHHUyrUiH9SBdUViHoEpvL0F9iz2e/CVifM85NIg+xPlk3wUUvAwKwuMv0daNP8jJ9GzqWi232cOLKEB1UQ6PcZKwV/WvsdejMLa/eM6hTivezjgoMQNR13g7kJIO37JAUMB1/Q0r1A=="

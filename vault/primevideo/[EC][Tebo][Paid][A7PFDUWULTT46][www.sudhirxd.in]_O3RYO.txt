@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Tebo
+  Name        : Movies
+  Region      : EC 🇪🇨
+  Customer ID : A7PFDUWULTT46
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.www.primevideo.com	TRUE	/	TRUE	1811289498	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=07CCD10694E94664A939B3D01242CDC6"
+.primevideo.com	TRUE	/	FALSE	1811554468	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1811554468	lc-main-av	es_ES
+.primevideo.com	TRUE	/	TRUE	1811554468	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1811554468	ubid-main-av	132-7040978-7412652
+.primevideo.com	TRUE	/	TRUE	1815955719	at-main-av	Atza|gQDJNW6lAwEBANF2qux31MYgtK8E5iGmr833qeO9kJuiLDA5HzO69dfMtoxWw3avk1O58IKQYDiCZmQtYuK1ehycIbE0q7ltpyujMfMl3PM9QRVDkp5VOWdY3HSE6GNPZIAP_6g1UIWVhhLTMNUZ3oiBRj0z8PDwwXIJHirsxSiBnecpIy4oYg7JxvxufqHd22hMbe3GrduJeGmWAw7UpLqKlQkTOEB4eOXutZif0Lk4ri057PUWVIUFcRKo9pdk8m6orPpGw5YLuh_PUvgRBUjvIr2nPvwvSxlKzvZzeh6GmqawmSSJV2yJl5xz5h3oeB1m8Y6INit8tJRTwHEv97aHD5uqKxJ6YQStQWEn2jTG-jXo0K3CYFOH-7hf0PD0AalvrRzAo42m85OQAyzyvyyfYXCGnds_CbWAkhRJ6bvPX1blpm1rlMw2ufAjXkor7K1uEZAx-sSYyHOoP1jamggDS4wmtSd5FZUUH3F6WITmWR2vcoOUdYOgl92MvRqwyEGzlCzupU-J_PHKyprpAQxkmQfuCNKjRqDqY1kToE9AeclQZZLJriWBf_AU-3Vh7uKTKB91QrbWIY8I0fIvE6ELVEKz0_OXDGKnL79yaADkgpsPrCEqwqdqZZDhzQVQZA
+.primevideo.com	TRUE	/	TRUE	1815955719	sess-at-main-av	o1Dah5kNOUlXU7HX34MzlKVy67ILUMqnhEj6mg+gnUg=
+.primevideo.com	TRUE	/	TRUE	1788567925	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTM1WjZYVjhLTTNDUVkmdGltZXN0YW1wPTE3ODU5NzU5MjYwNjcmdmVyc2lvbj12MQ.g0gUzCyEndckxUNn_1p4pNWu5_tzyBitWePVtpkpRKkCAAAAAQAAAABqc9R2cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1820535932	session-id	144-6988690-1832968
+.primevideo.com	TRUE	/	TRUE	1817511926	session-token	"BQPFu832xteH3pKdJa3B7f9rFNzMO2woioQxpBVCKPOuzNGH4LOTybY6RnWjIy0vgzOMcUwWTboQi2zX1PYur1E7Fm5LorIpQrLQ4tFW5sZ7wVJzeew5t0R6gFoGvZVf+XeZAf6iukmYP/mM8z59CJaWKrD9ZJueDAMvxfBB7sFlfhqZW9Vb0mbm6KP88dglI61xo3ozQ6v4GZD+aXOAAqT4Frd+mJ94Bn6f2M816c4yWJ6t7Ez9c2bn4pNzbwCun8tcRLNltRKbqE6h+jq0e8MHYmr9EhXsJyCWxkYlekSX+jo5QpWbcA=="
+.primevideo.com	TRUE	/	FALSE	1817512166	av-timezone	America/Guayaquil
+www.primevideo.com	FALSE	/	FALSE	1816216164	csm-hit	tb:ZEP5NMR4C1RAF1RPNYT8+s-ZEP5NMR4C1RAF1RPNYT8|1785976164154&t:1785976164154&adb:adblk_no

@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Gaurav
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A37YQ39ZTFUL4T
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1795955462	at-main-av	Atza|gQCovJL0AwEBAs9FFwM-izozmyJ7OCCA9V-eSQJozAgt1k1Tpt11UMJ2GCViISxTwErrqQjrrIEQy9wxtC31at8ytEHyWksd6_Qhb7qS6n8uYNrvjx0qlzdwYhUPKA_vK8J5YwSB8G8Yt2qSmTINAs3NG1bGuSj6XBB48WvjaYt99amzTGtJ4sca_00MD8Nho9S8va9_2M3BBqVv_KIlxCs8UPnn7P75nwvh3isRyyR_2bYXozv_77nrvZQJbm2ZaZ1FyyGekdECQKnKOJDETKYVS-hZiIPNMs_Gnlal05_idjRSG35P6YCE2NHFXX0jG5ORPR4PK_wD5CGLoh8oKbuGhmn1OAw4Vy0
+.primevideo.com	TRUE	/	TRUE	1767011462	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTM3WExNSE8zNzhGTzkmdGltZXN0YW1wPTE3NjQ0MTk0NjI4MDkmdmVyc2lvbj12MQ.g7aJemvS7WuXsPMnqmrQ9EONhHqH3v_bBvM2jpL84Tl5AAAAAQAAAABpKueGcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1795955462	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1795955462	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1795955462	sess-at-main-av	u3OoPX49EEo/Dr22Oh3PRFeqf/wlQwB5YQvBSPO5weI=
+.primevideo.com	TRUE	/	TRUE	1795955462	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1795955462	ubid-main-av	257-1824708-0855849
+.primevideo.com	TRUE	/	TRUE	1799045293	session-id	259-7438466-7914230
+.primevideo.com	TRUE	/	TRUE	1796021292	session-token	"nuZz708wYBP8BbxQtInQxFXt02CZ+1/F8XZtAGkqwapHmDJ5MVZSyzilgfXYXU1ixaFAB1vy0OT+ZHhnV7keUuyJZYm1X9ffb4KjLOzYMPxyRIQn5Kn0Wqob4AwHSE8dEH1UrtwUIluY74R6Lf15Dx7acjqNSKQ0QcRx8Cn7wekGacRRLnylaetY5/p05xta9+0pPP3bzwYUClb4mFYkkSPLHGmHJG6d2kUbmpne2tL8wTWHRLAjwpUjXoEiRL0cI8cDNr/qYUBysaMsPhcNp6LboGX11orQT4ii8mE52/DUowetdbC/LD0kVJwGTZv7/jnp2oNeuzCKIFzx6Zk0cnGEXrV42sRqa359oXQLz816rfyD3EMR+EI+9bUrdso8VR+cdEfa/JU="
+.primevideo.com	TRUE	/	TRUE	1796021292	x-main-av	"UCUfK6?mw75lWFfGYZko0MEQOlMdfaiS61oBcEagA6b9QXtXlYV5oSAlNzXfZQg5"
+www.primevideo.com	FALSE	/	FALSE	1794730649	csm-hit	tb:3J4DQZTBBB5Q8YQ8PMQA+s-2ADCE24CTN9XM2QNE92W|1764490649077&t:1764490649077&adb:adblk_no
+.primevideo.com	TRUE	/	FALSE	1796028843	av-timezone	Asia/Calcutta

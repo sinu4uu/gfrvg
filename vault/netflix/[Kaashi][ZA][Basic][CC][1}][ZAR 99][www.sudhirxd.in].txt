@@ -1,0 +1,38 @@
+NETFLIX HIT :👇
+
+Name: Kaashi
+Email: Kaashifa.Prins@outlook.com
+Country: ZA
+Plan: Basic
+Member Since: May 2026
+Next Billing: November 3, 2026
+Payment: CC
+Phone: +27686745656
+Quality: HD720p
+Streams: 1
+Price: ZAR 99
+Email Verified: Yes
+Profiles (2): Kaashi, Kids
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAXQb0nBcKHPf5jY4yrJ41YHeWN9QDo5SJ1vUxZ/CgQk225xQmxIZtOTfo+9yr2aGUn+nMcL3VPCXyGo/76epy2qGZy5Yi4RSm6Sva/iy0A7WcLByRWXLAPZKfqrR6ICo/g3Agc/2ilktdn30gdxPLHkaSWqFyZUsuHfvBcyEn43jqd9DshxxhQd3t9wgxZSJ7iC68qRfLpRl5uNDgh96aWvs7Ena1nlnJ5nFbKxJ23LMrmjHG/NXB+lTlH0nfp0QtU67GAYiDgoMBBdx6dtu2keeZgNg
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAXQb0nBcKHPf5jY4yrJ41YHeWN9QDo5SJ1vUxZ/CgQk225xQmxIZtOTfo+9yr2aGUn+nMcL3VPCXyGo/76epy2qGZy5Yi4RSm6Sva/iy0A7WcLByRWXLAPZKfqrR6ICo/g3Agc/2ilktdn30gdxPLHkaSWqFyZUsuHfvBcyEn43jqd9DshxxhQd3t9wgxZSJ7iC68qRfLpRl5uNDgh96aWvs7Ena1nlnJ5nFbKxJ23LMrmjHG/NXB+lTlH0nfp0QtU67GAYiDgoMBBdx6dtu2keeZgNg
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAXQb0nBcKHPf5jY4yrJ41YHeWN9QDo5SJ1vUxZ/CgQk225xQmxIZtOTfo+9yr2aGUn+nMcL3VPCXyGo/76epy2qGZy5Yi4RSm6Sva/iy0A7WcLByRWXLAPZKfqrR6ICo/g3Agc/2ilktdn30gdxPLHkaSWqFyZUsuHfvBcyEn43jqd9DshxxhQd3t9wgxZSJ7iC68qRfLpRl5uNDgh96aWvs7Ena1nlnJ5nFbKxJ23LMrmjHG/NXB+lTlH0nfp0QtU67GAYiDgoMBBdx6dtu2keeZgNg
+Valid Till (UTC): 2026-10-19 18:47:53 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	TRUE	1795012911	gsid	fdff82f2-5697-4bcf-b0c8-28d8f8e8a766
+.netflix.com	TRUE	/	TRUE	1809511164	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKfAzDjnDXixaqlqKMK0_r6A6KmVtrGdv6QZRRtZmzZDvQMFlymBqUMh9EIwoN_Jv9IfFH0TdN6Py7qqGP2sf4261kO1ZwPCrvxl2HDFMpTsCnX-FMZRtizr5EiWv4ucAjpnNjyDs3PsJmK0kUTM69YwB-4S9CvINiXm66rMWuVm6yWDY8ZCvdUKBllKKct5rPC29UZ1lGQEQ7tfMheJkRtcngRQ8vIneblWrp3EUkY5YsLHyugmnIAllXw-x9I82z-AVBFeejEHzszPVnhFjFiySCcRU70pqCLWY7-9Wu-Y9Kor_kO1S_yD_d_PySVHuIpzjKUIHntjDiv_Zzq3OsSsqOJJkTVUZ3AZSAKfMRZjtkRTCxPa2Bp8gzaVj-Jg-AdHpJRyOChxDG4L9yXI3OFCTE_XigxptwhWLNU-HBrbWkSxybaWcKEsTcpyuH4-NvJwQ_EkKN9nND2ZHNikvd6iT7KydGZRB_NTXp8LcH3ZMHugWiqHBzm4tS4edql20Wh-Cs7TJuWdyD3OodbbLkLU5ScLX89SXVNqQMmGBfy0dQYBiIOCgx3V3j8XcYJZ3_Sdio.%26pg%3D6VT4RFKOTBCT7LUZAJUPEBLCIQ%26ch%3DAQEAEAABABSFDJ4fDG9e6-trT0SOWGsOql9SsPcN3z8.
+.netflix.com	TRUE	/	FALSE	1809511165	OptanonConsent	isGpcEnabled=0&datestamp=Tue+May+05+2026+11%3A59%3A25+GMT%2B0200+(South+Africa+Standard+Time)&version=202604.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=2a62ba43-c53e-4295-a5e6-5d1096df6800&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1777975092231&AwaitingReconsent=false
+.netflix.com	TRUE	/	TRUE	1809511164	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABSdcUytMmkgSpqq_JnILDKifYvzRtQW64Q.%26dt%3D1777975166140
+.netflix.com	TRUE	/	FALSE	1795012911	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1795012911	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1809511164	nfvdid	BQFmAAEBEIJX91mjsPV4DdneNf5whOxg4_r39lV_X6KwwnDI-qMb_-IgErO3rTR_g9DRUa-DGVdHlPWaSdd6LL2au0LZoa7Zv9ecV58D4XNKS1GlObCbX7O-BeL8GMjQw5kS4F6N4dPVB2UMsdKLediNhiQ2h_v1
+.netflix.com	TRUE	/	FALSE	1795012911	profilesNewSession	0

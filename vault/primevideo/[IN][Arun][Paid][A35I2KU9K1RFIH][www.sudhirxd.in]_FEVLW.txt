@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Arun
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A35I2KU9K1RFIH
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1781793964	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1781793964	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1781793963	sess-at-main-av	"SmahRPcu/S6ywmcKxWEcUFPEX0p0ItM4NrsMbkl3bBQ="
+.primevideo.com	TRUE	/	TRUE	1781793963	at-main-av	Atza|IwEBIOilhG-jsoAapwfmPjbfpfwfWWnQqMdbFhKRL-87KUtEIbMCJfWZf8VUAux_IcY42YUv58Ikp8KwE2D-FSw4h7_9Z4N-HEeH0acnsz2SOlRk1KaDTk3u32L7C2FOleHSRaztFvCcuKTQIaZYw54Kz4F3sJ5u2gCYgQLDKQrHGwDYjS31_zi9vXGBhJmClgQUD6QH3q__gIzjNmXQcdc0B_qZRN8YOQC6Q8IrKURUGNKclIgnwQRU8vtPqQfk2MkTyDM
+.primevideo.com	TRUE	/	TRUE	1781793964	session-id	261-4583074-6765562
+.primevideo.com	TRUE	/	TRUE	1781793964	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1781793964	ubid-main-av	257-9075527-5603112
+.primevideo.com	TRUE	/	TRUE	1781793964	x-main-av	hqEGedGtX6k4kVXfbIQEijVCII1zSzt0wcYi8n65slVNoIPUgLkMUOS5w2rN29Na
+.primevideo.com	TRUE	/	TRUE	1781793964	session-token	hyrnLC+JXwW7KM56ptFLOWkkq9gGIJJyu2Ke1q4H4BTTcUPTuAYqrWnmWowUBQpDBCRq/WDuLmbhQzS3qcHoRnUZKcaEJO/tekfCrFtbYHTnxrbceYRqU4b4PoadqDWBAOJ2ZMVtvZgBsZeUnfLt9S7rnU8PqyTQgG9pojs8ia28jAewb/khGA468e3S3lzMqqDbkkUmqskgtltMBm7Q6Jh2ZAGL0zdERbI7Evkj0gSxb5iLp9yP27XJrktDcUAD+2Qs+XkfLLeyfNfP7OZyHzO5nv5p+sl3kuPkGeP1bE0hLKfKI9swZpUD2sdxqRf5S+XJHhb0+L5RF6rh3auvf0UIWsycGV4xKT/QPXHK241b8wV5YomLnbxZ4g1mK7o4
+.primevideo.com	TRUE	/	FALSE	1781794302	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1780498302	csm-hit	tb:9A6CB6J9JVGBE4RSEF0K+s-HHX3W4V5K0AMRH7TS4VF|1750258302330&t:1750258302330&adb:adblk_no

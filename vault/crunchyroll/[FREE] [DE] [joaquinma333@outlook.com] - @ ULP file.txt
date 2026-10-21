@@ -1,0 +1,38 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: joaquinma333@outlook.com
+– Username: Joaquinma
+– Subscription: FREE
+– Country: DE
+– Payment: Mastercard ending in 7719
+- Cookies: @ U L P f i l e
+
+.crunchyroll.com	TRUE	/	TRUE	1795308668	_gtmeec	e30%3D
+.crunchyroll.com	TRUE	/	FALSE	1822092668	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22eaf6fdab-b82f-b1fd-a6e4-9f81edcb6c27%22%2C%22c%22%3A1787532668478%2C%22l%22%3A1787532668478%7D
+.crunchyroll.com	TRUE	/	FALSE	1822092674	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22289d8283-ffe7-90ff-958e-d54514d95dcc%22%2C%22e%22%3A1787534474666%2C%22c%22%3A1787532668476%2C%22l%22%3A1787532674666%7D
+.crunchyroll.com	TRUE	/	FALSE	1819068414	_clck	1wjy31c%5E2%5Eg8v%5E0%5E2427
+.www.crunchyroll.com	TRUE	/	FALSE	1819068448	OptanonAlertBoxClosed	2026-08-24T00:47:28.174Z
+.crunchyroll.com	TRUE	/	TRUE	1819068585	cf_clearance	vEG3BvWm3VK_IhUL_XlWZ4uOnHR_iaDc6yr8c5wKgCs-1787532585-1.2.1.1-xaDLkEiZUca_N3fZKvvxmahvcRPs49b1jPArOtXVSRPgr._ai7c6F2sPD7zzQMRBOcACka9TLu96B0BIGjE.NWUa3UTPAfZX0KpDIpzlU4q7x5ADOsxcNtzsZWEkyIbXpiXykefbwWr6tufpOPm50aexGUAAOKx4l3OVYHcIZaT02T8acILSUlEHaadfIIzwJoSqBuRUQq0zD5.BVh_4aMQEIIqh4UbfyjQQaSrlIppq8mxfeZYWjr3Lq0DCb02L1L4R1PAt1cdUZsdK2PC1gnjwQfgJnxUjn3jTLn7QEjQugHFIovjpWT2c3p4MMjY3vhc3b.DmwkKVq00.NI3iAAEI2rJ0XkeaZ.cVyuZUAIk
+.crunchyroll.com	TRUE	/	FALSE	1795308600	_uetmsclkid	_uetf0ca558502511b1c51ea3f0e962d869d
+.crunchyroll.com	TRUE	/	FALSE	1821228600	_uetvid	4d74bfe09f5511f1bae59f644e9273c1
+www.crunchyroll.com	FALSE	/	FALSE	1819068595	anonymous_antiphishing_warning	1787532415928
+.crunchyroll.com	TRUE	/	TRUE	1795308616	uet_msclkid	f0ca558502511b1c51ea3f0e962d869d
+.crunchyroll.com	TRUE	/	TRUE	1821228616	uet_vid	4d74bfe09f5511f1bae59f644e9273c1
+.crunchyroll.com	TRUE	/	TRUE	1795308414	FPAU	1.1.313269786.1787532415
+.sso.crunchyroll.com	TRUE	/	FALSE	1819068659	OptanonConsent	isGpcEnabled=0&datestamp=Sun+Aug+23+2026+19%3A50%3A59+GMT-0500+(Central+Daylight+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&genVendors=&consentId=76c6c7d0-f79f-4031-8dc3-fe557f81b3c7&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1&crTime=1787532433820&AwaitingReconsent=false
+.www.crunchyroll.com	TRUE	/	FALSE	1819068667	OptanonConsent	isGpcEnabled=0&datestamp=Sun+Aug+23+2026+19%3A51%3A07+GMT-0500+(Central+Daylight+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&genVendors=V1%3A0%2CV17%3A0%2CV11%3A0%2CV3%3A0%2CV7%3A0%2CV2%3A0%2C&consentId=8b3638f6-bc9d-4205-9157-a096712ea889&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&crTime=1787532448443&AwaitingReconsent=false&fclco=&lastConsentTs=1787532448&intType=1&geolocation=US%3BTX
+sso.crunchyroll.com	FALSE	/	FALSE	1819068666	_dd_s	aid=99bc2298-b130-47d3-861e-d26acf640f6f&rum=2&id=3f7d7fdd-81cf-443f-afc5-a4644913d0aa&created=1787532418734&expire=1787533566543
+.crunchyroll.com	TRUE	/	TRUE	1795308668	_fbp	fb.1.1787532414872.1464963282
+.crunchyroll.com	TRUE	/	FALSE	1822092668	_ga	GA1.1.963852612.1787532415
+.crunchyroll.com	TRUE	/	FALSE	1795308415	_gcl_au	1.1.313269786.1787532415
+.crunchyroll.com	TRUE	/	FALSE	1822092668	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%222d0d4d90-07ae-5312-b78c-b08065c10203%22%2C%22c%22%3A1787532668476%2C%22l%22%3A1787532668477%7D
+.crunchyroll.com	TRUE	/	TRUE	1819068666	c_locale	en-US
+.crunchyroll.com	TRUE	/	TRUE	1822092666	device_id	c51138c5-6b9d-403e-be0b-1b698c2b469b
+.crunchyroll.com	TRUE	/	TRUE	1822092658	etp_rt	7f0c199f-f3aa-4707-b4dd-5923abbbc2ee
+.crunchyroll.com	TRUE	/	FALSE	1819068714	ajs_anonymous_id	1448863a-f677-4283-be5a-8eb3d658fd62
+.crunchyroll.com	TRUE	/	FALSE	1819068714	ajs_user_id	2d0d4d90-07ae-5312-b78c-b08065c10203
+.crunchyroll.com	TRUE	/	TRUE	1822092729	FPID	FPID2.2.hjyYWYwo5rCx7QHtMpBoBKflSkKl%2FKFs6WxnrCdl5rw%3D.1787532415
+www.crunchyroll.com	FALSE	/	FALSE	1819068728	_dd_s	aid=38418d1f-cc8c-4d6f-921c-4d390a014b41&rum=2&id=405ec062-a033-4fc6-94db-28fc3249e264&created=1787532414734&expire=1787533628764
+.crunchyroll.com	TRUE	/	FALSE	1822092729	_ga_METRICID	GS2.1.s1787532414$o1$g1$t1787532729$j59$l0$h851248338

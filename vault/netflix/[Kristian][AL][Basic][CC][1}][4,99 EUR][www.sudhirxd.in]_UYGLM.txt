@@ -1,0 +1,40 @@
+NETFLIX HIT :👇
+
+Name: Kristian
+Email: cristiangajtani@hotmail.com
+Country: AL
+Plan: Basic
+Member Since: March 2024
+Next Billing: November 12, 2026
+Payment: CC
+Phone: +355696976646
+Quality: HD720p
+Streams: 1
+Price: 4,99 EUR
+Email Verified: Yes
+Profiles (3): Kristian, Elly, Kids
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAc5GbHbUoh69SUS4SrZhwxIAEIL+lhGoyUvdG7r94NDWtG2v7LW8uJsyfBl6BsOrUlcp/X8ik5Cd+smcnZOcLNqKvQTgB4+bkTK+uatHIH2uPSQZjYOb9YPRafipg2I6aBJhgTVpWwT0AXoZkaYYLh7MlUGpzWM/9zp9e7PNCNy1YWwywE1py3USXv3IlPWh5xja0GlHOpoPTZ5WLoVKdm7dOAqTHbBt5lxWjAcQ4S27Vhe1+7MExu+XhDur+WmCypaGGAYiDgoMsnDckfylvlJvCh85
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAc5GbHbUoh69SUS4SrZhwxIAEIL+lhGoyUvdG7r94NDWtG2v7LW8uJsyfBl6BsOrUlcp/X8ik5Cd+smcnZOcLNqKvQTgB4+bkTK+uatHIH2uPSQZjYOb9YPRafipg2I6aBJhgTVpWwT0AXoZkaYYLh7MlUGpzWM/9zp9e7PNCNy1YWwywE1py3USXv3IlPWh5xja0GlHOpoPTZ5WLoVKdm7dOAqTHbBt5lxWjAcQ4S27Vhe1+7MExu+XhDur+WmCypaGGAYiDgoMsnDckfylvlJvCh85
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAc5GbHbUoh69SUS4SrZhwxIAEIL+lhGoyUvdG7r94NDWtG2v7LW8uJsyfBl6BsOrUlcp/X8ik5Cd+smcnZOcLNqKvQTgB4+bkTK+uatHIH2uPSQZjYOb9YPRafipg2I6aBJhgTVpWwT0AXoZkaYYLh7MlUGpzWM/9zp9e7PNCNy1YWwywE1py3USXv3IlPWh5xja0GlHOpoPTZ5WLoVKdm7dOAqTHbBt5lxWjAcQ4S27Vhe1+7MExu+XhDur+WmCypaGGAYiDgoMsnDckfylvlJvCh85
+Valid Till (UTC): 2026-10-19 18:46:41 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	TRUE	1795012911	gsid	863d0907-ee17-43c9-8df0-500057d4c3e2
+.netflix.com	TRUE	/	TRUE	1819455547	NetflixId	ct%3DBgjHlOvcAxKEBOojVSISb6L-2RqzR3oG8zErs2To39KMPv_b3ZX2S4S5eGBd-nz7Ucji_hnbuXSO3RH3a4LaPxmWLFq6d_cZ31SQj_xa3TKkuS1a8-Iv0iTxvscr-xczRod1PBAu8vCKczmKmQMJQr6FSvfCTkxqQPfrj27EHFiDjoeDcke7peVtQt2KxWLixxEui_f-uBGJFIrmh3q7pJi1zdQPVemSb1afcJcOU5pCoMCbLy6fUzNcGQ3Z5IkEvI-R_1LF2lGjjsySxHbSC5BtSkkkFpdgiRX61ffWbRXjEIN19GyzY_E53_7L4Re63nOIVOEQwtjl8RtXj0ageLS2YTJYhSXvsCOppIGC75vLHtPy6N1ZQIK3mRcsGKryB73YL4BnyLaGgi2mtL5gMAJcNmSkdv4VoAB1vI_jyGkP5IYpzVJKE_h0nPSgVrcjdzu8A2r6q58SGM7B_YTd4NHo0EMqzbXbLv4jljOyvVIF9qKy9o2YNcTS9bVFcc6cJ-jW30DDospd_gbsSMii23cf3nkXnFpEdhrCvnFYVGHrZG1JKoqN3-IYJoWC7TlqPe3SzAnRQWFWRcKN619L_JwKdtK90mbsvaKGZU-CYarji5JxuT2KwI0tO6_5-S-Cn7a1NVxSQOkhK864kHxBNc4Q4xyc27DUSmCRCM4NRhucBpZeUvHvqvPkUDxtmBgGIg4KDEQn3wKI3_PwFn5MKA..%26ch%3DAQEAEAABABRpdjxiqXq_4D0_WH25f5cmXpi4dS5--r4.%26v%3D3%26pg%3DUTVHIPUYGZCUJLIWNOVMTG3ZQU
+.netflix.com	TRUE	/	FALSE	1795697193	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1795697193	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1806529801	nfvdid	BQFmAAEBEPNyxCUP78G8BcAFFGtjsWRgsGWtORN4qAQYokaWMiN_QmiIckW6sCnf8zcXseABTNRuDwMulJEjTTVp3J0B5OK12KylbE2SCMMp2VBxGe7mLGwEZmK6Bjw18s7LzMUdX-kw3sNCSuCo3z_ltU0fFowg
+.netflix.com	TRUE	/	FALSE	1795012911	OptanonAlertBoxClosed	2025-10-12T23:57:44.731Z
+.netflix.com	TRUE	/	FALSE	1819457195	OptanonConsent	isGpcEnabled=0&datestamp=Fri+Aug+28+2026+14%3A46%3A35+GMT%2B0200+(Central+European+Summer+Time)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=57eaf774-7ef9-4715-b9d7-df2660648cf1&interactionCount=3&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=IT%3B21&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	FALSE	1795697193	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D
+.netflix.com	TRUE	/	FALSE	1795012911	profilesNewSession	0
+.netflix.com	TRUE	/	TRUE	1819455547	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQalq65pB4mKiwTaCsWDVRsTRleQ8ln80k.%26dt%3D1787919548824

@@ -1,0 +1,27 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Gandu
+  Name        : Movies
+  Region      : CA 🇨🇦
+  Customer ID : A1GW22Z026OQR9
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.www.primevideo.com	TRUE	/	TRUE	1794850349	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=268E36B98EE644FB82437C943D895966"
+.primevideo.com	TRUE	/	FALSE	1801013607	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1801013607	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1801013607	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1801013607	ubid-main-av	131-8605232-3606310
+.primevideo.com	TRUE	/	TRUE	1818451154	sst-main-av	Sst1|PQIk63AMmC44S-oibwycC15DB6eSFiXRazRQcJ4kqw3b9Lci1_cPJdkruyr18CsDz1iVfPrO7gHt4mb1Vg04eQ0gPpy9cWbhdSlL0yVB1mtWDUyyQz82foEfGWjlleaEYo8e2Ej5jut-MJjVq632cesy8jSAxCbnIg-5o5B2yFEPDsa9p5muvxFLYH6EkJFot35GEwNi1_3Y2Nk_CsYFas2ViI9NSVHFgwJfnT2Jaa3FAi5Kga7w8jWA2GItdaiqzyMn
+.primevideo.com	TRUE	/	TRUE	1818462781	at-main-av	Atza|gQBxvrxoAwEBALNOkVGKWbOe199fISF14CDb985giDvLKK4Qzpo10XInmqoc0lY1m-pIk08ndGyCYE09z7rUv84P_-bBSRMBrAO-Kt6xSX1e5z6zt6l0vYRElu4pWx-P26DSqG_eUeYFOQgWKwlw-WP7Cl-Vt2MFbeeGuobPL4QyewoPjdvIvR4q_3qBxJvRLdeYunJkvRi2xsiMCLgeK0H8gH2zDBnZsjnVqzGA-4ZUHbbzG2iHsJrb0O6Yy9uhDIXGhKE-MdG87XTr9x7aYqpW8loHGVEskq0xx9ET48cUs84u0oUBY3vsDMpKvZ6O2KxIzahXwCuDCn4uzXbcDeLZJ_g5NTk52lQBXPJWPObzsimJLofrNnlMadePSRGi_KP9qEzQfV5orEaJibpa9Xr7mbd6bypd706tlEfAD-D9RMGUamQwsvPkPBBYbFBWwJhzkn48qMuDOBqiweal_xEB6c4jY85fgTruZlu58FIU-U3Mv-upCMPANshBwfp_3AGiNLlEWj37M_kiWddeEPu_Y-ZdsY3JiX1ArlbglH2XkJLGtQeKWBx47W_nF05y-RtRHYlVySH5-KU3YeaUyp25Ukiw2M_jrlj25YRBOAihSoaIbT9qvZzEXQ
+.primevideo.com	TRUE	/	TRUE	1818462781	sess-at-main-av	9M/+5qQighkFIrZnLyWoa8RKC1f4csg0Au/JV6tk0Os=
+.primevideo.com	TRUE	/	TRUE	1790469187	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTYxUFIxMTUxQVpSSyZ0aW1lc3RhbXA9MTc4Nzg3NzE4ODYwOSZ2ZXJzaW9uPXYx.g0zBMwtHtLSAZwqzfhNFjEoUz-RvhagjYf0b-KX92COLAAAAAQAAAABqkNdEcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+www.primevideo.com	FALSE	/	FALSE	1818117193	csm-hit	tb:GTE34ZT2WR8J0CN43176+s-GTE34ZT2WR8J0CN43176|1787877193751&t:1787877193751&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1822441403	session-id	145-4187200-2514846
+.primevideo.com	TRUE	/	TRUE	1819417403	session-token	"HROCSTEGARhiwEClDAwOcotVRSzUKJnm3Hi/s5vY1owfzkJ+7a/IUKx8/IRslripRoH0R3yzd+MjC3TXQWJNIrsV9tL5VdPDDFPh9xsnNVfeoX09dVtR1MqE73i8IWT/+EY6ulPSGSkilhxO6UOkO33IyVSZmUsDoOw4FVRlJOSa70dpNLSEmQTqsrv9zuPXgd0pPqvn++yIJWmrTJIUofvMJtmwU7DTEQUaavBoKRUjUD4T7MPEDtnshb1wJfmFqizUtqhl34xH0ZjJkp0Xw3bRlQ7UIlQxlZEtjfuSrMUOZjNvsy/kSA=="
+.primevideo.com	TRUE	/	FALSE	1819417932	av-timezone	America/Halifax

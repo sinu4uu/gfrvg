@@ -1,0 +1,18 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : lgdoctor.8
+Email         : lgdoctor.8@gmail.com
+Country       : PH
+Plan          : Spotify Premium 🎵
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	TRUE	/	TRUE	1795012911	sp_dc	AQB8RW74ShdoU1saipTFYdoPQF7Qvib7DxQk19HqRP7pK9b6bHkInFjVh1Vpl4PFWqXjaN4rS_FKeau_SK9u2UapQG_dDFgeFiwMcCKBb8GrOtvCd-SCXqKyG0_nKPcutdVzpFsT54G8M98u2wnYytLtUgqmtPj_NF8N1bjT0MI4oqKzuHLOzEkp0uquE--wZxZz2HVCQQQKBFgm1Q
+.spotify.com	FALSE	/	TRUE	1795012911	sp_key	7b00f42a-7a19-4552-81c4-33d3be2f7e60
+.spotify.com	FALSE	/	TRUE	1795012911	sp_gaid	0088fca8974f7d8f80eb02826464a2bc5c75e68eacee17cf6cfb1f
+.spotify.com	FALSE	/	TRUE	1795012911	sp_t	23693b143df98affaba918fef1e684ef

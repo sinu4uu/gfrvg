@@ -1,0 +1,28 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : macacrow70
+Email         : macacrow70@gmail.com
+Country       : RO
+Plan          : Spotify Premium 🎵
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	TRUE	/	FALSE	1795012911	OptanonAlertBoxClosed	2025-07-18T18:55:08.472Z
+.spotify.com	TRUE	/	FALSE	1795012911	eupubconsent-v2	CQUvesgQUvesgAcABBENB0FgAP_AAAAAAAYgJnABxC4URAFAaSowAJIgMAAUAABAQAAQAAIBAAABCBgEQAQAkAAgBACABAACGAAAIAAAAAAACAAAAEAAAIAAJADAAAAEIAAAIAAAABAAAAAAAAAgEAAAAAAAgAAEAABAiAAAAJIAEEAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAQAAQCgAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAQAAAFBICgACwAKgAeABBADIANAAeAB-AGUAOeAdwB3gD4AH4ASUA4gB7QEOgLYAXYAvMCZwQAKACQAI4AnAErAMWHQFgAFgAVABBADIANAAeAB-AE4AMoAc8A7gDvAHwAPwAiwBJQDiAHtAQ6AtgBdgC8wGWATOHABwALgAkACOAQgBKwDFgGTEIAoACwBzwDuAO8BdgEziUAoABYAPAB3gD8AQ6AtgBdgC8wGWATOJABQALgBHAHcAlYBixSAkAAsACoAIIAZABoADwAPwAygBzgDvAH4ARYAkoB7QEOgLYAXmAywCZxQAQABcAEgARwBOADuAO2AxYBkxaACAO4.f_gAAAAAAAAA
+.spotify.com	TRUE	/	TRUE	1795012911	sp_m	ro-ro
+.spotify.com	TRUE	/	FALSE	1795012911	OptanonConsent	isGpcEnabled=0&datestamp=Fri+Jul+18+2025+21%3A56%3A01+GMT%2B0300+(Eastern+European+Summer+Time)&version=202411.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=67f0f444-3d4b-43b3-b79b-8e13874d9355&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Cf11%3A1%2Ci00%3A1%2CV2STACK3%3A1%2CV2STACK11%3A1%2CV2STACK20%3A1%2Cm03%3A1&intType=1&geolocation=RO%3BCT&AwaitingReconsent=false
+.spotify.com	TRUE	/	FALSE	1795012911	_ga_BMC5VGR8YS	GS2.2.s1752864908$o1$g1$t1752864961$j7$l0$h0
+.spotify.com	TRUE	/	FALSE	1795012911	_ga_ZWG1NSHWD8	GS2.1.s1752864908$o1$g1$t1752864961$j7$l0$h0
+.spotify.com	TRUE	/	TRUE	1795012911	sp_adid	1e5a6c20-7399-44cc-9d6d-198a61a1ed67
+.spotify.com	TRUE	/	TRUE	1795012911	sp_t	75910fc4b86a1c07ff2bf3032e98f1e5
+.spotify.com	TRUE	/	FALSE	1799265823	_ga	GA1.1.944322073.1752864909
+.spotify.com	TRUE	/	FALSE	1799265830	_ga_S35RN5WNT2	GS2.1.s1764705823$o2$g1$t1764705830$j53$l0$h0
+.spotify.com	TRUE	/	TRUE	1796241845	sp_dc	AQDX2x-LjUwpR2GqfQX6x5KqpsHNrHDSyjdBf9TI-Zep2zR8ND181jLVfCA7bSm3LWXn0co7dPrG73pSw6x_c-UXBYQNcFMdFl9f-pyxQSljZe-kt2wUywOe7jsrh7doGvMHbO8dG5gOy3I2rTMNhNsUnyRi1I8uQqOppSlw3Uud1ELavqK0q8Ey3Mfp_pncvsdMv7XA7YLjOLtN-jE
+.spotify.com	TRUE	/	TRUE	1796241845	sp_key	daadc861-8f52-4a6a-afb1-5f41c1cefe34
+.spotify.com	TRUE	/	TRUE	1795012911	sp_landing	https%3A%2F%2Fchallenge.spotify.com%2Fc%2F981fa8f5-6c7b-4336-b480-f70f87b547b5-1%2F1ae15fbb-6cc7-4ba5-a99d-308d4d932223%2Femail
+.spotify.com	TRUE	/	TRUE	1795012911	sp_landingref	https%3A%2F%2Faccounts.spotify.com%2F

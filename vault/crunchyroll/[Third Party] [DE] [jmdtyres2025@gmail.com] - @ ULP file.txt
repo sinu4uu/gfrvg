@@ -1,0 +1,36 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: jmdtyres2025@gmail.com
+– Username: Jmdtyres
+– Subscription: Third Party
+– Country: DE
+– Payment: 
+- Cookies: @ U L P f i l e
+
+.crunchyroll.com	TRUE	/	FALSE	1821527515	_clck	ltaruq%5E2%5Eg9n%5E0%5E2455
+.crunchyroll.com	TRUE	/	FALSE	1823687517	_uetvid	d7291aa0b5b211f1b95333ad15b5021b
+www.crunchyroll.com	FALSE	/	FALSE	1821527516	anonymous_antiphishing_warning	1789991516231
+.crunchyroll.com	TRUE	/	TRUE	1824551549	etp_rt	71a48c25-7151-4673-aab0-3d3cc9ddbaeb
+.sso.crunchyroll.com	TRUE	/	FALSE	1821527549	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Sep+21+2026+17%3A22%3A29+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=2a55d390-3c83-4adc-ad0a-e7b6c6f28f9f&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fsso.crunchyroll.com%2Flogin&groups=C0001%3A1%2CC0002%3A0&crTime=1789991549608
+.www.crunchyroll.com	TRUE	/	FALSE	1822049514	OptanonAlertBoxClosed	2026-09-27T12:51:54.625Z
+.crunchyroll.com	TRUE	/	TRUE	1798289515	FPAU	1.1.527523518.1790513515
+.crunchyroll.com	TRUE	/	FALSE	1798289515	_gcl_au	1.1.527523518.1790513515
+.crunchyroll.com	TRUE	/	TRUE	1825429142	FPID	FPID2.2.ykKyQQX3twqaasmq9BtbO2N39vu0hTxaJyoPmIcCqwQ%3D.1790513515
+.crunchyroll.com	TRUE	/	TRUE	1798645142	_fbp	fb.1.1790677488311.1707468461
+.crunchyroll.com	TRUE	/	FALSE	1825429139	_ga	GA1.1.82878833.1790513515
+.www.crunchyroll.com	TRUE	/	FALSE	1822405138	OptanonConsent	isGpcEnabled=0&datestamp=Thu+Oct+01+2026+21%3A08%3A58+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=799c4b8b-51be-4867-9151-a2fb80425656&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&crTime=1790513515527&AwaitingReconsent=false&fclco=&lastConsentTs=1790513514&intType=1&geolocation=IN%3BBR
+.crunchyroll.com	TRUE	/	TRUE	1798645142	_gtmeec	e30%3D
+.crunchyroll.com	TRUE	/	FALSE	1825429141	_ga_METRICID	GS2.1.s1790869139$o8$g0$t1790869141$j58$l0$h952527787
+.crunchyroll.com	TRUE	/	FALSE	1825429141	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22fa7b3822-028b-389b-f77b-df02a6e9492c%22%2C%22c%22%3A1790869141584%2C%22l%22%3A1790869141584%7D
+.crunchyroll.com	TRUE	/	FALSE	1825429141	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22d52f9b84-ffcb-54f9-a1a7-10774b769755%22%2C%22c%22%3A1790869141581%2C%22l%22%3A1790869141583%7D
+.crunchyroll.com	TRUE	/	TRUE	1822405138	c_locale	en-US
+.crunchyroll.com	TRUE	/	FALSE	1825429141	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%2201290683-5d1a-c3d8-9df9-2c576cb69b68%22%2C%22e%22%3A1790870941588%2C%22c%22%3A1790869141583%2C%22l%22%3A1790869141588%7D
+www.crunchyroll.com	FALSE	/	FALSE	1822413027	bitmovin_analytics_uuid	79bf3ea7-d5b9-468f-8526-a8c02f0ae16f
+.crunchyroll.com	TRUE	/	TRUE	1822405137	cf_clearance	0gWWb.45ULPXROmK.6Ln9Ya.xUep2rDzmyncMeBQQE8-1790869137-1.2.1.1-vQzZWwsg.icsietSeK0DkxIBCtUWJJyHdmkjW6naQ.osMG3VzgiXZyff6vKlhcPWgVkIqsGeerrW8.BXTyKs0XpFSy6JyykelVv9rlG9XPegQv0YLObZ4AJHQRoaJI.LVm.NukNEw2VnFtK3GoPfj4YI.KTKRP_n.oJ7pbgZstx4gqc36Zugb1CpPmhKZVB2HBm.Nd2C5JoeWuFQA4kupQE3sGIW2L89Cn0zzOlHF6F0GkF2c4lyLJm.FXAQqYrxTWMw8Dy.zlktCCFmdfnbYxOxBRg75_JaDjT8nTMGXoA.PJ60ls3e6KutFaplH5iv3xnoDDW7zTVq7oZdqROihMuImK0kNPir7E3w0AAz7u8
+.crunchyroll.com	TRUE	/	TRUE	1825440828	device_id	a878327a-5dd1-4cab-a6db-8d471927970d
+.crunchyroll.com	TRUE	/	FALSE	1822416872	ajs_anonymous_id	f678b0a3-8272-413e-83b2-4d7367f2bc37
+.crunchyroll.com	TRUE	/	FALSE	1822416872	ajs_user_id	d52f9b84-ffcb-54f9-a1a7-10774b769755
+www.crunchyroll.com	FALSE	/	FALSE	1822416872	muxData	=undefined&mux_viewer_id=36888e09-6a88-4ded-84a9-c363c3cfc346&msn=0.10817303579116377&sid=f4ec516e-6cd3-4bf2-8027-93bcf896cf34&sst=1790877028148&sex=1790882373145
+www.crunchyroll.com	FALSE	/	FALSE	1823212122	_dd_s	isExpired=1&aid=3ae07747-c30f-4e90-a1cd-506fca429d18

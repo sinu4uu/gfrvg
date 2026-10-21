@@ -1,0 +1,26 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: 
+– Username: My Profile
+– Subscription: FREE
+– Country: DE
+– Payment: 
+- Cookies: @ U L P f i l e
+
+.www.crunchyroll.com	TRUE	/	FALSE	1817119473	OptanonAlertBoxClosed	2026-08-01T11:24:33.434Z
+.crunchyroll.com	TRUE	/	FALSE	1817119458	_clck	cperco%5E2%5Eg88%5E0%5E2404
+.sso.crunchyroll.com	TRUE	/	FALSE	1817119570	OptanonAlertBoxClosed	2026-08-01T11:26:10.427Z
+.sso.crunchyroll.com	TRUE	/	FALSE	1817121708	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Aug+01+2026+17%3A31%3A48+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=639862e1-fe3f-4583-a018-ad3e41c8237a&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1&crTime=1785583571555&AwaitingReconsent=false&fclco=&lastConsentTs=1785583570&intType=1&geolocation=IN%3BHP
+.www.crunchyroll.com	TRUE	/	FALSE	1817121789	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Aug+01+2026+17%3A33%3A09+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=3a7c436f-eb7f-403a-8b32-4e9bafbe2f17&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&fclco=&lastConsentTs=1785583473&intType=2&crTime=1785583474315&geolocation=IN%3BHP&AwaitingReconsent=false
+sso.crunchyroll.com	FALSE	/	FALSE	1817121782	_dd_s	aid=e9804774-3056-4399-9b95-840d379c2ee5&rum=2&id=4d584d57-cf42-4b9a-b2dd-79aecdb10308&created=1785585708720&expire=1785586682235
+.crunchyroll.com	TRUE	/	FALSE	1817121786	c_locale	en-US
+.crunchyroll.com	TRUE	/	TRUE	1820145791	device_id	d1357e5e-67bd-418c-9d9f-79be1c504974
+.crunchyroll.com	TRUE	/	TRUE	1820145784	etp_rt	1084ba1b-dca5-4173-9cdb-4a80f469508d
+.www.crunchyroll.com	TRUE	/	TRUE	1817121800	__stripe_mid	956923cd-8ed5-41b9-835a-bae9594b1e1e176348
+.crunchyroll.com	TRUE	/	FALSE	1819281804	_uetvid	88ecefe08d9b11f189b29bb1f21fef0a
+.crunchyroll.com	TRUE	/	FALSE	1817121803	ajs_anonymous_id	8270ceaa-c302-4be0-85fc-06d4d3514f16
+.crunchyroll.com	TRUE	/	FALSE	1817121803	ajs_user_id	56ac1fa4-5420-5b2a-8919-0de46e96ad6c
+www.crunchyroll.com	FALSE	/	FALSE	1817121786	anonymous_antiphishing_warning	1785583476214
+.crunchyroll.com	TRUE	/	TRUE	1818515725	cf_clearance	BUAAGIMuyd9.z989pykwmcuSN0Muwh79i5PLqTV8oog-1786979733-1.2.1.1-DD75jPLVyI31SvuaekO1Q7LR1NMCQA1mMsjzVWgJY3F6_jL75TdU4PiXrk5vTajuKp8PJb7Lp0GLausjYU332Clpz_3VIp4iiRNheZQZ3glkKzJVxE9WmAYJUYQtKRzx3Jt2KiKLt9.Utq6AQetyCQDykV8R3NALbDfZ9zNKZpsbleuuaeGhECFlVt9wf3sHezCOaP3D9MQlHiT5r_GOMLV2WSuVXJM1A96l2CbZI3FYiwSpNSVvlf3BvLWZ.mxTpT4HvRLG0VjkTTX3.F_S2NULfrJXUyj79hDDDGI7zU9Fe4P6yLitkX2QfS5gjP1a3IPuwifvU.rmjMTmeDjzyrBWYVJYaIquDbbRj2aJ3Yo

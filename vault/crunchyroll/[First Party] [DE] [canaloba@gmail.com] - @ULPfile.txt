@@ -1,0 +1,38 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: canaloba@gmail.com
+– Username: Hugo Jungers
+– Subscription: First Party
+– Country: DE
+– Payment: 525.***.***-03
+- Cookies: @ U L P f i l e
+
+.sso.crunchyroll.com	TRUE	/	FALSE	1807831886	OptanonAlertBoxClosed	2026-04-15T23:31:26.906Z
+www.crunchyroll.com	FALSE	/	FALSE	1807834158	anonymous_antiphishing_warning	1776295815944
+.www.crunchyroll.com	TRUE	/	FALSE	1807834302	OptanonAlertBoxClosed	2026-04-16T00:11:42.515Z
+.sso.crunchyroll.com	TRUE	/	FALSE	1816549731	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Jul+25+2026+18%3A08%3A51+GMT-0300+(Hora+padr%C3%A3o+de+Bras%C3%ADlia)&version=202606.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=a6ae30ef-99c9-4440-b903-b76165c18997&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1&intType=1&crTime=1776295887390&geolocation=BR%3BSP&AwaitingReconsent=false&isDntEnabled=0&prevHadToken=0
+sso.crunchyroll.com	FALSE	/	FALSE	1816549733	_dd_s	aid=9ee55c68-0417-4618-80c3-558a85b30535&rum=2&id=77d82996-f2c5-478b-919c-3b3dbf4d601c&created=1785013731334&expire=1785014633483
+.crunchyroll.com	TRUE	/	TRUE	1819573736	etp_rt	17916323-664d-4e90-a5cb-57299093bcb7
+www.crunchyroll.com	FALSE	/	FALSE	1820937374	bitmovin_analytics_uuid	356eb226-27f1-4d5d-bfa2-b861bc29b9ba
+www.crunchyroll.com	FALSE	/	FALSE	1820939189	muxData	=undefined&mux_viewer_id=a0a85145-c793-4446-b678-45ee93a31277&msn=0.02175487468634052&sid=f6489a55-f9fd-4477-8b67-9c52a0a21ef4&sst=1789401374452&sex=1789404689450
+.crunchyroll.com	TRUE	/	TRUE	1790203776	FPLC	aahJ8m7Hp3xQ9rKGXnoz3gUctf84IQ%2FC5wqw0uOygcgfVvll1F4J7dRGTE%2BNb5YdP7WwPey1Qo13JPC%2BydiSCVMDs3iU7lEG4aPviBHXMz32lAP8zybADOH3fh8zJA%3D%3D
+.crunchyroll.com	TRUE	/	TRUE	1791851626	FPAU	1.1.1655563890.1784075628
+.crunchyroll.com	TRUE	/	TRUE	1824692029	FPID	FPID2.2.whd5zg0IfAmk9pBubQcF2XiaQEjQQdatkHGlcae6l4I%3D.1776298303
+.www.crunchyroll.com	TRUE	/	FALSE	1821668020	OptanonConsent	isGpcEnabled=0&datestamp=Tue+Sep+22+2026+23%3A53%3A40+GMT-0300+(Hora+padr%C3%A3o+de+Bras%C3%ADlia)&version=202606.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9837bd72-3766-48e3-958f-cb8076b15192&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&crTime=1776298303031&AwaitingReconsent=false&intType=1&geolocation=BR%3BSP&isDntEnabled=0&prevHadToken=0
+.crunchyroll.com	TRUE	/	TRUE	1790133818	__cf_bm	k64FTXImHZgZIXq8OI4dpTsxSKrp0Tc0GfcHEHRFv3I-1790132019.435725-1.0.1.1-WpngVeqyHUFOSJWJQEZz19knDVFlbHJmMVUrecxwKMt4zHSquVDi2vELtWcBjbJZtsmlgbc8G.1MP9t7iSqlV44k0G3HXu9FsJaNpIGzQI2wV9iPxra42_.4VLOd9QGe.l17Pddb54jlGHPpmqzvGQ
+www.crunchyroll.com	FALSE	/	FALSE	1821668026	_dd_s	aid=6de32735-2acc-46d8-acde-628d8ecc83a7&rum=0&expire=1790132926973
+.crunchyroll.com	TRUE	/	TRUE	1797908023	_fbp	fb.1.1776298387488.1647832263
+.crunchyroll.com	TRUE	/	FALSE	1824692022	_ga	GA1.1.1235658583.1776298303
+.crunchyroll.com	TRUE	/	FALSE	1824692029	_ga_METRICID	GS2.1.s1790131775$o52$g1$t1790132028$j18$l0$h544569944
+.crunchyroll.com	TRUE	/	FALSE	1791851628	_gcl_au	1.1.1655563890.1784075628
+.crunchyroll.com	TRUE	/	TRUE	1797908023	_gtmeec	e30%3D
+.crunchyroll.com	TRUE	/	FALSE	1824692020	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%2247c75a72-bfa6-b26f-c0af-c7b14a47a03b%22%2C%22c%22%3A1790132020304%2C%22l%22%3A1790132020304%7D
+.crunchyroll.com	TRUE	/	FALSE	1824692020	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%2241f1f3d0-67ce-76ab-8d91-e3ecdb62ae5a%22%2C%22e%22%3A1790133820307%2C%22c%22%3A1790132020302%2C%22l%22%3A1790132020307%7D
+.crunchyroll.com	TRUE	/	FALSE	1824692020	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%2279329c68-fb38-595a-8931-2bca5b5de7c2%22%2C%22c%22%3A1790132020300%2C%22l%22%3A1790132020303%7D
+.crunchyroll.com	TRUE	/	FALSE	1821668025	ajs_anonymous_id	e8a2d2b5-97a0-4e9b-9879-1ad6f2ffdafb
+.crunchyroll.com	TRUE	/	FALSE	1821668025	ajs_user_id	79329c68-fb38-595a-8931-2bca5b5de7c2
+.crunchyroll.com	TRUE	/	TRUE	1821668018	c_locale	pt-BR
+.crunchyroll.com	TRUE	/	TRUE	1824692018	device_id	66513d21-4e79-4e9a-8f27-d2082a849ba4
+.crunchyroll.com	TRUE	/	TRUE	1821668018	cf_clearance	7DQmhAXKL1.CZIGy3csKewZB9QbjUPDrQE.P90snIeU-1790132019-1.2.1.1-iIe78FZyeer6DG1tQgWarYF5YVWtjMw0.hc5gQPwKEcPtKiCDRSeJXQW.c3xZyv0eGtIBoJ043mSpns0loLQHnSsAHxOMnGLCmzX5qLFq6JxY1T.wE3Sw1XdLibrC5RVkX7jWuW8i2O5Dg65cqu5.kmN2KF3Bil_ziKDXA1Lwz08T5OmBqHQ_gMxBaclQmaCbqu.QQ_tXXljEIFMAGNBcCJ0bylxPzYziyAo_5putQQmeRLfEVTH5Prg1IQYr.8P6MzNTEK3qICMgSvqxXPyNhT4pLXWy9IPb0lzlKSOZCnHbei6Ix_nNtgjPL8FhjKoKrcQijL5IsJKy.FvrG_R.REIGWwX2jA26axhnVNMBos

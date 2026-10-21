@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : cristhofer escalona
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A20CS1DKGMUKDT
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.www.primevideo.com	TRUE	/	TRUE	1805699332	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=CD729B1AC4B841A682747F0A054360C5"
+.primevideo.com	TRUE	/	TRUE	1805699512	at-main-av	"Atza|gQDPGAswAwEBAFj6NNYYa0PvlpmzkyFmSxEtTvzmB0GiJm8Z3NTgSB93bMjfv4LPd1ruk7Wgy4qCCQfd-FN_3BdrZgx95J4hvPqfxtCLvEpXytGV1rIesusuMEyQuGEdMhD8cVqJdFJzqrTcYsYoIfX_44MXnqQvAiN3OvKhR-lEQkGrS6LSSyrNhljQstpanNF8N5wQlk19bomiqRRZ80SzzQy_14PACS5pcl1JnnIPZ2ek_5-twjMafe-vSnGmWj4DhnmCNvfu9oXRC7udCFDlpv49ImzBUwezW9J4RV9b2WduSApHXd-30nuwQOTsFzdwRDrkmvLwBumhWXY8zMBJGXUPa4nMAOGRFCAF9HiWOgs8Eg4XJVLG_lAP0F729jUjVLvIWX33ufaV4BJzuIJQ90Ow4kyeuFjHNYYbUIDPbfZA8GG3WJi90hXUkiEPXtGCUqsbwbJO8zxLVWPrhtu4jCQgk438JZRwhJQvWF0OZEKtvvVtY8sqibLu6K4iWgoJ1w"
+.primevideo.com	TRUE	/	FALSE	1805699512	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1805699512	lc-main-av	es_419
+.primevideo.com	TRUE	/	TRUE	1805699512	sess-at-main-av	"v95KgxK3dOn1CuzjscmQwWXvk6DHm/c8tHaPCV7Ayh8="
+.primevideo.com	TRUE	/	TRUE	1805699512	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1805699512	ubid-main-av	133-5582854-3379750
+.primevideo.com	TRUE	/	FALSE	1806775301	av-timezone	America/Bogota
+www.primevideo.com	FALSE	/	FALSE	1805479299	csm-hit	tb:s-6RSVSM9W04AM6NQSCA4Q|1775239297609&t:1775239299730&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1809799297	session-id	147-2753874-0918468
+.primevideo.com	TRUE	/	TRUE	1806775297	session-token	"i07mbOIxKhXi+VELkF7DwdK+hLjUoLFOvm5hSIO4aRkYGrSvg1g35R4Xg1riaiku5r3l3u/tSYGSKCbj7s8VZX714KD6hqbvlhi4aGehjHOznB/xclP/PiR2jQCpwLinjN+M+6V0cJmVcegDZoklemK10YYcf5hOvW6oGi5bUQ/qm8i+shk+G6sQOiify48WREuMdCQ6mPxINMtWrsQhtEB2VZ7uX/XbXbWlCV5RKTXRbVtDqknGPoHfxUMbymeTHVDAxTze0NQ="
+.primevideo.com	TRUE	/	TRUE	1806775297	x-main-av	"1ks2piW9QCt2QgMD4cdlEyOeSlBrUQd9K0AB3rVaKSuyoaaoIXK6S?I40QndH2xo"

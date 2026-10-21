@@ -1,0 +1,27 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : theregodonte
+Email         : theregodonte@gmail.com
+Country       : US
+Plan          : Spotify Premium 🎵
+Next Billing  : 26 Days | 14 Nov 2026
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	FALSE	/	TRUE	1795015285	sp_landing	https%3A%2F%2Fopen.spotify.com%2F
+.spotify.com	FALSE	/	TRUE	1795015285	sp_landingref	https%3A%2F%2Fwww.google.com%2F
+.spotify.com	FALSE	/	TRUE	1795015285	sp_new	1
+.spotify.com	FALSE	/	TRUE	1795015285	sp_dc	AQCbLdhpURc7ml6AKwfX_qE3EM7ilTy-5wBruv6sCi31ZaollWsrjzDshGugFRjxT7Ykq2HXzvFUAr_im5xmXHjvRu4QN0YTW0MFzJlNi1h-Bc9OL2AWc89MLK4nCt-qgqUAS3eDz1FAHmoDsYfCNL79F1fgZNTKDe78JC-ZTf3658EUHQT5lhJcS7O8FftOuHETQ0uEphn1VRJKrA
+.spotify.com	FALSE	/	TRUE	1795015285	sp_gaid	0088fc27c165185bd5d5af8e92fe5c68b89fd168048676c752d909
+.spotify.com	FALSE	/	TRUE	1795015285	sp_key	d6543efc-96df-4a87-b332-797c6141476a
+.spotify.com	FALSE	/	FALSE	1795015285	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Oct+10+2026+00%3A47%3A11+GMT-0500+(Central+Daylight+Time)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=https%3A%2F%2Fopen.spotify.com%2F&groups=BG169%3A1%2Ct00%3A1%2Ct02%3A1%2Ci00%3A1%2CBG231%3A1%2Cs00%3A1%2Cf00%3A1%2Cm00%3A1%2Cf11%3A1
+.spotify.com	FALSE	/	TRUE	1795015285	sp_t	7f75c68b-8473-4d8d-b66a-aa17beccee40
+.spotify.com	FALSE	/	FALSE	1795015285	_ga	GA1.2.1764760833.1791592760
+.spotify.com	FALSE	/	FALSE	1795015285	_ga_BMC5VGR8YS	GS2.2.s1791611231$o4$g1$t1791612207$j60$l0$h0
+.spotify.com	FALSE	/	FALSE	1795015285	_gid	GA1.2.593541838.1791592760
+.spotify.com	FALSE	/	FALSE	1795015285	_ga_ZWG1NSHWD8	GS2.1.s1791614365$o5$g0$t1791614365$j60$l0$h0

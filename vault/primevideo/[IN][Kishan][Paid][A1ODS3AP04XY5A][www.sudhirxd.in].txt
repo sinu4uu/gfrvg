@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Kishan
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1ODS3AP04XY5A
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1794843136	at-main-av	Atza|gQAndpbuAwEBApsCt-18etHo7SLD6SGh9e6YtuLpclqUc07DSuAlfXZf0t_81wkIDj3-QNDnlnGBJ8TmOxveatpBt4FE-Ku156BsDwrj8El2q70PJDp6dcXtQifS2--kwfjMgdS8KjobUsGVo4lBp21NNVny73c7Jvxpa2Z6Km604zbm53X_ZXQG3BedJOARA2ia8LxZRcDBeWg245bpkNBN0t4zvQ0OKAqpaGVHUthUCR1z20RMWdlIdRc3Tpq-gmJM6AHu-zZUyVFV9qLODy99EJ2B3AYv3VQZDlNULlPIQJGXGKRRzX5c4R41pfSSnp5dM8Sp1EGyXKQfaf9xDOS_3wxNt1LygPbJ8haCFBrKl0jTGVTuXENZi8KoFACBdWQ
+.primevideo.com	TRUE	/	FALSE	1794843136	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1794843136	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1794843136	sess-at-main-av	7xiPbDgEdte9M0e8Oy7IuTs7LAGCLd2tfK/IFGwxTOw=
+.primevideo.com	TRUE	/	TRUE	1794843136	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1794843136	ubid-main-av	257-9606632-8279563
+www.primevideo.com	FALSE	/	FALSE	1800112099	csm-hit	tb:7CP1S5W9GP7TBF13N34W+s-7CP1S5W9GP7TBF13N34W|1769872099123&t:1769872099123&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1801408417	session-token	"Xj/ZkYt9ojin7T6qYHKbeByzdjyf7UJTDXOQf8R8W5/hooPQCMrm3GcYktcR3xbYEIhUs2l5fsYaT/3MvkN8snxObfihWm9SQVUWkl0qethbuOCx0W2WTNiNpJiJ10rOrTNftTZcCgccU0m8CQWweZilaIOsOTjllflVSgOViOtPY9AqU61trreBPY5IlcELF2FTtps+RYsMDB8++BPXH9/kZ4TRhPFEpOcGd46xpuOJ6kbDu1t14QmSWHkhQyYRA8nZuWPFUAWKjZeaN1hQ+lu5D6SYM5UY17PQ+1w3SS6bg8y71apNmqycS3ZTS8jVwdda6S6S4h8vP1CZ0UDrPEVIHL50rzeFX77PFe41/mt6osS8Xi4XXICCbdYhZXrljE+OXrdHvBs="
+.primevideo.com	TRUE	/	TRUE	1801408417	x-main-av	izEenjiO0tCUiII8RUYlOiNrOrcmKOb76z8N18o42lGuB2483ofDy2kVl1OV2JCt
+.primevideo.com	TRUE	/	FALSE	1801408615	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1804432614	session-id	260-7923235-0607556

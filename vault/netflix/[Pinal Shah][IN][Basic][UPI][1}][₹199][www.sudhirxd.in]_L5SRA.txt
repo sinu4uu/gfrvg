@@ -1,0 +1,38 @@
+NETFLIX HIT :👇
+
+Name: Pinal Shah
+Email: info@bhuvneshwari.co.in
+Country: IN
+Plan: Basic
+Member Since: March 2025
+Next Billing: November 8, 2026
+Payment: UPI
+Phone: +918485949015
+Quality: HD720p
+Streams: 1
+Price: ₹199
+Email Verified: Yes
+Profiles (2): Pinal Shah, Pinal phone
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAWwRr1RbdrFRhDdmdo++Y0kTOoGDAgRSmSQD/oc+c8g25KoiseDqyH+Nh1eZjbfah70yiYup3oknQM0EvRLLXRxe/21vNuJa9ax+ThFD4RihYiNRY9k5rm1MMfrocrim7Tmlq1JxtB8MBJG4FEnq7IRgaZIkTkgGyfcGKgm5gskt+6URt2Yx0D9eCuS4tZaAQhcw6xtNoH0I9qKC2Uut+ofIF9l+Rmm9x4ou3g+A2sQz28Inzfk43inaaHw0EhF0Dw5fGAYiDgoMv8g+mzZnQSZEPH+E
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAWwRr1RbdrFRhDdmdo++Y0kTOoGDAgRSmSQD/oc+c8g25KoiseDqyH+Nh1eZjbfah70yiYup3oknQM0EvRLLXRxe/21vNuJa9ax+ThFD4RihYiNRY9k5rm1MMfrocrim7Tmlq1JxtB8MBJG4FEnq7IRgaZIkTkgGyfcGKgm5gskt+6URt2Yx0D9eCuS4tZaAQhcw6xtNoH0I9qKC2Uut+ofIF9l+Rmm9x4ou3g+A2sQz28Inzfk43inaaHw0EhF0Dw5fGAYiDgoMv8g+mzZnQSZEPH+E
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAWwRr1RbdrFRhDdmdo++Y0kTOoGDAgRSmSQD/oc+c8g25KoiseDqyH+Nh1eZjbfah70yiYup3oknQM0EvRLLXRxe/21vNuJa9ax+ThFD4RihYiNRY9k5rm1MMfrocrim7Tmlq1JxtB8MBJG4FEnq7IRgaZIkTkgGyfcGKgm5gskt+6URt2Yx0D9eCuS4tZaAQhcw6xtNoH0I9qKC2Uut+ofIF9l+Rmm9x4ou3g+A2sQz28Inzfk43inaaHw0EhF0Dw5fGAYiDgoMv8g+mzZnQSZEPH+E
+Valid Till (UTC): 2026-10-19 18:46:58 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	FALSE	1812184849	nfvdid	BQFmAAEBEMS04FrUFUi4lVmpjLRu48NgkHqu1zr09z73E71lhESAWmuoy4iyvRusA8dGOMhkYgQMi3MXyRVw1rq8u88Yfb_zO62A7NYqTA1PPozb0J5AmzCwB8L2zT3hKAkvd3oZ-wJd5HnGWr35436jR3YwEU3I
+.netflix.com	TRUE	/	TRUE	1823528820	NetflixId	ct%3DBgjHlOvcAxKGBA1x3Hg0fTB3zUV_sTXiepJ3zbwqYRSoHXOgjYSeQ-2dWKB2s016waJgHp_gIlH5BoP28Kd-7BC37oYj1LmMVnUPr-Y1VwdGfSBgqD9ouk1hzkPeNerS-IEoExcCI4L5Ez_Cckx4rDdDH50ftP5xRZh7L0vHSx4XwnM890n1naI0iRm-dlygjE6ZFaxsl3O7ilYddrLnyd5_VIaSNRMCH6hjkDswCY7tGg4BPpsImN42lw8l8ZznOa1_9g6UiiwtYDf-SRO8UivB2K9OPGiBXZ86pFmYjbB3-OUC39BRGXnRjOl0py2fJ6MDuHUP_MOl-zGIs8s4nxaOBc4THRBtHm1jBKjv4CIW93Lr4Km_sUdZY3w8RhnzXSaHB7_r6Rnzzp7HVMZxytRSpC6M7s7MsHMvZskYsyvZt91twfvXW8WXUJqRv8elEj2LfUMOJ8iNVjCQon3FTregDckmoUmC38Tzik3zw37d5NfcJjPTs4SuGioWXoG31ly7WlWx73DvSxB7TuSKQJFKUE4fxdLdVBlKiDfwnQjrTt8YuuWt-B34QGviKVa-KLim_vIgmI3DF9y64lwCyPBakEjgCUEwD8MaBO-8OEytcm-v_TIz5xusSOyQLNtmIEwP1pEKSTzqhb0bSnH1wYMX3EzRiTkQ6iObuvmLgQLkBthciJizHlzs7nOjAJ9IGAYiDgoM_V7hjnuonhSPE4xh%26ch%3DAQEAEAABABS1R5rYBzilzP-zeMOpV6UpZJFrDC_DUJg.%26v%3D3%26pg%3DU4LI7HIFHNFTPMOI6UZX3HDL2Q
+.netflix.com	TRUE	/	TRUE	1823528820	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABTe4D4XvzBnyrtLbw5BrXj_4csJmk9y708.%26dt%3D1791992821532
+.netflix.com	TRUE	/	FALSE	1799769073	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1823529077	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Oct+14+2026+21%3A21%3A17+GMT%2B0530+(India+Standard+Time)&version=202609.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=662cbf37-2674-4c14-8208-4cc6a79d55eb&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1771256892506&AwaitingReconsent=false&isDntEnabled=0&prevHadToken=0
+.netflix.com	TRUE	/	FALSE	1799769073	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1799769073	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D
+.netflix.com	TRUE	/	FALSE	1795012910	profilesNewSession	0

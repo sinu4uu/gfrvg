@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Mathina
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : AN6U3HWF24UAL
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1814073472	at-main-av	Atza|gQDT-9IdAwEBAk6UQafcFTi8u2AJeSGUhRZvXo3fWjLCGQ0SN6heGMbil8nIL3DOZLDB1IGpRRyBHyA0Ttm5yeRNPz3QNHHhzuwjPZbKzx0UHVHCOy1OE2EG3BJifbNa56zi8-hOGuZj7C4ZGNgyqBQEVIJRgeUN1r5mAyerfGdjy3KZypV9Er3quUakEuZZNSa5312x2sT5NNY8UEmZ0nDT0K0aZzMPhC3TyJb1Pc-ibLyKrSFaZ6n6e2Be70RwrEhr4JB2h4t9LHlvol8z9p-YT4D8NJg8b0CeH_moXddrRMJ0oHzu77TEHSgrm6O1Txb8UoYb0yLhqlehzxlm1Gh29lLD63hQ0FKQt67csTSwFXbq8Maev1Xz
+.primevideo.com	TRUE	/	TRUE	1785129473	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTFWVldUS0xFUVlLMEwmdGltZXN0YW1wPTE3ODI1Mzc0NzYyNDImdmVyc2lvbj12MQ.g2Pf8MdN3zCGDa9bt35H8wIkZ94Y7UsEWo3LlHvWQz7iAAAAAQAAAABqP10EcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1814073473	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1814073473	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1814073472	sess-at-main-av	LyyV1MSG7ipt/RU9/sv8s8hty168jlbqOrlmnVLCZCY=
+.primevideo.com	TRUE	/	TRUE	1814073473	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1814073473	ubid-main-av	260-5084622-9353413
+.primevideo.com	TRUE	/	TRUE	1814074671	session-token	"qdLfmymBDHXTnJKdDpnfr/8SfzMVofRNztztmTZFavfgSdzu2L3ETUWFqdMDLG+l4e4aQkytG/xXfE57VasRw2yfJ1W2jPx3sIwE8klptkBRkLA7B6B0r3sIblt8oQVm8n6f2Ab5WhaGmhf615xbILAdD9+D3nMRVju4DtaAOo3nh8t4Us6HYQcTgVOcGz5+nMLToz2o2S4Ql8kpk1VTZbgBfW/6HyBubTecRerbL7SYussqFW7b65K0avX1x05XqPcvAl6FH0U="
+.primevideo.com	TRUE	/	TRUE	1814074671	x-main-av	"drR9VxY89KH1jQCTjCkEFpAxa9qyHMcwAgHJImmoawZAR@77A8Ouqlf35YuuiqZi"
+.primevideo.com	TRUE	/	TRUE	1817098691	session-id	261-7558734-5571607
+www.primevideo.com	FALSE	/	FALSE	1812779047	csm-hit	tb:4GC4WM3YVYQMXXBPTAP0+s-F06FKHWQSRNVCXX8DT1E|1782539047588&t:1782539047588&adb:adblk_no
+.primevideo.com	TRUE	/	FALSE	1814195862	av-timezone	Asia/Calcutta

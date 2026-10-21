@@ -1,0 +1,34 @@
+NETFLIX HIT :👇
+
+Name: shrutiyadav17823
+Email: shrutiyadav17823@gmail.com
+Country: IN
+Plan: Basic
+Member Since: October 2026
+Next Billing: November 6, 2026
+Payment: UPI
+Phone: +918791624760
+Quality: HD720p
+Streams: 1
+Price: ₹199
+Email Verified: Yes
+Profiles (3): shrutiyadav17823, Vijay, Sakshqm
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAdunvjDBMufDxSto87INakO01/H/JMhvEgf2A61JuKJwWdFpu2HT7HCQCyqT3VpJzLhNP6OIu5qLYNPYIPZcnpKF/oypWYHMdNlFcpnKiNOnZ7INTY011g64Li96SIaCDyi9Lcm3hb7ZK1EIDh4Kk3k1LNmpD+GZW647Qq4byHVeJuN2zjoS3X2b7Xjt0L4ZbFcTusPs16OPKBzZlYfytKcD3lj9yOO5yWyCGqlTc6Ea9/wDa3bg+kp/54U6SQFS6F5vGAYiDgoMaDlowFK/KacCTKz0
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAdunvjDBMufDxSto87INakO01/H/JMhvEgf2A61JuKJwWdFpu2HT7HCQCyqT3VpJzLhNP6OIu5qLYNPYIPZcnpKF/oypWYHMdNlFcpnKiNOnZ7INTY011g64Li96SIaCDyi9Lcm3hb7ZK1EIDh4Kk3k1LNmpD+GZW647Qq4byHVeJuN2zjoS3X2b7Xjt0L4ZbFcTusPs16OPKBzZlYfytKcD3lj9yOO5yWyCGqlTc6Ea9/wDa3bg+kp/54U6SQFS6F5vGAYiDgoMaDlowFK/KacCTKz0
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAdunvjDBMufDxSto87INakO01/H/JMhvEgf2A61JuKJwWdFpu2HT7HCQCyqT3VpJzLhNP6OIu5qLYNPYIPZcnpKF/oypWYHMdNlFcpnKiNOnZ7INTY011g64Li96SIaCDyi9Lcm3hb7ZK1EIDh4Kk3k1LNmpD+GZW647Qq4byHVeJuN2zjoS3X2b7Xjt0L4ZbFcTusPs16OPKBzZlYfytKcD3lj9yOO5yWyCGqlTc6Ea9/wDa3bg+kp/54U6SQFS6F5vGAYiDgoMaDlowFK/KacCTKz0
+Valid Till (UTC): 2026-10-19 18:47:19 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	TRUE	1823505172	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABR72BGY37sm7bQ1fWD7bCI6iAkzM9MM2_4.%26dt%3D1791969176778
+.netflix.com	TRUE	/	FALSE	1823505172	nfvdid	BQFmAAEBEIwloKrirEh562yMFB9gjV5g9Yuo2JBsgHdpJsPyQefAq8aZcty16xlAvEa9AQK1NBf1hFzd20pi766GhnTjIKN3nKSqC1SraU-AR3cDAwWjlrX0wJBkE4tDlFKEZTolo5YRufPKpV3pwQgX02XJ5C6W
+.netflix.com	TRUE	/	TRUE	1823505172	NetflixId	ct%3DBgjHlOvcAxLWA7l1GYDSsgexrR2OyUTjjV_HmCegjFMKJh2y79UwVNZ30Y86WsrKFSvh7OW-jzYawMvCsmbYWxtuc7M94rLCq5uDeWdwcyaZKF-zs_iGdyucxEgn0wtoKF9X9JyVC0Y5S4P5K71Mkqrnl2MLsQeZcwQpysNGe3fcbpoU--bDef_4QO9rwqyoQbay36DvkEuAfALAK0HmQGl8HKgWPAQ68GJ2QMifc0AVVDDMgYcAp_UunRCXuxbinlEu418-d_du3qcxsciZF_ZkREJRpezahRqXDGSFDqGZoEFnj6TOzmkHgJEoQ6ZidKuO06bajZUc0ecaVYpp31wbfUqvQQtOVkcC1ZzySY0uxmEZe1FrY9FP5z7jv22IdPoGONlkpo5cBrNJ1t7qfeULyfroIcC0sFUHAFup-buv0GshvAXD3eP52fDpihBQ6lEZUknFZBoSTCByB-FcNQqYyMMF6GF-TLW6KvqG8CgbfMgByxophoURLkgpDjpqH39A6jYNTHUUxs0NEBBr9dWZ4g1fdlqZkpCLR4chNo8dgO1CArfqzU61KLx87xGG4cAWT7KJ_nDZ4Cgxyi_SsG7EHZnJemMJTTSdGWB_onwHBjo8U-TxR1S4T3LhUX-QGAYiDgoMwy8E2Q9dvC4h2e5Z%26ch%3DAQEAEAABABT9H5UdC57uzha1owGah76BP6E6vM1_1R8.%26v%3D3%26pg%3DQHJ2UL3UHZEUFKLOP5CO2QYD3Q
+.netflix.com	TRUE	/	FALSE	1823505231	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Oct+14+2026+14%3A43%3A51+GMT%2B0530+(India+Standard+Time)&version=202609.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bcc4137f-64d7-49ce-b222-7ccf82d82969&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0

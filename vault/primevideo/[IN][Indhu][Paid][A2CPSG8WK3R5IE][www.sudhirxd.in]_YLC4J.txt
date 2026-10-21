@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Indhu
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A2CPSG8WK3R5IE
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1816609554	at-main-av	Atza|gQBmOR7hAwEBAruUwy7aW6kqp4RI3SExbk8bPLkOg99YJQTV6SWrrHtQcf8khzfKod4LgRzeJX2BWIz_M7vOpZYKiPe0GFjcfTmwtMZqmOYgfzveebQQ8NT5KrQ760loQZJGwSThhBdd6Wds2eb63QfAJTFJASirC8T3ePaVJv2ke-LYCakGohKeL0uqwy6FNNYBpMc5XaXCsKLalmKntbnBRJ9Fa_8WiHA64x9TL_KXQWMHT-9vbSTzct9iqz-I3naFJk3plcu5woYq6MaPoPPYFtg__J03l6Mfzt1xuD61kGC8D1MYAG1WNA_L3W-u5N7QSqVrZwd9Ecj6yB7IZBs-ejKAKG60DfSBJGl4RsYfqEDyBKvVrx9CL0vWFgBXGDnhupnnVg5sXRQTKLqoIsT9C-S7cpaCUhjxsMOwFkn-teQTdwdGo_QXx5sa_a_2y9uI
+.primevideo.com	TRUE	/	TRUE	1787665556	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQUM4ODM2QlNBRFcxNSZ0aW1lc3RhbXA9MTc4NTA3MzU1NzA2NyZ2ZXJzaW9uPXYx.g52CZ8ih8BOJ5R437ObRoil3icuEC-MdZuQrv9otkIMjAAAAAQAAAABqZg-VcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1816609556	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1816609554	sess-at-main-av	InZU6VGhqp9nlpSzf/rSSSU+3sxKp9asgyamhBxj5+c=
+.primevideo.com	TRUE	/	TRUE	1816609556	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1816609556	sst-main-av	Sst1|PQIeTEO7WAAw7dE75jNkwXVVB-X_QDL5FRA_cgtaBUvnj-1AZ8ZK0MHRoZYEtfEu32ckgwx_cPsmUb9KmkxOThg69KXH9CIurLLgxsNucCJVoxdIC2Sg1IuaZRrX48HFK0J-pZsY7-8KQL_ytPgtgXv4MyYT8iyd_u3LDRRMWUj4Mln6psu4GzeCilx1a4-oO0lQUVRRXnKMNnuPgmZ9hx7hLnO_gvdh4-QWMH1yjl2nqbiT4p1LX1OnD_VLZvoy8tga
+.primevideo.com	TRUE	/	TRUE	1816609556	ubid-main-av	257-0764819-9537461
+www.primevideo.com	FALSE	/	FALSE	1815317563	csm-hit	tb:82XZFJQKCP3P0340G6GF+s-82XZFJQKCP3P0340G6GF|1785077563010&t:1785077563011&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1816619531	session-token	"uY48lpWneWjVbSPT/VICnSKxEViOigDLMf4Tpmr0MRbb4U+p2JLsIGvv+/caaXrdO/wPLA6oWv87iSpli0zQQ8TtPOQiVS2UGQeXs5dONq4v8XFOkyl2fOOLMfcCpBV+DueNxmlx0HZJHRpJhtJH1jhKzG8aA5uvL7l+SMKj04RdyPpTZxUa6YgYNgseDHEFXZ9DHFO8QFNEYGqFFSr/ul16WbyEhZlFS0Lyc3htKV4/ySVCaMJ5nfL5apw2vcOVx4ybOcv3poA="
+.primevideo.com	TRUE	/	FALSE	1816619670	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1819643669	session-id	261-0277048-2525638
+.primevideo.com	TRUE	/	FALSE	1816609556	i18n-prefs	USD

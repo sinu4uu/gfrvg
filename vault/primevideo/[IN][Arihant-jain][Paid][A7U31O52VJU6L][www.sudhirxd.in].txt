@@ -1,0 +1,24 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Arihant jain
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A7U31O52VJU6L
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1787590706	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1787590706	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1787590706	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1787590706	ubid-main-av	262-7106167-4712901
+.primevideo.com	TRUE	/	TRUE	1787590866	at-main-av	Atza|IwEBIDdM1cP4ZKyoTjVs2lIxCobBgEF2sTq03Ycns3PB4vqoU5pfmvivRglVG0oeu1twXwsO1zF7OKO0HqlATtheqaBhqXm867oHC7i246gaILwrRAPxwA7W0dAsRxz-gjcb_xcs6W-rOlwWjfTFbHY0SaORv7-0QN6F__jfo-L1lkoAi9ogrroj3gTYz5LCpjgTxepIJLFJUUQvsGFuWQ0NWoVGlZiHzgOF5VOcWqd59ZTrg5jAeAk4b0TB65D6XDOkPN5qO4DNRFKsJAa8b6VxM2XADnmn36lNu0u4y3eOG_jelD-xBWBwFO5ivL3Hx9_-2dwx6q8FNKBfz9qqs1KMBciYYrs5c8axme71gGYJzmbdc4_x_3gOLYPcvhtYIxJGOEo
+.primevideo.com	TRUE	/	TRUE	1787590866	sess-at-main-av	EL9cfiwmEFOuOSrgGE3gAxSUxKdkoxflYw8Jzg1AOCc=
+.primevideo.com	TRUE	/	FALSE	1790395783	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1789099770	csm-hit	tb:s-7C392FAR40CYS7GCBZSP|1758859770725&t:1758859770823&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1793419771	session-id	259-2815579-2015409
+.primevideo.com	TRUE	/	TRUE	1790395769	session-token	"V7VQlUlCr+ygWT+4aJR0TKtWZASjYYjuQ80722qcShB9QnsxgBTVtO7SIt28VD6blLokNHCmbaQg3leBy3J4N5dc5rt6wxcSZldaeVTrQwQ0Fm2egeMd3kjp/BJXx0LDPULdKFa6dI0P/xL4jXy7nauPPkMXqVQvG5omgmouZHOqpW/gfhKy0s9zJBqcznkahMATTHB/logyjwU4siuRaUd/GbfYZi3U7uDv/v5993YFMiXJKDsPvBaoilVlbY15b0yPzs2/OgF3kUqh1fqtLpxcKhrtcrx+qxRE7xdmsCT3cxtyE6wDQa6vhTSni3vJ6i+DYJyMZ9x/hKDcbS8QQxpa6dLVfgslaiF97QpgcOeMLuNn3BgFe2gF7vL44iMtaErk/vh3e4i3zivmOiK0shp1/3ho+qNKzlSa/KMLae7fpxFyIs1B7Q=="

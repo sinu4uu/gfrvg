@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Anam Siddique
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A1DBJ2HOC8T7V9
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1792492057	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1792492057	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1792492057	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1792492057	ubid-main-av	259-6593956-7505454
+.primevideo.com	TRUE	/	TRUE	1797080737	at-main-av	Atza|gQDROlGYAwEBAl7emBp5n3I6T_zZmiG-nud8b3C3-V4wj3p_VRFTNLlzCi4NIOAH4Tt7OMFGfhmBeBH2tul4TZSvY_hyd2uc6rq0FAU6v2LgzWPHxbxID7eCiBYBBF0rp8YyGgy-EfN1OScL4wq38LGBSiH7C8uGuFa2vyMIR3dn2TnaKx6ZfhwkpgDbtTkk5X0WVYo6DkQ2nKeJNX9zmzKul0v6Aj_w28JVKjantWALsvVUXl74BRTMoDMBzlOpsH0pbvZmf1_rYN7SnqGhJ9leTQpeFTMbory0ZrtTcA3sxoqaEetY3JBfqWmUBNoX5YOPK9lZhHRoeXBqizA7n_pGGg-rvm7EtttToXy8AYDkZvgoVJ1v8X02ZV3xEPCYxJCZCdRVhYeE5EUpAvRXm0t-QGStIVA560n5fTWFFyzh4jga1jjALqYKvLnQ3hDC-nF6daygNCUaxjlPsjXx0ERp_mTK3Ei2OmZYecg0MWn96A8
+.primevideo.com	TRUE	/	TRUE	1797080737	sess-at-main-av	1wczrItFOCKlNSpQrf2gukTglQ5FEfJz8lM+8ZX24SA=
+.primevideo.com	TRUE	/	FALSE	1801280092	av-timezone	Asia/Calcutta
+www.primevideo.com	FALSE	/	FALSE	1799984084	csm-hit	tb:s-R7ST2RAFZV5MG3EWK79W|1769744084409&t:1769744084586&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1804304080	session-id	259-8549285-8351845
+.primevideo.com	TRUE	/	TRUE	1801280078	session-token	"sxk2iUFFhcjS9cIlDwoTSwuVewVafdCNNWSEuUeIp220KSVbCV0pyZcphfMYqnZA17Jzawf3MdYwZ9B1NXPjscykmWi+mSiRUM3g/McxjraUe0A/5EqTxEfHs6TRsTEZHt3PXp01FdeZ9ruwoaz9tP3CvFwojmdAbzkBSyMThzVgxjXz6o9Px4zt/U4jYMU5OHUcU77K++rqYjsNPmKz2FCgZS3y6fjAxR7RtkTnURokBJfSDwJ0LNlDrzYM3FNJaLVSulwYdRgeAC0bBDicDRLIslh7P3tEbaEbn8uGBhDNjJFJYjU9si9+uulSCheHNI+T5VYV89SIWcbhtu+zGjYGvsrm3ysaWA9cJ1Scyl+yjAanpB3fVvuQUmp0AM8qwk9WEP92zSPA5aL9j9ch0Vw0z7bjNjlztz9q448C/COrHRFTCoMqbQ=="
+.primevideo.com	TRUE	/	TRUE	1801280078	x-main-av	ZD8AMP2UbODGBuF39iZBReNcDLeAwdXUNfNbKWQaTTdP4vwNkNXGUbM1zayt57Pl

@@ -1,0 +1,26 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: stake12722@gmail.com
+– Username: My Profile
+– Subscription: Third Party
+– Country: DE
+– Payment: 
+- Cookies: @ U L P f i l e
+
+.crunchyroll.com	TRUE	/	FALSE	1817354061	_clck	3e1ofl%5E2%5Eg8b%5E0%5E2407
+.crunchyroll.com	TRUE	/	FALSE	1819514067	_uetvid	c2d417908fbd11f18f4be311d5af5be9
+.crunchyroll.com	TRUE	/	FALSE	1817354067	ajs_anonymous_id	23abcbe1-3e23-47bf-8dc5-146730d04ce9
+www.crunchyroll.com	FALSE	/	FALSE	1817354064	anonymous_antiphishing_warning	1785818064064
+.crunchyroll.com	TRUE	/	TRUE	1817354058	cf_clearance	BIWWUKjX.EGthwJmUTFwt79KWKqZLZZEGVZk6Hi7HQU-1785818057-1.2.1.1-c0JkH1M1zFQy02Dlj9VlVW3q8n0PuAwGzTZDXRCDzQY_gh8jLeKuvejhsC4gKH0k_S8q8FOwX5WyQLdFZKuTYlMIwStB4WFsDY1JQfK7nRzfkh4Z9DV3CwVBMt7IktjamrRKZirq82oHkW_n9CCseURKU0khjMbnIGKJBhzHTe0qAXgNKrNoURn0fo3sTpoEpP2h3lpzuRKLn_tqGlv_.fJx9eo5x79VL1qhW7.gnGQ9iqN.thuY.3SVWIn88ThZ5LN.HolFSiQJEeps2nVF5.ZtzRfiQLSHVY77CZFSW8bj_JRj5eB9ehgdCH9BSQtxwJ79hC8sbX0jHNxrijuiZBpiFYm_ybnyblI0vRvB5.E
+.sso.crunchyroll.com	TRUE	/	FALSE	1817354092	OptanonConsent	isGpcEnabled=0&datestamp=Tue+Aug+04+2026+10%3A04%3A52+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=9d2b3695-c171-4388-836b-c470ec62c91f&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=https%3A%2F%2Fsso.crunchyroll.com%2Flogin&groups=C0001%3A1%2CC0002%3A0&crTime=1785818092547
+.www.crunchyroll.com	TRUE	/	FALSE	1817354094	OptanonConsent	isGpcEnabled=0&datestamp=Tue+Aug+04+2026+10%3A04%3A54+GMT%2B0530+(India+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=47d043bc-a6ce-4963-b2c7-e11124ba3f8b&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0&crTime=1785818067762&AwaitingReconsent=false
+.crunchyroll.com	TRUE	/	FALSE	1820378097	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22f326904b-611f-a685-87d8-60d9e3df93fe%22%2C%22c%22%3A1785818097332%2C%22l%22%3A1785818097332%7D
+.crunchyroll.com	TRUE	/	FALSE	1820378097	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%2277205dff-0703-bd49-9045-c135e4b15b97%22%2C%22e%22%3A1785819897334%2C%22c%22%3A1785818097331%2C%22l%22%3A1785818097334%7D
+.crunchyroll.com	TRUE	/	FALSE	1820378097	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	%7B%22g%22%3A%22dfc31baa-bc69-5cd7-b859-0fbe95cc85dc%22%2C%22c%22%3A1785818097330%2C%22l%22%3A1785818097331%7D
+www.crunchyroll.com	FALSE	/	FALSE	1817354112	bitmovin_analytics_uuid	e99dc767-d0ea-4f70-b40c-93efddd58167
+.crunchyroll.com	TRUE	/	TRUE	1817354095	c_locale	en-US
+.crunchyroll.com	TRUE	/	TRUE	1820378092	etp_rt	bcfaeaee-d320-447e-808a-4852a91591e8
+.crunchyroll.com	TRUE	/	TRUE	1820378541	device_id	9577f3c4-13a2-4e50-8daf-5719911bd9e5
+www.crunchyroll.com	FALSE	/	FALSE	1817354594	muxData	=undefined&mux_viewer_id=2771e8ec-61fa-4fef-84fe-f65dcb0de121&msn=0.5180337174859159&sid=2a2049a7-f5b5-4d8a-a5d1-0d91cb0de124&sst=1785818112292&sex=1785820094648

@@ -1,0 +1,38 @@
+NETFLIX HIT :👇
+
+Name: ɢᴏʀᴅᴏ
+Email: familialeon.ord40@gmail.com
+Country: EC
+Plan: Basic
+Member Since: July 2025
+Next Billing: November 1, 2026
+Payment: CC
+Phone: +593939529428
+Quality: HD720p
+Streams: 1
+Price: $5,99
+Extra Member: Yes
+Email Verified: Yes
+Profiles (4): Cami, ɢᴏʀᴅᴏ, 𝚂𝚎𝚋𝚊𝚜, 𝕄𝕠𝕟𝕚
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAdG7GC9RX561rIsW0PjHdEnry4SAncy8d3080po8IoV7gS0kKj2OTUNkOzAvVbn9+LiSwkAmdJ+QCyTuwDObKlDPm8T5mi5fbm1zP31TkalKSxR9bLg2M8Mp9zDfVJMIa2gAV2vQZvoDDCSyA0Vu44mHn+9z+rjT95X2SjHBViKpvCdLtH338y+7M3UXnV1yl6X+yoMUnrQuiO8p84pFlOPPy+RmHw4+3dtb7qW4ZiQeIIUlJpkcUyssMR6Lg3/ovqNQGAYiDgoMqGzIxhtS+Q3NufDG
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAdG7GC9RX561rIsW0PjHdEnry4SAncy8d3080po8IoV7gS0kKj2OTUNkOzAvVbn9+LiSwkAmdJ+QCyTuwDObKlDPm8T5mi5fbm1zP31TkalKSxR9bLg2M8Mp9zDfVJMIa2gAV2vQZvoDDCSyA0Vu44mHn+9z+rjT95X2SjHBViKpvCdLtH338y+7M3UXnV1yl6X+yoMUnrQuiO8p84pFlOPPy+RmHw4+3dtb7qW4ZiQeIIUlJpkcUyssMR6Lg3/ovqNQGAYiDgoMqGzIxhtS+Q3NufDG
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAdG7GC9RX561rIsW0PjHdEnry4SAncy8d3080po8IoV7gS0kKj2OTUNkOzAvVbn9+LiSwkAmdJ+QCyTuwDObKlDPm8T5mi5fbm1zP31TkalKSxR9bLg2M8Mp9zDfVJMIa2gAV2vQZvoDDCSyA0Vu44mHn+9z+rjT95X2SjHBViKpvCdLtH338y+7M3UXnV1yl6X+yoMUnrQuiO8p84pFlOPPy+RmHw4+3dtb7qW4ZiQeIIUlJpkcUyssMR6Lg3/ovqNQGAYiDgoMqGzIxhtS+Q3NufDG
+Valid Till (UTC): 2026-10-19 18:46:44 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	FALSE	1807161825	nfvdid	BQFmAAEBEIUjn0Bd0g_FkmIRQJdiFnpgECkcjU5cm7mqIJPqxwUu2lkYxRVvTY8UH3wdsYhr78dZWbKKcfM85ZeMSLHxkcOf8GWA4Pn-K1T4DQZ-OaafuqsfCKeBelGzzc_cYqDYbjIflFKwqwYYwCdeEEUEpg5Y
+.netflix.com	TRUE	/	TRUE	1822616132	NetflixId	ct%3DBgjHlOvcAxLVAyId410TDeNSkH11Lb2XqkqPlZdaflBVMZRipGGKJht-hYpRAZgh04wgovse9ktH9uI7jiLN5C3L7Ie3v6SPTOA0qz6y5I_pN4Lpcg_2lBhNnjJsKW-4-qGYOmTUGJ2x2flBfCwq6sOeFgdiv3SJ_-HjAtCQ2g-IG_rfLQhCgDhslJTu-W_wEqvVDX6rZLEJS_GJtQrIN0qybewxq-q1xPHFRlt_4NKYUgaZTl6kMLCbtocIChS6RnTaPJ8nAAfdrVTArvpU40oJqbUGWpT--ZCfxpfijJtbCpL772fpz8jZAzNJ7a2_T2X0rGb7zzwChT6PcnJni9oWCeZWiNk_n0gh5HoJU8N4gRrrV2pI-SAqJ5acCHPtI1Cd69c1i82kMgyleGXfS3xLiqrfB8djc6ZBY61aNdJHnc5qC09wrrB728gDH4wwtbxhs4WYBudPrH2uDccwrUfUcApe0M-AweWiujxf47GhOpUnR1GGKjiVfyX8Vwv0w6BeBW6I0IOkNHqZ-nooTc3CyIkDAGX78kOlmNZLq_aF9Q_HBJbmlejcKYUUygTvLnEj6HUgG1nWD_Sn7AFX2qqtn8ANtuD1LJK2PkDzyfWZBhxYNylMs82JUXNT7ngYBiIOCgx_hEZ3eiW5Sv-f4aE.%26ch%3DAQEAEAABABSY6Ot0iztTA9sJDz97xJbWReQRNlM8Qg0.%26v%3D3%26pg%3DPQXPA76GB5DKJDWLHJZDHWZVS4
+.netflix.com	TRUE	/	FALSE	1822616136	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Oct+03+2026+21%3A15%3A36+GMT-0500+(hora+de+Ecuador)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=22595a87-87b7-44d8-863e-6ccdceb71f6a&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1775625825948&AwaitingReconsent=false&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1822616132	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABRkzUegLEq_uD1fUvo-TjQrbPG1Ssk1RtI.%26dt%3D1791080122719
+.netflix.com	TRUE	/	FALSE	1798856134	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1798856134	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1798856134	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

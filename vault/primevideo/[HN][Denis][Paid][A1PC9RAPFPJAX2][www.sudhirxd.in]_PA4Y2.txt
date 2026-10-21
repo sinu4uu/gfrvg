@@ -1,0 +1,27 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Denis
+  Name        : Movies
+  Region      : HN 🇭🇳
+  Customer ID : A1PC9RAPFPJAX2
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1822280858	session-id	135-1305367-2245551
+.www.primevideo.com	TRUE	/	TRUE	1818986307	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=B12B0372C86B470A8FF6B7BD8F152346"
+.primevideo.com	TRUE	/	TRUE	1818986339	at-main-av	"Atza|gQDBTVtIAwEBAORhHXchec9zP-CMVyFpYymF9X0BX7ryj_BZvfzTvDtGynf5rLeqkJUw4wb7pEmCA80sCjjqRPLPdvdtxv59d2KkfogSQ2zQGM2Ns1FNX7MTeMztyUH5XUZlJZR5_jWbM-WmK4-PZlAfclbCUvMNwUR3u9a28S3yN0qX7URHANgqMY1jy8WVWAgdixFDS8Hb6x34iaT6F-17O3iGwj4OsWBn_BEYRet8Vy6LuZ1MrZTUWjBJPN0CuVA3SxzpiOHn8d3o6dIjPdpO45ImYN_U8iLqsyzdH8AHs2ziUWn3RzfKHleONEAptr97dCnXjfXTPBi9DjaU9BsaptfCv7_3SjmGZ3-Fty9M1H9QMUUcCKZYjntP39NArgUrvuNUMy1gCyJf9thxdu2o_fkCtwgZ4-FD-t9A3rLH5a1YJHaXePXQb3co3W7FiE-RTXzdf-8xWzzJ6GEudKOZUqSDEUxb5tckZm-RZwFJnnBQSuOr3bAnBMyhSA"
+.primevideo.com	TRUE	/	FALSE	1818986339	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1818986339	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1818986339	sess-at-main-av	"Gv9y+FSnY394ztxB/73vpX1XDG0HyZ71lHXI5BirOyM="
+.primevideo.com	TRUE	/	TRUE	1818986339	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1818986339	sst-main-av	Sst1|PQIR2WLpGT_Oj3B07hxH2jzjB5bPuRpwvDOWMVCaLGyfd3cpJEwNeYEJQ_FXAFvY1SJmcAvdhbl9LMRpdtx5vzvJgMOomHc4cNCHRZ9_4zChUJoJBKWJLWGWnlXkYeWxYHrL1kb576QeQlSaUyOwFJgxyqpm40VR4jv2-wgFHd8y-njltBfcbe_RCwy-wiIM3PS4elo8rQP_dHWKuL957jl5wDLtuvjF9cEJhSE3SiIw2Cn4d5MSGuXUo1UiAJBQ5UJ7
+.primevideo.com	TRUE	/	TRUE	1818986339	ubid-main-av	131-6381063-3805648
+.primevideo.com	TRUE	/	TRUE	1790312853	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQVhaMUg3WVZZUEdPMSZ0aW1lc3RhbXA9MTc4NzcyMDk5MDE2NSZ2ZXJzaW9uPXYx.gxgzCEz-IJDNQ6DldK-7BvzydjsDOj1HnqvEETp-z7ZsAAAAAQAAAABqjnUecmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	FALSE	1819256862	av-timezone	America/Tegucigalpa
+www.primevideo.com	FALSE	/	FALSE	1817960857	csm-hit	tb:6YEVZWQQV5YXZBMYQ2DB+s-6YEVZWQQV5YXZBMYQ2DB|1787720857624&t:1787720857624&adb:adblk_yes
+.primevideo.com	TRUE	/	TRUE	1819256854	session-token	"/S7Ss5gDhXxXsSrMoem4zEGd9+9OFHmtwz2T/QiuD+y+EkShF5BWVR+46CxU+E/AlUyzR0KQt62yd1bsr9ERUVVeT86n6T+Fl/Lo6NCyUdllc2cOUYxw81D7ySd+OVTTAE6QPZ7pXEVbR59nH9pEE2G7j7xM50yC3yeiCge4TtVkxBRb/ejBYLKMGuFU8v+g/lChwyYl775FxYN+nPhy3a2fpEzM74yXrDz2P7dHYmxdQ/KcxJdDNERYTTrXQ6Rw/snmNLVpD5w="

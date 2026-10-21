@@ -1,0 +1,34 @@
+NETFLIX HIT :👇
+
+Name: Bs shilpa
+Email: shilpanimi@gmail.com
+Country: IN
+Plan: Basic
+Member Since: June 2025
+Next Billing: October 28, 2026
+Payment: UPI
+Phone: UNKNOWN
+Quality: HD720p
+Streams: 1
+Price: ₹199
+Email Verified: Yes
+Profiles (5): Bs shilpa, Monkey Dih Luffy, pler, Md Rayhan, Children
+
+--------------------------------------------------------------------------------------------------
+
+NFToken DETAILS :👇
+
+NFToken: BgjCwOvcAxLCAaTA2dl7EdW3FzV40kWAKt9lVCpd00hto6wnSH5NQSfHpZigZqx/elr+/nHPgxCn+swesQsy+Y2LKIozYwSMJR+Z8H+gmUR7mbl2FMU505lLu9DsRlwJ3OUY+mO/8EyhC+n8tAUUBu3qP8QmSRsQYjINJmMguJUaDkXVQ22o48Tgx133QGMSibZTmNiwMSSwju8CVjSDnlOREHHnfSJSIzCsl6pnYU+v4+NLunW0ystuiPQQUcGwNjdR8U0w3YpV5RCVGAYiDgoMy9TaCz/qer9vXqOb
+🖥️ PC Login: https://netflix.com/?nftoken=BgjCwOvcAxLCAaTA2dl7EdW3FzV40kWAKt9lVCpd00hto6wnSH5NQSfHpZigZqx/elr+/nHPgxCn+swesQsy+Y2LKIozYwSMJR+Z8H+gmUR7mbl2FMU505lLu9DsRlwJ3OUY+mO/8EyhC+n8tAUUBu3qP8QmSRsQYjINJmMguJUaDkXVQ22o48Tgx133QGMSibZTmNiwMSSwju8CVjSDnlOREHHnfSJSIzCsl6pnYU+v4+NLunW0ystuiPQQUcGwNjdR8U0w3YpV5RCVGAYiDgoMy9TaCz/qer9vXqOb
+📱 Phone Login: https://netflix.com/unsupported?nftoken=BgjCwOvcAxLCAaTA2dl7EdW3FzV40kWAKt9lVCpd00hto6wnSH5NQSfHpZigZqx/elr+/nHPgxCn+swesQsy+Y2LKIozYwSMJR+Z8H+gmUR7mbl2FMU505lLu9DsRlwJ3OUY+mO/8EyhC+n8tAUUBu3qP8QmSRsQYjINJmMguJUaDkXVQ22o48Tgx133QGMSibZTmNiwMSSwju8CVjSDnlOREHHnfSJSIzCsl6pnYU+v4+NLunW0ystuiPQQUcGwNjdR8U0w3YpV5RCVGAYiDgoMy9TaCz/qer9vXqOb
+Valid Till (UTC): 2026-10-19 18:47:19 UTC
+
+--------------------------------------------------------------------------------------------------
+
+Checker By: @Sudhirxd
+Netflix COOKIE :👇
+
+.netflix.com	TRUE	/	TRUE	1803363208	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKIA8FkCR6PRQ9Wn1nPACBgus0XluOiGhjgsSJSbC0C8AboOLAznGWlsPBrD6p7_UHz8Ne1NspeUgWfAZ7M5FtCb6pxiXMjP4Jk1MwRlu26mOoAbLfLfozbkGkNoAu30_fU_hgQ4g6cL9QU9hNiwsw7QIcXemi-tSjTMGrkDyQ4boX_sYoMYbKEKQ1KMjsPk9PPKBgOTTbd504aO1SUiHlwrmjSHWgown80Q0GlHnec_ciC42p7-MvT2ANfSl4euUs8yI-1mK63nasNR6kZE3YM-dzZtGVZ-WpkDV9_PEqC8Na0G2TGBUJ1Ftx9IWjCs-Q-dYJTD601tNlxKfQoPzTx_sshkynVvAB_4_CsPPSPDufhrs32oUKDZKPMa3T2N_Mm9Ba3U2hounLvsezHAoNoqhLE2M91DtlYwqQbNFhAdJM4LRUnx_4enKeZWUQmBLkFA-yCLWzhxaaYuD_NWzSRZscSJpEdUWZDZc8LNPBqQY_bu6TTov2wGiY7czsMx6QMI-9vdvpfNcH8GAYiDgoM1iMOuglNzmxo8laj%26pg%3DBBHKB7VRNFB67JGIM6SP2Z6JDA%26ch%3DAQEAEAABABRHT3CiRFTa00_0Wr0uLas24SlfBhHuD00.
+.netflix.com	TRUE	/	TRUE	1803363208	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQVD7xytkr4aX5zHh-QIVCJaF9X1CO5ljI.%26dt%3D1771827208020
+.netflix.com	TRUE	/	FALSE	1803363208	nfvdid	BQFmAAEBENtO3Nl9pOW6V8UbRUlKjnlgeQJ9b7QRDBlwRIq30gM53bH2uNPOTd4B8_GQjtQi7ux-WuKjYSnZd5t6J1OWFh2XgKpEvaf37tMxv9aamre2PFewGfYN05Qc7upDhzUZTRr97tabCLq1Y5Bs6eTfW-_I
+.netflix.com	TRUE	/	FALSE	1803368412	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Feb+23+2026+13%3A10%3A12+GMT%2B0530+(India+Standard+Time)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=fbc3a929-1b86-4356-ae60-17153f1e9c43&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&crTime=1771832412674

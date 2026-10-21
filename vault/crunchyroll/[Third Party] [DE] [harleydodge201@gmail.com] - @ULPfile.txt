@@ -1,0 +1,43 @@
+- T.me/ULPfile -
+- T.me/ULPfile -
+- T.me/ULPfile -
+
+– Email: harleydodge201@gmail.com
+– Username: Harleydodge
+– Subscription: Third Party
+– Country: DE
+– Payment: 
+- Cookies: @ U L P f i l e
+
+.crunchyroll.com	TRUE	/	FALSE	1820416638	_clck	15uuba8%5E2%5Eg9a%5E0%5E2356
+sso.crunchyroll.com	FALSE	/	FALSE	1820416934	_dd_s	aid=6f58e46b-b132-478a-8aad-33a80ba28735&rum=2&id=4a083c83-82c7-4c84-9b4d-574bd09fd4b3&created=1788880927358&expire=1788881834690
+help.crunchyroll.com	FALSE	/	TRUE	1820417349	CookieConsentPolicy	0:1
+help.crunchyroll.com	FALSE	/	TRUE	1820417349	LSKey-c$CookieConsentPolicy	0:1
+.crunchyroll.com	TRUE	/	FALSE	1822577530	_uetvid	634f266067b511f1a53ddfa44997730a
+.crunchyroll.com	TRUE	/	FALSE	1804433531	c_visitor	cf94eca5-54b5-4a2e-abe2-3a1cd2809f17
+.crunchyroll.com	TRUE	/	TRUE	1797390212	FPGCLAW	2.1.kCjwKCAjw_KjVBhAHEiwAnC0N9E1uFno7QOeZHUoc0s9bdvrXh0cSiHmg8ViRPa6fc6tvKzvl6dCImxoCw9AQAvD_BwE$i1789614212
+.crunchyroll.com	TRUE	/	TRUE	1797390212	FPGCLGS	2.1.k1$i1789614208$u32474476
+.crunchyroll.com	TRUE	/	TRUE	1824174212	FPID	FPID2.2.0EAnnNrS8AtQnr%2B3FeZQbO5vWPvN9hV7b8HBGXMSmdI%3D.1774142526
+.crunchyroll.com	TRUE	/	TRUE	1797390212	_fbp	fb.1.1774142525790.1844655542
+.crunchyroll.com	TRUE	/	FALSE	1824174211	_ga	GA1.1.1704361323.1774142526
+.crunchyroll.com	TRUE	/	FALSE	1797390211	_gcl_aw	GCL.1789614211.CjwKCAjw_KjVBhAHEiwAnC0N9E1uFno7QOeZHUoc0s9bdvrXh0cSiHmg8ViRPa6fc6tvKzvl6dCImxoCw9AQAvD_BwE
+.crunchyroll.com	TRUE	/	FALSE	1797390210	_gcl_gs	2.1.k1$i1789614208$u32474476
+.crunchyroll.com	TRUE	/	TRUE	1797390212	_gtmeec	e30%3D
+.crunchyroll.com	TRUE	/	FALSE	1824192436	_ga_METRICID	GS2.1.s1789632436$o238$g0$t1789632436$j60$l0$h253003502
+www.crunchyroll.com	FALSE	/	FALSE	1821680548	anonymous_antiphishing_warning	1779875755777
+.sso.crunchyroll.com	TRUE	/	FALSE	1821680553	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Sep+23+2026+16%3A22%3A33+GMT%2B1000+(Australian+Eastern+Standard+Time)&version=202606.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=&consentId=2bc62fd3-ed8d-42c3-b57d-d8b671e9d41b&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fsso.crunchyroll.com%2Flogin&groups=C0001%3A1%2CC0002%3A1&crTime=1779875780045&isDntEnabled=0&prevHadToken=0
+.crunchyroll.com	TRUE	/	TRUE	1824704563	etp_rt	a51ec19c-b332-40df-b2be-fc2af58d3baa
+www.crunchyroll.com	FALSE	/	FALSE	1823081214	bitmovin_analytics_uuid	5c04e7c7-7ad8-43e7-930e-19ca3c5ef311
+www.crunchyroll.com	FALSE	/	FALSE	1823082116	muxData	=undefined&mux_viewer_id=c568366a-859f-4028-81c8-4a97b36e459e&msn=0.7182218326345641&sid=a462a2d6-fdc1-45a6-a6c8-d90c206a859d&sst=1791545214365&sex=1791547616916
+.www.crunchyroll.com	TRUE	/	FALSE	1823140431	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Oct+10+2026+14%3A53%3A51+GMT%2B1100+(Australian+Eastern+Daylight+Time)&version=202606.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V1%3A0%2CV17%3A0%2CV11%3A0%2CV3%3A0%2CV7%3A0%2CV2%3A0%2C&consentId=2a7561b4-e60b-4f88-aebd-eb9e77922817&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&crTime=1774142550000&AwaitingReconsent=false&isDntEnabled=0&prevHadToken=0
+.crunchyroll.com	TRUE	/	TRUE	1791606232	__cf_bm	Ks1QsIf5ZySaw0IPhr.pcPS1uEpE1FMY6kiMwp5trB0-1791604432.3865871-1.0.1.1-AEDi9KQePr5YkweY2FbwYiOdBmc7HErtjTEi3760Nbm57Nalyp3D2Iq.B6F4BiorTgwCyTRBAy.U2syOsHsOAZUZbubZRnidfKIqFOnYfkS.mRZP1bd8MCGm3vie7S.4J3hf9ItU70nCBEmd2AV5fA
+.crunchyroll.com	TRUE	/	FALSE	1826164433	ab.storage.deviceId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3A86f361c3-b555-40ca-b8a2-cd7b0b56dbbc%7Ce%3Aundefined%7Cc%3A1791604433861%7Cl%3A1791604433861
+.crunchyroll.com	TRUE	/	FALSE	1826164433	ab.storage.sessionId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3A0880ba06-5159-469a-8ed3-3f34f57cad37%7Ce%3A1791606233864%7Cc%3A1791604433859%7Cl%3A1791604433864
+.crunchyroll.com	TRUE	/	FALSE	1826164433	ab.storage.userId.80f403d2-1c18-471d-b0ef-243d1d646436	g%3Afe7ec153-49a5-5d84-af60-c1c8b150eb04%7Ce%3Aundefined%7Cc%3A1791604433859%7Cl%3A1791604433860
+.crunchyroll.com	TRUE	/	FALSE	1823140439	ajs_anonymous_id	73537f32-0703-4ba6-93ed-338b35ca05fb
+.crunchyroll.com	TRUE	/	FALSE	1823140439	ajs_user_id	fe7ec153-49a5-5d84-af60-c1c8b150eb04
+.crunchyroll.com	TRUE	/	TRUE	1823140432	c_locale	en-US
+.crunchyroll.com	TRUE	/	TRUE	0	cr_exp	fe7ec153-49a5-5d84-af60-c1c8b150eb04fe7ec153-49a5-5d84-af60-c1c8b150eb04
+.crunchyroll.com	TRUE	/	TRUE	1826164432	device_id	024d14ba-b9a2-49bc-a550-431e8a23489d
+.crunchyroll.com	TRUE	/	TRUE	1823140432	cf_clearance	DTnvuZc0UjXojPDHibLUvEcGuAbsqOAWPJWFUDmDAzo-1791604432-1.2.1.1-VYwgxyZ0eAuID.sl6QQwB9nzJRoL56nD0Utqd9EyqCWW_E0CBuHfLV0py4_jd1dXvDYT6U_Lkc9JrzAroH9rxXQAQqM7tUG_KeF_tmAZwd65xg6YCirklx.t1.mR6sojdxMksUWdl41RBm3DK5.QOgpN8dEpQVrjKkFBgKRSuIxZavcAKqkeWXh6PgBF86vhrOz0Wh8fM1nG_Hlb3UIstFUCbmODowXDqma8sKK7MQ1LuG_s_OXyWeJALiEa1hd.kPmKKZX0R9lavWC7JAJgMVb57YfGjHfdjDgu03h8A2Fbb6FJ1XL8vrgPqauRuUh9I_ioLm6ePCwnAcT5RFUpo16sc.RbLM7YvQ_aP1UgtGE
+www.crunchyroll.com	FALSE	/	FALSE	1823140633	_dd_s	aid=580e8825-637e-476e-a074-baac17488956&rum=0&expire=1791605533116

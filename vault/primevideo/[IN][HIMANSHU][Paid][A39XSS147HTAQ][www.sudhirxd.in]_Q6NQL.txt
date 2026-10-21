@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : HIMANSHU
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A39XSS147HTAQ
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1806599840	at-main-av	Atza|gQBe8b4iAwEBAN_oHEiz_rlnl7B0GCHwadk9SU8RtglOdryaFxRKWEIUfVD5Sa1XkBIjPf9-8iyBG4XTGe_PznNTMatfe8Y0oGWuu4VA0nvtLKy7OZ4CBglwcZ8stFMGXyzJttC4MA6UCVqCGrhxU6MOpXiT4YioRa2ruOvVae0N-auwha1dA--FqGLRqi7zBh44kwEmGwEPZEnPhoCEVGeD183L85iQbl0gydJVv4rVGSPBrAPHjWaxGMP_OfbcRdY5t7P8Femfyu6E-aOTG56RbgSpQPE-1uaqhelXuNkXphkryFAdaW_4U8YtDhWqc9Nkq9BQYWD-GF6XMzg4CGgii1c7KzqF5Geozs2fFH4ARSbfxQk
+.primevideo.com	TRUE	/	FALSE	1806599840	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1806599840	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1806599840	sess-at-main-av	Dpi39oIZkWk0PbUYVuoCDcgn5z3YdIAIRpySe73ZaW8=
+.primevideo.com	TRUE	/	TRUE	1806599840	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1806599840	ubid-main-av	262-6866306-9374616
+.primevideo.com	TRUE	/	TRUE	1788989770	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTJZWkRUSkNER1I5NkQmdGltZXN0YW1wPTE3ODYzOTcxOTMxNDcmdmVyc2lvbj12MQ.gxIw4-17DnyhzLHI-2zAjFzkaMZWJEa07WZbavEbDZVOAAAAAQAAAABqekIJcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+www.primevideo.com	FALSE	/	FALSE	1816637772	csm-hit	tb:s-8WS51Z1S7VJW1CTZV11S|1786397772665&t:1786397772842&adb:adblk_yes
+.primevideo.com	TRUE	/	TRUE	1817933771	session-token	"OBRFQIMzGbGhyhl2z4LxpTwPGCH0LYxLExsPZFGfLTJJNwU2eDLMKCKysRx9OBgJWPg3x0gFMa7h5CquOdeUcCRg1mcvgSGmHLRd6+1CgYKC3DOr59hH98gp/CQMLlIIYuTtzIu0H9OuZNKpDsbs+fE0yQGhDQ7M2azXs33J8+H9AE/SePs5mNEGLYvvG3pQumyvsqyopuQMwgskCyzMqe1t1TsfjfU8oooderfrwl8Rm9sDX7cpYoE+pCto9OhDcl7wukpAlg4="
+.primevideo.com	TRUE	/	TRUE	1817933771	x-main-av	"zSws?hdxDK?elRMMyjBWBFvYshqAtPL1LJ2mpjgjOiQXG5aXwSyoeN4d0bw81PgJ"
+.primevideo.com	TRUE	/	FALSE	1817933777	av-timezone	America/Los_Angeles
+.primevideo.com	TRUE	/	TRUE	1820957776	session-id	260-9436932-7334623

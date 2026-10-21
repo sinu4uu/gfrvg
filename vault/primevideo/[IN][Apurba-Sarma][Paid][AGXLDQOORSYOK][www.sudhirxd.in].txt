@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Apurba Sarma
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : AGXLDQOORSYOK
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1803716035	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1803716035	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1803716035	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1803716035	ubid-main-av	262-0789374-8354329
+.primevideo.com	TRUE	/	TRUE	1810663316	x-main-av	QSCGofG6Yv2dejmYSZ5mPDKqXzbD6awAq2Z1GrlYZGHOYpPyfyD2bomKCn6M2uIA
+.primevideo.com	TRUE	/	TRUE	1810663339	at-main-av	Atza|gQA8JdIaAwEBAqLu3c7ybkzeyysGeiDGMNn6w1EP1zkgUZbEQtJPshFcW1f5MRSPFjqdORvBsoIQhWly_PM1Vv34CBGWJ7jYgjVFtQ02qyVZEE1hehinvTzXxnm_xpLpgs-r8_nHE917AVXfvwDs5WhoPBLF0l7BcRlPJJqRtGNsRnemVbPA1bhHDxaSfgDEhiCWpvvlIPAC850YfrXsOIuLkpnFtbgR54OPGmY4R8_5mDEbjIxd5-S1ytBYR9fJijkKfHJE_oz1GHlJyg921furOQ8K9yVFX4xYmvQYxLXkK_1RtaNoxEab-2R1pyvXJ2gzpEZjuv6fHGi3xCqyj9S_MNhxwo1A2Xb0Y_sOJYoTdAvgZU22I737n5-DAAVScSnhRfWILY0EsiBT5r9yivLLX3XovseLQGiUOm0j0qY0NnttdZCGll1ASkeViws-h7Swca7MxeY1Juh4e_HulxbcpP-sLNo-d27XGBX5ysZwiO3NN0lbiSdTVnzlw8cxZJsjfw2InJ31Ng
+www.primevideo.com	FALSE	/	FALSE	1809367349	csm-hit	tb:97CMV86VNR1F017WY53K+s-FDEYYYG85NFDPT28CT24|1779127349490&t:1779127349490&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1810663339	sess-at-main-av	Ie5y2teSB80dCbul3UAPmkxvE03YWCCEVquOzLGDk1g=
+.primevideo.com	TRUE	/	TRUE	1813687351	session-id	260-7048817-4894103
+.primevideo.com	TRUE	/	FALSE	1810663369	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	TRUE	1810663339	session-token	LGRyk0eh3ArZcKKOAWomccNe2oVx+rpxfj0AFcR462OMy+DNyVavyrdsxtHpwYXRNGC9wFt1jIxCSgi/L6JFAxTBgPU0PA7g0eGAQen3K3lMG81v9497oJPedxXWSPQlPTT0oc+dJEkbHRqPdhLF+wMT4q0MaJBt2g8h2+fw+az7/zK3CdTGMDpORT/JLFx8HrWlNF4fuStL3eMIDAankwTv5Qf6PL9pM/ihKSYFltxRhMn9rSZ2Tjws80cPiBomAe0S16F74kr+AFmQkIzZCRLyvPQO4NOrz99J0neejz4iKWp7VAjVcQ==

@@ -1,0 +1,26 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : 3k41tz
+  Name        : Movies
+  Region      : ES 🇪🇸
+  Customer ID : AMNQFM8H5ENTL
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1816817927	i18n-prefs	USD
+.primevideo.com	TRUE	/	TRUE	1819841927	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1806881326	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1806881326	ubid-main-av	260-8499881-1228624
+.primevideo.com	TRUE	/	TRUE	1808054576	at-main-av	Atza|gQAVpcCbAwEBArHm_4AsB7jsbTgORR9b1Nbceu9BiRcxJL5BnoO_iXzp89MUcroVXAcpMm00gXRh19Tu-kdftiWPt9AJyfawKnSe2EBJjaTLVrulcb7UkfTWem4xs_dXns4HcRJ-5dAqHtycjL0nM7Tubm7xucjc1Qhyiw3J336B0NXRxrJuaaq1p7juDe6C_q9-2528D8uZCWpttWXTHn1O6WaAODpzA_EkdCgVDi5YRNMEyUrsosqnW5aAQyZ_Ufv8fwkQZqX7Hxm6G1rOH0X3e7x307q4J04COSnb4qZxJToWHerNuAuj-ex289MMga9R_3fpx7yqQLYMAUHMSEWlo4_-Iz4GuQL4pccgjKRaa3YTCYQ1w8K9Ah7PATI4V9Y2Jr9UvTe-fpQ3QObJ1v6KqEKv2pcoVc-tGohBJdDmmytfjjXbSYWVi-4PNZJzpS3vtpq3YqTzFqTckQaTSNEyHb7dgDuAbsFlDOk
+.primevideo.com	TRUE	/	TRUE	1808054576	sess-at-main-av	PlTODrWsZBLZLp2miNP3WZLduNTEn56EMZ7B/cIwuZg=
+.primevideo.com	TRUE	/	TRUE	1790461154	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTNGUVhaVlQ2SE85OTImdGltZXN0YW1wPTE3ODc4NjkxNTU4MTEmdmVyc2lvbj12MQ.g8jG6W3ADDCLRxphgN7oyLabl9o7-hpt8d5go5vCPvsPAAAAAQAAAABqkLfjcmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+.primevideo.com	TRUE	/	TRUE	1819405155	sst-main-av	Sst1|PQKeuZ1f7HS0gh3hfAFLy9W6B7myG1OKcdE3dfST_CN8UEephkCu0Y0EHmDBa-DSa0D7Z3fuIT7UCDE4rrQEVRkwBmHEWfHYksEd1_TwMPFkeBpvQQV7ZFQgSPZNEno6QmtwcwPjIMNo7PagAAXJGCqRG8etxOSrVNGebli3HzyI8n8jOrZUfUQq2784JuSgocG2a03heZSHgmjcCTrmyn0Qr2Q2mmbrB-Nu0ASSrWc7hEO--rGUpRFl3m5Ep1xF7skn
+.primevideo.com	TRUE	/	TRUE	1819582033	session-token	"w9zOdfo97kzEK8DIjiqU0hqMCJeGj7rcs672fxglhKMNxS8GDprhBGVzICn9e2uQpQgPK479YLotB5O1EC2gkGK6WLan2nF9uaKAJsGmCQFl1I3VDsKqJm+TawhCliy6a2X6TYrN6n4FemgurBBJssO6akIO5VyqkLdlSzhalKA2RBtnh6G1o24Csc1AQ1ZDp5hDh0Kti7j1oSZ1UuRU6DtJhDUeN9jQDNs/65vhGoae+L9mOsJoaLIf/h1TMyvijesGp4TDQ7iM5Oiopt2ZcO42Lr/pwp+Y3Pf1pw0pyZEcUbXdAh3h8Q=="
+.primevideo.com	TRUE	/	FALSE	1819582181	av-timezone	Europe/Madrid
+www.primevideo.com	FALSE	/	FALSE	1818286180	csm-hit	tb:s-GZAEKPPYQXNTESAXKCTQ|1788046179862&t:1788046180097&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1822606180	session-id	260-2261540-4795869

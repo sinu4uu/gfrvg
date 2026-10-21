@@ -1,0 +1,25 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Akito
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A2UHD7LEMQ4FY2
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.www.primevideo.com	TRUE	/	TRUE	1808075513	av-native-app	"AppName=PVPWA-MICROSOFT_STORE|DeviceId=8DAE95839D974285ABF1205937EFD8ED"
+.primevideo.com	TRUE	/	TRUE	1808075613	at-main-av	"Atza|gQCzOj5uAwEBAriS2IbIt8FTmSlzOCEf3mB0u2siaK4GBn5qSlD4vf8OqlYY6ldYECLz5McktRyCBbtFxdPGoPo-cLKler4gXSK55re5CLYNpHfGkW4aRqhCOVkRtF7PIIufLoanqtCbMqLglrU-YiGDhBC__3NPYpJlJkwlvZ55NTp7wcY1tfZO4wplxLlKIfxnuwxgDTcZzSnAFvpps-dO-vPrQWjcKDEXURElK0y3NoV_aPM3pmKTPodrOUHOt_U79j4AFNQcamDrKgcfP3GGd0F_P-JC2R7kDT2nLtSJ2jbD8N9Yo_94LOv0TM14YelP7dItjmp7cht3GODxzpMLpC5P5fyVCwUMEj5VJfPnL-uVfU5RW5crvS6kDcNQbpCrscqvG8WlkKZ3T0A9KN6hLxMIeJRwD_Byb3nHLUDVvjqd736iWBpL12y5163BJx8PA8DDbk2UyBhrjeE8yJT9i1OsN_z-IoSLLWCdpat9OhQRrtmoTnQlpYKJhtX1"
+www.primevideo.com	FALSE	/	FALSE	1806779623	csm-hit	tb:22FKJKVZA21WYH3HW3HA+s-Z8CK2G7W53HPE9488N89|1776539623839&t:1776539623839&adb:adblk_no
+.primevideo.com	TRUE	/	FALSE	1808075612	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1808075612	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1808075613	sess-at-main-av	"hV5bWhjkTwZJsbiBAoThXycbpu3epxp69ZDmoc8CsvY="
+.primevideo.com	TRUE	/	TRUE	1808075612	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1808075613	session-token	"0+5xr4/bAEx/e+AkyfyBwBlspzv1hpzFmI+oVMd4kpDHGTU6SvjeBKMFBpjtPkkXPrLJZh0oCn7CFFc0MJb18b7++iJWVzEhSiysRzBRv8dwn+F9A6ymIITjYplwv1DdUOGrvGEE3z2PS1FFgjCvMrCT+3N9Jw++XMgciGy/Bu5tPeSGeejFvTqhonUF0q8iUtjP+5FRmFW351ZGMcZ6NdZATKY8NO90RvaqvtbE4egawQpVJ17WLdHZASVM7CEslrQD/EOmTHs="
+.primevideo.com	TRUE	/	TRUE	1808075613	ubid-main-av	261-1953897-4895164
+.primevideo.com	TRUE	/	TRUE	1811099682	session-id	259-2523606-1072764
+.primevideo.com	TRUE	/	FALSE	1808075707	av-timezone	Asia/Calcutta

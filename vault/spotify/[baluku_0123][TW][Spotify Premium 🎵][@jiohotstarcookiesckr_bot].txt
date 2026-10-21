@@ -1,0 +1,29 @@
+======================================================================
+                            SPOTIFY HIT :👇
+=========================================================================
+
+Name          : baluku_0123
+Email         : baluku_0123@hotmail.com
+Country       : TW
+Plan          : Spotify Premium 🎵
+Next Billing  : 61 Days | 19 Dec 2026
+
+===================================================================================
+                 Checker By:@jiohotstarcookiesckr_bot
+                         SPOTIFY COOKIE :👇
+====================================================================================
+
+.spotify.com	TRUE	/	TRUE	1821504865	sp_dc	AQBn1owGTYZR0hzg84QQNT-OgkHvlwOLOE_exSeTea0HIX3YpatXcBN9mDdiGvt7ktO9RRCZhYKWwoG0EcVjhSegWz1swy7tN39YP8g-wo9qYrKHcYgI-XV9xIbYjSO7RIP1hxmQnWQ_z2an0ODpfkIK4aGGHihkzMQXH7zFSG0ubAYHb7OtBCFmsLNBvdez61AJdn1T6J9icpXbgxc
+.spotify.com	TRUE	/	TRUE	1795152866	sp_gaid	0088fc0f49ee9e22394bd567393e9c2bd5b8c1a28cc6fd9630186a
+.spotify.com	TRUE	/	TRUE	1821504865	sp_key	5c3322c4-c5d9-43bd-88ec-d0626635b3f2
+.spotify.com	TRUE	/	FALSE	1822184632	OptanonAlertBoxClosed	2026-09-29T02:23:52.353Z
+.spotify.com	TRUE	/	TRUE	1822381910	sp_t	cc0cac0c-0dfc-4e98-9a74-ae00041a857a
+.spotify.com	TRUE	/	TRUE	1795012911	sp_landing	https%3A%2F%2Fopen.spotify.com%2Fapi%2Ftoken
+.spotify.com	TRUE	/	TRUE	1795012911	sp_landingref	https%3A%2F%2Fopen.spotify.com%2Falbum%2F60uSEwHQoMciAVreJ6bwjT
+.spotify.com	TRUE	/	FALSE	1822706637	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Oct+05+2026+11%3A23%3A57+GMT%2B0800+(%E5%8F%B0%E5%8C%97%E6%A8%99%E6%BA%96%E6%99%82%E9%96%93)&version=202601.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=s00%3A1%2Cf00%3A1%2Cm00%3A1%2Ct00%3A1%2Ci00%3A1%2Cf02%3A1%2Cf11%3A1%2Cm02%3A1%2Ct02%3A1%2Cm03%3A1%2CID01%3A1&geolocation=TW%3B04&AwaitingReconsent=false
+.spotify.com	TRUE	/	TRUE	1795012911	_cs_mk_ga	0.19361869368813445_1791170636702
+.spotify.com	TRUE	/	FALSE	1825730637	_ga	GA1.1.512500555.1789956295
+.spotify.com	TRUE	/	FALSE	1825730637	_ga_BMC5VGR8YS	GS2.2.s1791170637$o14$g0$t1791170637$j60$l0$h0
+.spotify.com	TRUE	/	FALSE	1825730637	_ga_ZWG1NSHWD8	GS2.1.s1791170636$o15$g0$t1791170636$j60$l0$h0
+.spotify.com	TRUE	/	FALSE	1795012911	_gat_UA-5784146-31	1
+.spotify.com	TRUE	/	FALSE	1795012911	_gid	GA1.2.900084976.1791163346

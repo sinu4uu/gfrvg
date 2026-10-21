@@ -1,0 +1,27 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : rafael
+  Name        : Movies
+  Region      : ID 🇮🇩
+  Customer ID : A2G133C3IAQRGR
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	TRUE	1801840742	at-main-av	Atza|gQB-Ahk9AwEBAGEcspH9gijJNooQyiEqOt89NZFbdibp9HvwaTDl8eBUr0ddKJ5fKcz6NWqnGXOBUaK7PpeJNPfZVbUkmgiXRar4xVmRsaP0JpVloMIcdKyO9-s1qpHkwpnjXQ7r9cOyrJExG0tV3dizjsc0UfdtghyU1PcR-RVnfpDJuasV2-mZTzxZaGa6MNJBXGogwXRnqPUVKMAqUK1H2C6gAoJcpFoBMRj44bXrun9AjJszyucYD6TFEQVxqJ-SY7phyLl1QApgdRk_gZMUP9SpdgJX-73N09pSu-DpovQwd1pASkZR9MRY0tvpBoYEsMUVNUCwXjcjl15eYqS8r1AKBEiz9bE8QDCNdbIo12WCMekzRoCS51Xm-hURuIIlkAwcc594QwnNlQXE1QoLoI3nSiLOtc5W8WbgM9TVMQrXY6azv3DlrhA
+.primevideo.com	TRUE	/	TRUE	1788880743	av-profile	cGlkPWFtem4xLmFjdG9yLnBlcnNvbi5vaWQuQTEwTzA3SVdFQ1oxVkEmdGltZXN0YW1wPTE3ODYyODg3NTYxODUmdmVyc2lvbj12MQ.g7-QbfTJf7w7MhxRewovnrHstRPYY0PetJp6cZT5XS9EAAAAAQAAAABqeJp0cmF3AAAAAPgWC9WfHH8iB-olH_E9xQ
+www.primevideo.com	FALSE	/	FALSE	1801840748	csm-hit	tb:V593W38ARMD0746VZBVX+s-067QDT8TKP6R5DBXN1X5|1786288748687&t:1786288748687&adb:adblk_yes
+.primevideo.com	TRUE	/	FALSE	1801840743	i18n-prefs	USD
+.primevideo.com	TRUE	/	FALSE	1801840743	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1801840742	sess-at-main-av	9bvfoMGGvVtQaKZdoizC7eEyEdKtjRbd19qzcrM2oy4=
+.primevideo.com	TRUE	/	TRUE	1801840758	session-id	355-2046960-8299809
+.primevideo.com	TRUE	/	TRUE	1801840743	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1801840743	session-token	oGLcC2NFzuP0Z+9B5fARm/vkxJSoXybIsW9YUw86MfczDlpQw1Ki9sd5giPv07YUdVv8svBUflPkMi2OaxpOarzFqs+jZbZavU2sE5+PQr0QGkGlwgOoGx0D0sJmvhq5rbvnTr48ikm0KEbqLzFl7L+bdEopM1SqQjPNjl+T9MgNHbyWTiGf2f6tBkA6SpVNb2nL0hQj8J9hQroERfc0ZS5iuaOYEVYGvLPWM8SNIcEUpWRh/WJ7Ydch1V5Q+Ktx
+.primevideo.com	TRUE	/	TRUE	1801840743	sst-main-av	Sst1|PQJaTKlLTQ7tNc5vdZmE7KjaB-KUo2hc2pJamO-xbzBBtWbfLL437PW6QFQlJEb8ewikhMrgsUQFLYRkKgR5w1i6MvZ166HmikozxYn4rCGPdcs0mLkRTrMByXAYCy5UlSO7z0y1FmvOJlohrwyX5cX8YrSC8Axjdck1b9lH-q9g2k_tQTORAqLuz4KFUSIQEaKtubhnh2ISEqFJB0FJHQvzK2SCy1VP0P4K9tH7Tt3r-06nwzKecyyruFGcLa3CsLK7
+.primevideo.com	TRUE	/	TRUE	1801840743	ubid-main-av	358-9061438-2914136
+.primevideo.com	TRUE	/	TRUE	1801840743	x-main-av	AlknhWk1Gn8WPxStDsLUv6U7GKIRMv4XxHuhkJFBijzGkzx6kLdO4tPI4vxKOyf3
+.primevideo.com	TRUE	/	FALSE	1801840812	av-timezone	Asia/Jakarta

@@ -1,0 +1,23 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+       PRIME VIDEO COOKIES CHECKER — HIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Plan        : YES✅
+  Profile     : Kiran Shinde
+  Name        : Movies
+  Region      : IN 🇮🇳
+  Customer ID : A3VPY2FTNN3AO5
+  Next Payment: N/A
+──────────────────────────────────────────────────────
+  Made with ❤️ by @Sudhirxd
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Netscape HTTP Cookie File
+.primevideo.com	TRUE	/	FALSE	1790707116	av-timezone	Asia/Calcutta
+.primevideo.com	TRUE	/	FALSE	1790707101	i18n-prefs	USD
+.primevideo.com	TRUE	/	TRUE	1793731101	lc-main-av	en_US
+.primevideo.com	TRUE	/	TRUE	1790707103	ubid-main-av	259-1702880-6093305
+.primevideo.com	TRUE	/	TRUE	1794846493	at-main-av	Atza|gQApvHdWAwEBAiuo29mlPS9J4I9zIyEnA_1ErwifurxittJG9mN_3n7q0yfWN0CTmOIgoi96L-eBEYLGTxceiX2eGJu8gCwCvkCCPaWya3z3f9KsqusAE9dcrmVoZnlfwvWNtjvnSOzDPE2SGIQi01_40et-o3-ashTiowJLzDS743jSiyfROmk_F8OurAvp5yRFNYYOONbJngxShAxl71kXDsVNXKFidQbMLTpgProf76J7swHH7YiUlW3qaqgxQAt9xX5pZXAyTflAP2kKturyy9pSBjv4ayAR4blqAIoucY79LUrotxMuSf1J16pEERqI7KP0xeJCiBMFy4iUEfc3u_qvQ0Z9dmDFIA
+www.primevideo.com	FALSE	/	FALSE	1793550507	csm-hit	tb:3J65XEWK0GT1V10BXVF1+s-WZMTBZTY0FVJM0P4P11P|1763310507567&t:1763310507567&adb:adblk_no
+.primevideo.com	TRUE	/	TRUE	1794846493	sess-at-main-av	GM4rZNYFYDowl9GPI/0wlykKNXfN2JiH28SgXkq5nXY=
+.primevideo.com	TRUE	/	TRUE	1794846493	session-id-time	2082787201l
+.primevideo.com	TRUE	/	TRUE	1794846493	session-token	1AnlUQezoTERieHFNd72OgkuHjvJ0oW50nIcHUAZ2ew80bzp9tbFkh5u+LUhxo+IHCMop941Lc5QmVcxfFUO229pw814grLB38LQS9cNhqQuKrQ/YRcUvaietej9UNaapyJF23WN6H/93KSjVWn1AlFgHdJ1OH3Z/bb+G6p+f4oQY1LYdtlQULzmec+bDxdwE8rR/Xui697oLSeTn8NBAZ/SEskQRTyZvGIeGuaLoLwtG1yErBd/dFUBMV/GdJv3Y8s7KWE04a9QPK729Y4SAaF/q8cjU2+DFKQqeGDNtrp4LT6vG1E5gILMAZqaPLLL1Mb1nvfoSEk29OiKJD+frUOeTK3NLVkBNPvZENzgobskboY71hY5q6DCTjBHD1Up
