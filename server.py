@@ -4,6 +4,9 @@ import re
 import io
 import json
 import time
+import html
+import random
+import string
 import base64
 import secrets
 import asyncio
@@ -68,75 +71,16 @@ sys.modules["telegram.ext._jobqueue"] = mock_jq_mod
 import telegram
 import telegram.error
 from telegram.request import HTTPXRequest
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Bot
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Bot, ForceReply
+from telegram.ext import Application, ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters, ApplicationHandlerStop
 from telegram.constants import ParseMode
 
-# Monkey patch class telegram.Bot.send_message & telegram.Bot.edit_message_text for bold-italic formatting
-_original_send_message = telegram.Bot.send_message
-async def _wrapped_send_message(self, *args, **kwargs):
-    args = list(args)
-    text = None
-    text_idx = None
-    if len(args) > 1:
-        text = args[1]
-        text_idx = 1
-    elif 'text' in kwargs:
-        text = kwargs['text']
-        
-    if text and isinstance(text, str):
-        t = text.strip()
-        wrapped_text = text if (t.startswith("<b><i>") and t.endswith("</i></b>")) else f"<b><i>{text}</i></b>"
-        if text_idx is not None:
-            args[text_idx] = wrapped_text
-        else:
-            kwargs['text'] = wrapped_text
-        kwargs['parse_mode'] = 'HTML'
-        
-    try:
-        msg = await _original_send_message(self, *args, **kwargs)
-    except telegram.error.BadRequest as e:
-        if "Message to be replied not found" in str(e) and 'reply_to_message_id' in kwargs:
-            kwargs.pop('reply_to_message_id', None)
-            msg = await _original_send_message(self, *args, **kwargs)
-        else:
-            raise e
-    return msg
-telegram.Bot.send_message = _wrapped_send_message
 
-_original_edit_message_text = telegram.Bot.edit_message_text
-async def _wrapped_edit_message_text(self, *args, **kwargs):
-    args = list(args)
-    text = None
-    text_idx = None
-    if len(args) > 0:
-        text = args[0]
-        text_idx = 0
-    elif 'text' in kwargs:
-        text = kwargs['text']
-        
-    if text and isinstance(text, str):
-        t = text.strip()
-        wrapped_text = text if (t.startswith("<b><i>") and t.endswith("</i></b>")) else f"<b><i>{text}</i></b>"
-        if text_idx is not None:
-            args[text_idx] = wrapped_text
-        else:
-            kwargs['text'] = wrapped_text
-        kwargs['parse_mode'] = 'HTML'
-        
-    try:
-        res = await _original_edit_message_text(self, *args, **kwargs)
-        return res
-    except telegram.error.BadRequest as e:
-        if "message is not modified" in str(e).lower():
-            return True
-        raise e
-telegram.Bot.edit_message_text = _wrapped_edit_message_text
 
 
 import qrcode
 from fastapi import FastAPI, Request, HTTPException
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -166,11 +110,7 @@ REQUIRED_CHANNELS = [c.strip() for c in os.environ.get("TELEGRAM_REQUIRED_CHANNE
 
 # Local TV engine
 try:
-    from tv_engine import (
-        process_tv_login_service, count_vault_cookies, SUPPORTED_SERVICES,
-        load_proxies, get_raw_proxies, save_proxies_to_file, parse_proxy_line,
-        get_proxy_country, get_service_proxies, COOKIES_DIR
-    )
+    from tv_engine import *
 except Exception as e:
     print(f"[!] Warning: Failed to import tv_engine: {e}")
     count_vault_cookies = lambda s: 0
@@ -464,6 +404,51 @@ class WebDB:
                 return True
             return False
 
+    def save_ad_token(self, token: str, session_data: dict):
+        with self.lock:
+            tokens = self.data.setdefault("ad_tokens", {})
+            tokens[token] = session_data
+            self.save_unlocked()
+
+    def get_ad_token(self, token: str) -> Optional[dict]:
+        with self.lock:
+            tokens = self.data.setdefault("ad_tokens", {})
+            return tokens.get(token)
+
+    def use_ad_token_login(self, token: str, service: str) -> bool:
+        with self.lock:
+            tokens = self.data.setdefault("ad_tokens", {})
+            sess = tokens.get(token)
+            if not sess:
+                return False
+            passes = sess.setdefault("services", {})
+            svc_clean = str(service).lower().strip()
+            cur = int(passes.get(svc_clean, 0) or 0)
+            if cur > 0:
+                passes[svc_clean] = cur - 1
+                self.save_unlocked()
+                return True
+            return False
+
+    def is_ads_gate_enabled(self) -> bool:
+        with self.lock:
+            settings = self.data.setdefault("settings", {})
+            return settings.get("ads_gate_enabled", True)
+
+    def set_ads_gate(self, enabled: bool):
+        with self.lock:
+            settings = self.data.setdefault("settings", {})
+            settings["ads_gate_enabled"] = bool(enabled)
+            self.save_unlocked()
+
+    def toggle_ads_gate(self) -> bool:
+        with self.lock:
+            settings = self.data.setdefault("settings", {})
+            cur = settings.get("ads_gate_enabled", True)
+            settings["ads_gate_enabled"] = not cur
+            self.save_unlocked()
+            return settings["ads_gate_enabled"]
+
 
 # Initialize DB targeting web/db.json
 bot_db = WebDB(os.path.join(WEB_DIR, "db.json"))
@@ -578,32 +563,37 @@ def fmt_bot(text: str) -> str:
 
 
 def get_admin_main_keyboard() -> InlineKeyboardMarkup:
+    ads_on = bot_db.is_ads_gate_enabled()
+    ads_btn_text = "📢 Ads Gate: ON 🟢" if ads_on else "📢 Ads Gate: OFF 🔴"
+    ads_style = "success" if ads_on else "danger"
+
     keyboard = [
         [
-            btn(text="📥 Upload Cookies", callback_data="admin_upload_prompt", style="success"),
+            btn(text=ads_btn_text, callback_data="toggle_ads_gate", style=ads_style),
             btn(text="📊 Bot Statistics", callback_data="admin_stats", style="primary")
         ],
         [
-            btn(text="🎁 Grant Subscription", callback_data="admin_grant_sub_prompt", style="success"),
+            btn(text="📥 Upload Cookies", callback_data="admin_upload_prompt", style="success"),
             btn(text="👑 Premium Users List", callback_data="admin_premium_users_list", style="primary")
         ],
         [
-            btn(text="💎 Premium Settings", callback_data="admin_premium_menu", style="primary"),
-            btn(text="👥 Refer & Wallet", callback_data="admin_referral_menu", style="success")
+            btn(text="🎁 Grant Subscription", callback_data="admin_grant_sub_prompt", style="success"),
+            btn(text="💎 Premium Settings", callback_data="admin_premium_menu", style="primary")
         ],
         [
-            btn(text="📢 Broadcast Message", callback_data="admin_broadcast_prompt", style="primary"),
-            btn(text="🔌 Manage Proxies", callback_data="admin_proxies", style="success")
+            btn(text="👥 Refer & Wallet", callback_data="admin_referral_menu", style="success"),
+            btn(text="📢 Broadcast Message", callback_data="admin_broadcast_prompt", style="primary")
         ],
         [
-            btn(text="🛠️ Settings Panel", callback_data="admin_settings", style="primary"),
-            btn(text="💾 Backup DB", callback_data="admin_backup_db_now", style="success")
+            btn(text="🔌 Manage Proxies", callback_data="admin_proxies", style="success"),
+            btn(text="🛠️ Settings Panel", callback_data="admin_settings", style="primary")
         ],
         [
-            btn(text="🔄 Restore DB", callback_data="admin_restore_db_now", style="primary"),
-            btn(text="🗑️ Delete Vault", callback_data="admin_delete_vault_menu", style="danger")
+            btn(text="💾 Backup DB", callback_data="admin_backup_db_now", style="success"),
+            btn(text="🔄 Restore DB", callback_data="admin_restore_db_now", style="primary")
         ],
         [
+            btn(text="🗑️ Delete Vault", callback_data="admin_delete_vault_menu", style="danger"),
             btn(text="🔙 Back to Main Menu", callback_data="menu_main", style="primary")
         ]
     ]
@@ -614,12 +604,14 @@ def get_admin_main_text(admin_name: str) -> str:
     with bot_db.lock:
         u_cnt = len(bot_db.data.get("users", {}))
         o_cnt = len(bot_db.data.get("orders", {}))
+    ads_status = "ENABLED 🟢 (Tokens/Ads Required)" if bot_db.is_ads_gate_enabled() else "DISABLED 🔴 (Free Access / No Tokens Needed)"
     return (
         f"⚡ <b>XDROID TV · ADMIN CONTROL PANEL</b> ⚡\n"
         f"<i>» Master Terminal & Cloud Activation Core</i>\n"
         f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         f"👋 <b>Welcome back, SuperAdmin {admin_name}!</b>\n"
         f"<i>Use the interactive buttons below to manage the platform in real-time.</i>\n\n"
+        f"📢 <b>Ads Token Gate:</b> <code>{ads_status}</code>\n"
         f"👥 <b>Total Users:</b> <code>{u_cnt}</code>\n"
         f"📦 <b>Orders Logged:</b> <code>{o_cnt}</code>\n"
         f"🌐 <b>Web Portal:</b> <code>http://localhost:5000</code>\n"
@@ -804,6 +796,22 @@ async def cmd_removepremium(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_html(f"❌ <i>User</i> <code>{target_id}</code> <i>not found.</i>")
 
 
+async def cmd_toggleads(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user = update.effective_user
+    if not user or not is_admin(user.id):
+        return
+    new_state = bot_db.toggle_ads_gate()
+    state_str = "ENABLED 🟢 (Tokens & Ads Required)" if new_state else "DISABLED 🔴 (Free Access / No Tokens Needed)"
+    await update.message.reply_html(
+        f"📢 <b>ADS TOKEN GATE TOGGLED!</b>\n"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        f"Current State: <b>{state_str}</b>\n\n"
+        f"<i>• If OFF: Users can pair TVs freely without any access token or ads.</i>\n"
+        f"<i>• If ON: Users must have premium or watch an ad to get access tokens.</i>\n"
+        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    )
+
+
 async def cmd_setlogins(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.effective_user
     if not user or not is_admin(user.id):
@@ -972,7 +980,7 @@ async def cmd_broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 
-async def callback_query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def admin_callback_query_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     if not query:
         return
@@ -982,7 +990,6 @@ async def callback_query_handler(update: Update, context: ContextTypes.DEFAULT_T
         return
 
     data = query.data
-    await query.answer()
 
     if data in ("adm_home", "menu_main", "menu_admin"):
         text = get_admin_main_text(user.first_name)
@@ -1227,17 +1234,33 @@ async def callback_query_handler(update: Update, context: ContextTypes.DEFAULT_T
         ])
         await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
 
+    elif data == "toggle_ads_gate":
+        new_state = bot_db.toggle_ads_gate()
+        state_msg = "Ads Gate: ENABLED 🟢 (Tokens & Ads Required)" if new_state else "Ads Gate: DISABLED 🔴 (Free Access / No Tokens Needed)"
+        await query.answer(state_msg, show_alert=True)
+        text = get_admin_main_text(user.first_name)
+        keyboard = get_admin_main_keyboard()
+        await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
+
     elif data in ("adm_settings", "admin_settings"):
+        ads_on = bot_db.is_ads_gate_enabled()
+        gate_status = "ENABLED 🟢 (Tokens & Ads Required)" if ads_on else "DISABLED 🔴 (Free Access / No Tokens Needed)"
         text = (
             "🛠️ <b>SETTINGS PANEL</b>\n"
             "<i>» Runtime & Deployment Parameters</i>\n"
             "━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+            f"📢 <b>Ads Token Gate:</b> <code>{gate_status}</code>\n"
             f"🌐 <b>Listening Port:</b> <code>{os.environ.get('PORT', 5000)}</code>\n"
             f"🔒 <b>Mandatory Channels:</b> <code>{','.join(REQUIRED_CHANNELS)}</code>\n"
             f"📁 <b>Web Database:</b> <code>web/db.json</code>\n"
             f"⏱ <b>GitHub 6-Hour Private Backup:</b> <code>Active & Running</code>"
         )
-        keyboard = InlineKeyboardMarkup([[btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary")]])
+        toggle_btn_text = "Turn Ads Gate OFF 🔴" if ads_on else "Turn Ads Gate ON 🟢"
+        toggle_btn_style = "danger" if ads_on else "success"
+        keyboard = InlineKeyboardMarkup([
+            [btn(text=toggle_btn_text, callback_data="toggle_ads_gate", style=toggle_btn_style)],
+            [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary")]
+        ])
         await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
 
     elif data in ("adm_backup_now", "admin_backup_db_now"):
@@ -1681,8 +1704,8 @@ SERVICE_CONFIG = {
         "code_type": "alphanumeric",
         "placeholder": "CR1234",
         "description": "Enter the 6-character code from your Crunchyroll TV screen",
-        "is_premium_required": False,
-        "is_free_trial": True
+        "is_premium_required": True,
+        "is_free_trial": False
     },
     "hbomax": {
         "name": "HBO Max",
@@ -1705,8 +1728,8 @@ SERVICE_CONFIG = {
         "code_type": "alphanumeric",
         "placeholder": "SP1234",
         "description": "Enter the 6-character code shown on your Spotify TV screen",
-        "is_premium_required": False,
-        "is_free_trial": True
+        "is_premium_required": True,
+        "is_free_trial": False
     },
     "surfshark": {
         "name": "Surfshark VPN",
@@ -1729,23 +1752,13 @@ SERVICE_CONFIG = {
         "code_type": "link_or_code",
         "placeholder": "Scan TV QR or paste activation link",
         "description": "Scan the QR code shown on your TV screen or paste the activation URL",
-        "is_premium_required": False,
-        "is_free_trial": True
+        "is_premium_required": True,
+        "is_free_trial": False
     }
 }
 
-# In-memory IP rate limiter: max 4 requests per 60 seconds per IP
-ip_request_history: Dict[str, list] = defaultdict(list)
-RATE_LIMIT_MAX = 4
-RATE_LIMIT_WINDOW = 60
-
+# Rate limit disabled per configuration
 def is_rate_limited(ip: str) -> bool:
-    now = time.time()
-    history = ip_request_history[ip]
-    ip_request_history[ip] = [t for t in history if now - t < RATE_LIMIT_WINDOW]
-    if len(ip_request_history[ip]) >= RATE_LIMIT_MAX:
-        return True
-    ip_request_history[ip].append(now)
     return False
 
 
@@ -2221,7 +2234,13 @@ async def ad_pass_callback(token: str, sig: str, request: Request):
     # Mark verified & unlock 1 Free Login for EVERY service
     sess["status"] = "VERIFIED"
     all_services = list(SERVICE_CONFIG.keys())
-    sess["services"] = {s: 1 for s in all_services}
+    if "services" not in sess or not isinstance(sess["services"], dict):
+        sess["services"] = {}
+    for s in all_services:
+        sess["services"][s] = sess["services"].get(s, 0) + 1
+    
+    # Save token in persistent database
+    bot_db.save_ad_token(token, sess)
     
     # If user provided email or chat_id, grant directly to profile in db.json
     user_email = sess.get("email")
@@ -2245,9 +2264,9 @@ async def get_ad_pass_status(token: Optional[str] = None, email: Optional[str] =
             if any(v > 0 for v in db_passes.values()):
                 is_active = True
                 
-    if token and token in ad_sessions:
-        sess = ad_sessions[token]
-        if sess.get("status") == "VERIFIED":
+    if token:
+        sess = ad_sessions.get(token) or bot_db.get_ad_token(token)
+        if sess and sess.get("status") == "VERIFIED":
             sess_passes = sess.get("services", {})
             for k, v in sess_passes.items():
                 services_balance[k] = max(services_balance.get(k, 0), v)
@@ -2303,10 +2322,9 @@ async def get_config():
         if is_avail:
             available_gateways += 1
 
-        default_mode = "premium" if meta.get("is_premium_required") else "free"
-        current_mode = bot_db.get_service_mode(svc_key, default_mode)
-        is_premium_required = (current_mode == "premium")
-        is_free = not is_premium_required
+        ads_gate_active = bot_db.is_ads_gate_enabled()
+        is_premium_required = ads_gate_active
+        is_free = not ads_gate_active
 
         services_data.append({
             "id": svc_key,
@@ -2334,17 +2352,6 @@ async def get_config():
 @app.post("/api/activate")
 async def activate_tv(req: ActivationRequest, request: Request):
     """Processes TV activation using local tv_engine."""
-    client_ip = request.client.host if request.client else "127.0.0.1"
-
-    if is_rate_limited(client_ip):
-        return JSONResponse(
-            status_code=429,
-            content={
-                "success": False,
-                "error": "Rate limit exceeded. Please wait a minute before trying again."
-            }
-        )
-
     service = req.service.lower().strip()
     raw_code = req.tv_code.strip()
 
@@ -2355,8 +2362,6 @@ async def activate_tv(req: ActivationRequest, request: Request):
         )
 
     meta = SERVICE_CONFIG[service]
-    default_mode = "premium" if meta.get("is_premium_required") else "free"
-    is_premium_svc = (bot_db.get_service_mode(service, default_mode) == "premium")
 
     # Identify user in bot_db if provided
     user_id = None
@@ -2371,43 +2376,50 @@ async def activate_tv(req: ActivationRequest, request: Request):
             else:
                 user_id = req.email.lower().strip()
 
-    # Track how this activation is authorized: "premium" | "ad_pass_db" | "ad_pass_token" | "free"
+    # Dynamic Ads Gate Check:
+    # If Ads Gate is OFF -> Any user can login freely without any access token!
+    # If Ads Gate is ON  -> Strict Access Token (Paid or Ad Pass) required!
+    ads_gate_active = bot_db.is_ads_gate_enabled()
+    authorized = False
     auth_method = "free"
     ad_sess_to_deduct = None
 
-    # If Service is PREMIUM: User must have active premium logins OR an unlocked Free Ad Pass for this service!
-    if is_premium_svc:
-        authorized = False
-        
+    if not ads_gate_active:
+        # Ads Gate is OFF: Free Access / No Token Needed
+        authorized = True
+        auth_method = "free"
+    else:
+        # Ads Gate is ON: Strict Token Enforcement
         # 1. Check Paid Premium Logins
         if user_id:
             prem = bot_db.get_user_premium(user_id)
-            if prem and prem.get("remaining_logins", 0) > 0:
+            if prem and int(prem.get("remaining_logins", 0) or 0) > 0:
                 authorized = True
                 auth_method = "premium"
                 
         # 2. Check Free Service Pass on user profile (db.json)
         if not authorized and user_id:
             user_passes = bot_db.get_free_service_logins(user_id)
-            if user_passes.get(service, 0) > 0:
+            if int(user_passes.get(service, 0) or 0) > 0:
                 authorized = True
                 auth_method = "ad_pass_db"
                 
-        # 3. Check Free Service Pass via Ad Token (session/guest)
-        if not authorized and req.ad_token and req.ad_token in ad_sessions:
-            sess = ad_sessions[req.ad_token]
-            if sess.get("status") == "VERIFIED" and sess.get("services", {}).get(service, 0) > 0:
-                authorized = True
-                auth_method = "ad_pass_token"
-                ad_sess_to_deduct = sess
+        # 3. Check Free Service Pass via Ad Token (session/guest/persistent)
+        if not authorized and req.ad_token:
+            sess = ad_sessions.get(req.ad_token) or bot_db.get_ad_token(req.ad_token)
+            if sess and sess.get("status") == "VERIFIED":
+                svc_passes = sess.get("services", {})
+                if int(svc_passes.get(service, 0) or 0) > 0:
+                    authorized = True
+                    auth_method = "ad_pass_token"
+                    ad_sess_to_deduct = sess
                 
         if not authorized:
             return {
                 "success": False,
                 "need_ad": True,
-                "error": f"Access Denied: An active Access Token is required to authorize {meta['name']}. Generate a free access token below."
+                "error": f"Access Denied: An active Access Token is required to authorize {meta['name']}. Watch a quick ad to unlock 1 free login on all platforms."
             }
-    # If Service is FREE: Any user can activate without premium or login requirement!
 
     # Sanitize and validate code
     if service == "jiohotstar":
@@ -2449,6 +2461,7 @@ async def activate_tv(req: ActivationRequest, request: Request):
         }
 
     if result.get("success"):
+        # ONLY DEDUCT WHEN LOGIN IS SUCCESSFUL!
         if auth_method == "premium" and user_id:
             try:
                 bot_db.deduct_user_login(user_id, service)
@@ -2461,7 +2474,10 @@ async def activate_tv(req: ActivationRequest, request: Request):
                 print(f"[!] Error deducting free service login in bot_db: {e}")
         elif auth_method == "ad_pass_token" and ad_sess_to_deduct:
             try:
-                ad_sess_to_deduct["services"][service] = max(0, ad_sess_to_deduct["services"].get(service, 0) - 1)
+                cur = int(ad_sess_to_deduct["services"].get(service, 0) or 0)
+                ad_sess_to_deduct["services"][service] = max(0, cur - 1)
+                if req.ad_token:
+                    bot_db.use_ad_token_login(req.ad_token, service)
             except Exception as e:
                 print(f"[!] Error deducting ad token service login: {e}")
 
@@ -4155,8 +4171,9 @@ async def _wrapped_send_message(self, *args, **kwargs):
     elif 'text' in kwargs:
         text = kwargs['text']
         
-    if text:
-        wrapped_text = f"<b><i>{text}</i></b>"
+    if text and isinstance(text, str):
+        t = text.strip()
+        wrapped_text = text if (t.startswith("<b><i>") and t.endswith("</i></b>")) else f"<b><i>{text}</i></b>"
         if text_idx is not None:
             args[text_idx] = wrapped_text
         else:
@@ -4191,8 +4208,9 @@ async def _wrapped_edit_message_text(self, *args, **kwargs):
     elif 'text' in kwargs:
         text = kwargs['text']
         
-    if text:
-        wrapped_text = f"<b><i>{text}</i></b>"
+    if text and isinstance(text, str):
+        t = text.strip()
+        wrapped_text = text if (t.startswith("<b><i>") and t.endswith("</i></b>")) else f"<b><i>{text}</i></b>"
         if text_idx is not None:
             args[text_idx] = wrapped_text
         else:
@@ -7194,6 +7212,32 @@ async def callback_query_handler(update: Update, context: ContextTypes.DEFAULT_T
         except Exception:
             pass  # Query already expired or answered, no biggie
 
+    # Admin Ads Gate Toggle Button Callback
+    if data == "toggle_ads_gate":
+        if not is_admin(user.id):
+            try:
+                await query.answer("Access Denied: SuperAdmin Only.", show_alert=True)
+            except Exception:
+                pass
+            return
+        new_state = bot_db.toggle_ads_gate()
+        state_msg = "Ads Gate: ENABLED 🟢 (Tokens & Ads Required)" if new_state else "Ads Gate: DISABLED 🔴 (Free Access / No Tokens Needed)"
+        try:
+            await query.answer(state_msg, show_alert=True)
+        except Exception:
+            pass
+        text = get_admin_main_text(user.first_name)
+        keyboard = get_admin_main_keyboard()
+        try:
+            await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
+        except Exception:
+            await query.message.reply_html(text, reply_markup=keyboard)
+        return
+
+    # Route other admin callbacks to admin_callback_query_handler
+    if data.startswith("admin_") or data.startswith("adm_") or (is_admin(user.id) and data in ("menu_admin", "adm_home")):
+        return await admin_callback_query_handler(update, context)
+
     # Dynamic TV Activation Selection Callback
     if data.startswith("activate:"):
         # Answer the callback query NOW before the long activation process
@@ -9820,6 +9864,8 @@ def run_telegram_bot_sync():
     tg_app.add_handler(CommandHandler("removepremium", remove_premium_command))
     tg_app.add_handler(CommandHandler("backupdb", backupdb_command))
     tg_app.add_handler(CommandHandler("restoredb", restoredb_command))
+    tg_app.add_handler(CommandHandler("toggleads", cmd_toggleads))
+    tg_app.add_handler(CommandHandler("ads", cmd_toggleads))
     
     tg_app.add_handler(CallbackQueryHandler(callback_query_handler))
     tg_app.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, handle_admin_broadcast_message), group=-1)
@@ -9829,7 +9875,7 @@ def run_telegram_bot_sync():
     print("[*] Bot started! Press Ctrl+C to stop.")
     while True:
         try:
-            tg_tg_app.run_polling(allowed_updates=Update.ALL_TYPES, bootstrap_retries=5, close_loop=False, stop_signals=None)
+            tg_app.run_polling(allowed_updates=Update.ALL_TYPES, bootstrap_retries=5, close_loop=False, stop_signals=None)
             break
         except (telegram.error.NetworkError, Exception) as e:
             print(f"[!] Network reconnecting... {e}")
