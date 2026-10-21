@@ -1006,15 +1006,25 @@ def crunchyroll_validate_cookie(cookies, proxy=None):
             req_cookies = {k: v for k, v in cookies.items() if isinstance(v, str)}
             token_data = f"device_id={str(uuid.uuid4())}&device_type=Chrome%20on%20Android&grant_type=etp_rt_cookie"
 
-            session = requests.Session()
+            if HAS_CLOUDSCRAPER:
+                session = cloudscraper.create_scraper(
+                    browser={
+                        'browser': 'chrome',
+                        'platform': 'android',
+                        'desktop': False,
+                        'mobile': True
+                    }
+                )
+            else:
+                session = requests.Session()
+
             resp = session.post(
                 "https://www.crunchyroll.com/auth/v1/token",
                 headers=token_headers,
                 data=token_data,
                 cookies=req_cookies,
                 proxies=p,
-                timeout=18,
-                verify=False
+                timeout=18
             )
 
             if resp.status_code == 200:
@@ -1029,7 +1039,7 @@ def crunchyroll_validate_cookie(cookies, proxy=None):
                 email = "N/A"
                 external_id = account_id
                 try:
-                    me_resp = session.get("https://beta-api.crunchyroll.com/accounts/v1/me", headers=headers, cookies=req_cookies, proxies=p, timeout=10, verify=False)
+                    me_resp = session.get("https://beta-api.crunchyroll.com/accounts/v1/me", headers=headers, cookies=req_cookies, proxies=p, timeout=10)
                     if me_resp.status_code == 200:
                         me_data = me_resp.json()
                         email = me_data.get('email', 'N/A')
@@ -1041,7 +1051,7 @@ def crunchyroll_validate_cookie(cookies, proxy=None):
                 country = "Unknown"
                 try:
                     if external_id:
-                        benefits_resp = session.get(f"https://beta-api.crunchyroll.com/subs/v1/subscriptions/{external_id}/benefits", headers=headers, cookies=req_cookies, proxies=p, timeout=10, verify=False)
+                        benefits_resp = session.get(f"https://beta-api.crunchyroll.com/subs/v1/subscriptions/{external_id}/benefits", headers=headers, cookies=req_cookies, proxies=p, timeout=10)
                         if benefits_resp.status_code == 200:
                             ben_text = benefits_resp.text
                             country_match = re.search(r'"subscription_country":"([^"]+)"', ben_text)
@@ -1111,14 +1121,24 @@ def crunchyroll_submit_tv_code(auth_data, tv_code, proxy=None):
     activation_data = {"user_code": tv_code.upper()}
 
     try:
-        session = requests.Session()
+        if HAS_CLOUDSCRAPER:
+            session = cloudscraper.create_scraper(
+                browser={
+                    'browser': 'chrome',
+                    'platform': 'android',
+                    'desktop': False,
+                    'mobile': True
+                }
+            )
+        else:
+            session = requests.Session()
+
         r = session.post(
             "https://www.crunchyroll.com/auth/v1/device",
             headers=activation_headers,
             json=activation_data,
             proxies=proxy,
-            timeout=25,
-            verify=False
+            timeout=25
         )
 
         if r.status_code == 200:
