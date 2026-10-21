@@ -552,6 +552,39 @@ def is_admin(user_id) -> bool:
         return False
 
 
+PREMIUM_EMOJIS = {
+    "lock": "5886505193180239900",     # 🔐
+    "stats": "5231200819986047254",    # 📊
+    "cookie": "5440688760381544579",   # 🍪
+    "bolt": "5224607267797606837",     # ⚡
+    "crown": "5229011542011299168",    # 👑
+    "movie": "5203999112768279777",    # 🎬
+    "red": "5420323339723881652",      # 🔴
+    "orange": "5951971421168079496",   # 🟧
+    "yellow": "5379769511190747541",   # 🟡
+    "green": "5810051751654460532",    # 🟢
+    "shark": "5375509681022187898",    # 🦈
+    "tv": "5355012477883004708",       # 📺
+    "check": "5206607081334906820",    # ✅
+    "cross": "5240241223632954241",    # ❌
+    "refresh": "5375338737028841420",  # 🔄
+    "shield": "5197288647275071607",   # 🛡
+    "diamond": "5429153655045507054",  # 💎
+    "box": "5924720918826848520",      # 📦
+    "back": "5253997076169115797",     # 🔙
+    "fire": "5424972470023104089",     # 🔥
+    "star": "5438496463044752972",     # ⭐
+    "sparkle": "5217818964612108191",  # ✨
+}
+
+def pe(name: str, fallback: str) -> str:
+    """Renders a custom Telegram premium emoji via <tg-emoji> tag."""
+    eid = PREMIUM_EMOJIS.get(name)
+    if eid:
+        return f'<tg-emoji emoji-id="{eid}">{fallback}</tg-emoji>'
+    return fallback
+
+
 def btn(text: str, callback_data: str = None, url: str = None, style: str = "primary", icon_custom_emoji_id: str = None) -> InlineKeyboardButton:
     kw = {"style": style}
     if icon_custom_emoji_id:
@@ -571,6 +604,57 @@ def fmt_bot(text: str) -> str:
     return f"<b><i>{t}</i></b>"
 
 
+def build_vault_text() -> str:
+    e_lock = pe("lock", "🔐")
+    e_cookie = pe("cookie", "🍪")
+    e_bolt = pe("bolt", "⚡")
+    e_sparkle = pe("sparkle", "✨")
+    e_check = pe("check", "✅")
+    e_cross = pe("cross", "❌")
+
+    service_meta = {
+        "netflix": (pe("red", "🔴"), "Netflix"),
+        "primevideo": (pe("movie", "🎬"), "Prime Video"),
+        "crunchyroll": (pe("orange", "🟧"), "Crunchyroll"),
+        "hbomax": (pe("star", "🟣"), "HBO Max"),
+        "jiohotstar": (pe("diamond", "🔵"), "JioHotstar"),
+        "spotify": (pe("green", "🟢"), "Spotify"),
+        "surfshark": (pe("shark", "🦈"), "Surfshark")
+    }
+
+    lines = [
+        f"{e_lock} <b><i>VAULT COOKIE REAL-TIME INVENTORY</i></b> {e_sparkle}",
+        f"<b><i>» Live Active Streaming Session Tokens in Storage</i></b>",
+        f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>"
+    ]
+
+    total_cookies = 0
+    active_services = 0
+
+    for svc in SUPPORTED_SERVICES:
+        c_count = count_vault_cookies(svc)
+        total_cookies += c_count
+        icon, name = service_meta.get(svc, (pe("tv", "📺"), svc.upper()))
+
+        if c_count > 0:
+            active_services += 1
+            status_tag = f"{e_check} <b><i>Ready</i></b>"
+        else:
+            status_tag = f"{e_cross} <b><i>Empty</i></b>"
+
+        lines.append(
+            f"{icon} <b><i>{name.upper()}:</i></b> <code>{c_count} active cookies</code> · {status_tag}"
+        )
+
+    lines.append(f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>")
+    lines.append(f"{e_cookie} <b><i>Total Cookies in Vault:</i></b> <code>{total_cookies} active</code>")
+    lines.append(f"{e_bolt} <b><i>Active Online Gateways:</i></b> <code>{active_services}/{len(SUPPORTED_SERVICES)}</code>")
+    lines.append(f"<b><i>💡 Auto-Rotation: Working cookies are paired automatically.</i></b>")
+    lines.append(f"<b><i>📥 Upload cookies via /upload &lt;service&gt; or button below.</i></b>")
+
+    return "\n".join(lines)
+
+
 def get_admin_main_keyboard() -> InlineKeyboardMarkup:
     ads_on = bot_db.is_ads_gate_enabled()
     ads_btn_text = "📢 Ads Gate: ON 🟢" if ads_on else "📢 Ads Gate: OFF 🔴"
@@ -579,31 +663,34 @@ def get_admin_main_keyboard() -> InlineKeyboardMarkup:
     keyboard = [
         [
             btn(text=ads_btn_text, callback_data="toggle_ads_gate", style=ads_style),
-            btn(text="📊 Bot Statistics", callback_data="admin_stats", style="primary")
+            btn(text="🔐 Vault Statistics", callback_data="admin_vault", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("lock"))
         ],
         [
-            btn(text="📥 Upload Cookies", callback_data="admin_upload_prompt", style="success"),
-            btn(text="👑 Premium Users List", callback_data="admin_premium_users_list", style="primary")
+            btn(text="📊 Bot Statistics", callback_data="admin_stats", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("stats")),
+            btn(text="📥 Upload Cookies", callback_data="admin_upload_prompt", style="success", icon_custom_emoji_id=PREMIUM_EMOJIS.get("cookie"))
         ],
         [
             btn(text="🎁 Grant Subscription", callback_data="admin_grant_sub_prompt", style="success"),
-            btn(text="💎 Premium Settings", callback_data="admin_premium_menu", style="primary")
+            btn(text="👑 Premium Users List", callback_data="admin_premium_users_list", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("crown"))
         ],
         [
-            btn(text="👥 Refer & Wallet", callback_data="admin_referral_menu", style="success"),
-            btn(text="📢 Broadcast Message", callback_data="admin_broadcast_prompt", style="primary")
+            btn(text="💎 Premium Settings", callback_data="admin_premium_menu", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("diamond")),
+            btn(text="👥 Refer & Wallet", callback_data="admin_referral_menu", style="success")
         ],
         [
-            btn(text="🔌 Manage Proxies", callback_data="admin_proxies", style="success"),
-            btn(text="🛠️ Settings Panel", callback_data="admin_settings", style="primary")
+            btn(text="📢 Broadcast Message", callback_data="admin_broadcast_prompt", style="primary"),
+            btn(text="🔌 Manage Proxies", callback_data="admin_proxies", style="success")
         ],
         [
-            btn(text="💾 Backup DB", callback_data="admin_backup_db_now", style="success"),
-            btn(text="🔄 Restore DB", callback_data="admin_restore_db_now", style="primary")
+            btn(text="🛠️ Settings Panel", callback_data="admin_settings", style="primary"),
+            btn(text="💾 Backup DB", callback_data="admin_backup_db_now", style="success")
         ],
         [
-            btn(text="🗑️ Delete Vault", callback_data="admin_delete_vault_menu", style="danger"),
-            btn(text="🔙 Back to Main Menu", callback_data="menu_main", style="primary")
+            btn(text="🔄 Restore DB", callback_data="admin_restore_db_now", style="primary"),
+            btn(text="🗑️ Delete Vault", callback_data="admin_delete_vault_menu", style="danger")
+        ],
+        [
+            btn(text="🔄 Refresh Dashboard", callback_data="menu_admin", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("refresh"))
         ]
     ]
     return InlineKeyboardMarkup(keyboard)
@@ -613,25 +700,31 @@ def get_admin_main_text(admin_name: str) -> str:
     with bot_db.lock:
         u_cnt = len(bot_db.data.get("users", {}))
         o_cnt = len(bot_db.data.get("orders", {}))
+    total_c = sum(count_vault_cookies(s) for s in SUPPORTED_SERVICES)
     ads_status = "ENABLED 🟢 (Tokens/Ads Required)" if bot_db.is_ads_gate_enabled() else "DISABLED 🔴 (Free Access / No Tokens Needed)"
+    e_bolt = pe("bolt", "⚡")
+    e_crown = pe("crown", "👑")
+    e_lock = pe("lock", "🔐")
     return (
-        f"⚡ <b>XDROID TV · ADMIN CONTROL PANEL</b> ⚡\n"
-        f"<i>» Master Terminal & Cloud Activation Core</i>\n"
-        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-        f"👋 <b>Welcome back, SuperAdmin {admin_name}!</b>\n"
-        f"<i>Use the interactive buttons below to manage the platform in real-time.</i>\n\n"
-        f"📢 <b>Ads Token Gate:</b> <code>{ads_status}</code>\n"
-        f"👥 <b>Total Users:</b> <code>{u_cnt}</code>\n"
-        f"📦 <b>Orders Logged:</b> <code>{o_cnt}</code>\n"
-        f"🌐 <b>Web Portal:</b> <code>http://localhost:5000</code>\n"
-        f"📁 <b>Isolated Database:</b> <code>web/db.json</code>\n"
-        f"🔒 <b>Access Security:</b> <i>Admin Whitelist Active (Private)</i>\n"
-        f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
+        f"{e_bolt} <b><i>XDROID TV · ADMIN CONTROL PANEL</i></b> {e_crown}\n"
+        f"<b><i>» Master Terminal & Cloud Activation Core</i></b>\n"
+        f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>\n"
+        f"👋 <b><i>Welcome back, SuperAdmin {admin_name}!</i></b>\n"
+        f"<b><i>Use the interactive buttons below to manage the platform in real-time.</i></b>\n\n"
+        f"📢 <b><i>Ads Token Gate:</i></b> <code>{ads_status}</code>\n"
+        f"{e_lock} <b><i>Vault Cookies Total:</i></b> <code>{total_c} active</code>\n"
+        f"👥 <b><i>Total Users:</i></b> <code>{u_cnt}</code>\n"
+        f"📦 <b><i>Orders Logged:</i></b> <code>{o_cnt}</code>\n"
+        f"🌐 <b><i>Web Portal:</i></b> <code>http://localhost:5000</code>\n"
+        f"📁 <b><i>Isolated Database:</i></b> <code>web/db.json</code>\n"
+        f"🔒 <b><i>Access Security:</i></b> <i>Admin Whitelist Active (Private)</i>\n"
+        f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>\n"
         f"💡 <i>Tip: Tap any module button below to view details.</i>"
     )
 
 
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
     user = update.effective_user
     if not user:
         return
@@ -698,33 +791,16 @@ async def cmd_vault(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not user or not is_admin(user.id):
         return
 
-    lines = [
-        "🔐 <b>VAULT COOKIE INVENTORY</b>",
-        "<i>» Live Streaming Session Tokens in Storage</i>",
-        "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-    ]
-    icons = {
-        "netflix": "🔴",
-        "primevideo": "🎬",
-        "crunchyroll": "🟠",
-        "hbomax": "🟣",
-        "spotify": "🟢",
-        "jiohotstar": "🔵",
-        "surfshark": "🦈"
-    }
-    for svc in SUPPORTED_SERVICES:
-        c = count_vault_cookies(svc)
-        ic = icons.get(svc, "📺")
-        lines.append(f"{ic} <b>{svc.upper()}:</b> <code>{c} active cookies</code>")
-
-    lines.append("━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    lines.append("💡 <i>Auto-Rotation: Working cookies are paired automatically.</i>")
-
+    text = build_vault_text()
     keyboard = InlineKeyboardMarkup([
-        [btn("🔄 Refresh Vault", callback_data="admin_vault", style="primary")],
-        [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary")]
+        [
+            btn("🔄 Refresh Vault", callback_data="admin_vault", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("refresh")),
+            btn("📥 Upload Cookies", callback_data="admin_upload_prompt", style="success", icon_custom_emoji_id=PREMIUM_EMOJIS.get("cookie"))
+        ],
+        [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("back"))]
     ])
-    await update.message.reply_html("\n".join(lines), reply_markup=keyboard)
+    await update.message.reply_html(text, reply_markup=keyboard)
+
 
 
 async def cmd_userstats(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -1026,53 +1102,42 @@ async def admin_callback_query_handler(update: Update, context: ContextTypes.DEF
 
         total_cookies = sum(count_vault_cookies(s) for s in SUPPORTED_SERVICES)
 
+        e_stats = pe("stats", "📊")
+        e_crown = pe("crown", "👑")
+        e_check = pe("check", "✅")
+        e_lock = pe("lock", "🔐")
+        e_box = pe("box", "📦")
+        e_diamond = pe("diamond", "💎")
         text = (
-            f"📊 <b>SYSTEM & DATABASE METRICS</b>\n"
-            f"<i>» Real-Time Telemetry & Transaction Analytics</i>\n"
-            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-            f"👥 <b>Total Registered Users:</b> <code>{total_users}</code>\n"
-            f"👑 <b>Active Premium Members:</b> <code>{premium_users}</code>\n"
-            f"📦 <b>Total Orders Placed:</b> <code>{total_orders}</code>\n"
-            f"✅ <b>Verified Completed Orders:</b> <code>{completed_orders}</code>\n"
-            f"💰 <b>Total Verified Revenue:</b> <code>₹{total_revenue:.2f}</code>\n"
-            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-            f"🔐 <b>Total Vault Cookies:</b> <code>{total_cookies} active</code>\n"
-            f"⏱ <b>Server Timestamp:</b> <i>{time.strftime('%Y-%m-%d %H:%M:%S')}</i>"
+            f"{e_stats} <b><i>SYSTEM & DATABASE METRICS</i></b>\n"
+            f"<b><i>» Real-Time Telemetry & Transaction Analytics</i></b>\n"
+            f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>\n"
+            f"👥 <b><i>Total Registered Users:</i></b> <code>{total_users}</code>\n"
+            f"{e_crown} <b><i>Active Premium Members:</i></b> <code>{premium_users}</code>\n"
+            f"{e_box} <b><i>Total Orders Placed:</i></b> <code>{total_orders}</code>\n"
+            f"{e_check} <b><i>Verified Completed Orders:</i></b> <code>{completed_orders}</code>\n"
+            f"{e_diamond} <b><i>Total Verified Revenue:</i></b> <code>₹{total_revenue:.2f}</code>\n"
+            f"<b><i>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</i></b>\n"
+            f"{e_lock} <b><i>Total Vault Cookies:</i></b> <code>{total_cookies} active</code>\n"
+            f"⏱ <b><i>Server Timestamp:</i></b> <i>{time.strftime('%Y-%m-%d %H:%M:%S')}</i>"
         )
         keyboard = InlineKeyboardMarkup([
-            [btn("🔄 Refresh Stats", callback_data="admin_stats", style="primary")],
-            [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary")]
+            [btn("🔄 Refresh Stats", callback_data="admin_stats", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("refresh"))],
+            [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("back"))]
         ])
         await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
 
     elif data in ("adm_vault", "admin_vault"):
-        lines = [
-            "🔐 <b>VAULT COOKIE INVENTORY</b>",
-            "<i>» Live Streaming Session Tokens in Storage</i>",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        ]
-        icons = {
-            "netflix": "🔴",
-            "primevideo": "🎬",
-            "crunchyroll": "🟠",
-            "hbomax": "🟣",
-            "spotify": "🟢",
-            "jiohotstar": "🔵",
-            "surfshark": "🦈"
-        }
-        for svc in SUPPORTED_SERVICES:
-            c = count_vault_cookies(svc)
-            ic = icons.get(svc, "📺")
-            lines.append(f"{ic} <b>{svc.upper()}:</b> <code>{c} active cookies</code>")
-
-        lines.append("━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-        lines.append("💡 <i>Auto-Rotation: Working cookies are paired automatically.</i>")
-
+        text = build_vault_text()
         keyboard = InlineKeyboardMarkup([
-            [btn("🔄 Refresh Vault", callback_data="admin_vault", style="primary")],
-            [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary")]
+            [
+                btn("🔄 Refresh Vault", callback_data="admin_vault", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("refresh")),
+                btn("📥 Upload Cookies", callback_data="admin_upload_prompt", style="success", icon_custom_emoji_id=PREMIUM_EMOJIS.get("cookie"))
+            ],
+            [btn("🔙 Back to Main Menu", callback_data="menu_main", style="primary", icon_custom_emoji_id=PREMIUM_EMOJIS.get("back"))]
         ])
-        await query.edit_message_text("\n".join(lines), parse_mode=ParseMode.HTML, reply_markup=keyboard)
+        await query.edit_message_text(text, parse_mode=ParseMode.HTML, reply_markup=keyboard)
+
 
     elif data in ("adm_users", "admin_premium_users_list"):
         with bot_db.lock:
