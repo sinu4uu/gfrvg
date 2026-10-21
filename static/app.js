@@ -481,17 +481,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scan QR (Camera) button
   if (btnScanTvQr) {
     btnScanTvQr.addEventListener("click", () => {
-      // If mobile device or camera API is missing/unsupported, use native camera photo capture
-      const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent);
-      const hasMediaDevices = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.isSecureContext);
-
-      if (isMobile || !hasMediaDevices) {
-        if (directQrFileInput) {
-          directQrFileInput.setAttribute("capture", "environment");
-          directQrFileInput.click();
-        } else {
-          openLiveScanner();
-        }
+      // Prioritize live in-browser camera stream across both PC and Mobile
+      const hasMediaDevices = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+      if (hasMediaDevices) {
+        openLiveScanner();
+      } else if (directQrFileInput) {
+        directQrFileInput.setAttribute("capture", "environment");
+        directQrFileInput.click();
       } else {
         openLiveScanner();
       }
