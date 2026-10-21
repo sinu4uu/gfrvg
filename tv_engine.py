@@ -2236,30 +2236,6 @@ def resolve_proxy_country(p):
     return "UNKNOWN"
 
 
-def load_proxies():
-    global PROXY_COUNTRY_CACHE
-    if 'db' in globals() and db is not None:
-        try:
-            cached = db.get_setting("proxy_country_cache", {})
-            if isinstance(cached, dict):
-                PROXY_COUNTRY_CACHE.update(cached)
-        except Exception:
-            pass
-    proxies = []
-    if os.path.exists(PROXY_FILE):
-        with open(PROXY_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                p = parse_proxy_line(line)
-                if p:
-                    if not p.country:
-                        url_key = p.get("http", "")
-                        if url_key in PROXY_COUNTRY_CACHE:
-                            p.country = PROXY_COUNTRY_CACHE[url_key]
-                    proxies.append(p)
-    return proxies
-
-
-
 def resolve_proxy_country(p):
     """Actively queries ip-api to resolve proxy location and saves to cache."""
     global PROXY_COUNTRY_CACHE
@@ -2288,7 +2264,7 @@ def resolve_proxy_country(p):
 
 
 def load_proxies():
-    global PROXY_COUNTRY_CACHE
+    global PROXY_COUNTRY_CACHE, proxies_list
     if 'db' in globals() and db is not None:
         try:
             cached = db.get_setting("proxy_country_cache", {})
@@ -2297,16 +2273,32 @@ def load_proxies():
         except Exception:
             pass
     proxies = []
+    lines = []
     if os.path.exists(PROXY_FILE):
         with open(PROXY_FILE, "r", encoding="utf-8") as f:
             for line in f:
-                p = parse_proxy_line(line)
-                if p:
-                    if not p.country:
-                        url_key = p.get("http", "")
-                        if url_key in PROXY_COUNTRY_CACHE:
-                            p.country = PROXY_COUNTRY_CACHE[url_key]
-                    proxies.append(p)
+                line_str = line.strip()
+                if line_str and not line_str.startswith("#"):
+                    lines.append(line_str)
+    if 'db' in globals() and db is not None:
+        try:
+            db_p = db.get_setting("proxies", [])
+            if isinstance(db_p, list):
+                for p_str in db_p:
+                    if p_str and p_str.strip() and p_str.strip() not in lines:
+                        lines.append(p_str.strip())
+        except Exception:
+            pass
+
+    for line in lines:
+        p = parse_proxy_line(line)
+        if p:
+            if not p.country:
+                url_key = p.get("http", "")
+                if url_key in PROXY_COUNTRY_CACHE:
+                    p.country = PROXY_COUNTRY_CACHE[url_key]
+            proxies.append(p)
+    proxies_list = proxies
     return proxies
 
 

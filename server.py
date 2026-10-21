@@ -1467,6 +1467,10 @@ async def cmd_addproxy(update: Update, context: ContextTypes.DEFAULT_TYPE):
         current_raw = get_raw_proxies()
         new_raw = current_raw + [l for l in valid_lines if l not in current_raw]
         save_proxies_to_file(new_raw)
+        try:
+            bot_db.set_setting("proxies", new_raw)
+        except Exception:
+            pass
         load_proxies()
 
         await status_msg.edit_text(
