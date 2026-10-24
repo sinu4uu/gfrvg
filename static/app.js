@@ -75,6 +75,20 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // ========================================================
+  // Body Scroll & Modal Sync Helper
+  // ========================================================
+  function syncBodyScroll() {
+    const anyModal = document.querySelector(".modal-overlay.active");
+    if (anyModal) {
+      document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+      document.documentElement.style.overflow = "";
+    }
+  }
+
+  // ========================================================
   // Shrinkme.io Ad Monetization Engine (Free Access Handshake)
   // ========================================================
   window.freeServiceLogins = {};
@@ -85,7 +99,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const email = window.currentUserEmail || "";
       if (!token && !email) return;
 
-      const res = await fetch(`/api/ads/status?token=${encodeURIComponent(token)}&email=${encodeURIComponent(email)}`);
+      let res;
+      try {
+        res = await fetch(`/api/token/status?token=${encodeURIComponent(token)}&email=${encodeURIComponent(email)}`);
+      } catch (_) {
+        res = await fetch(`/api/ads/status?token=${encodeURIComponent(token)}&email=${encodeURIComponent(email)}`);
+      }
       const data = await res.json();
       if (data.success && data.services) {
         window.freeServiceLogins = data.services;
@@ -108,15 +127,13 @@ document.addEventListener("DOMContentLoaded", () => {
       accessDeniedMsg.textContent = msg;
     }
     accessDeniedModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
   }
 
   function closeAccessDeniedModal() {
     if (!accessDeniedModal) return;
     accessDeniedModal.classList.remove("active");
-    if (!modalOverlay.classList.contains("active")) {
-      document.body.style.overflow = "";
-    }
+    syncBodyScroll();
   }
 
   if (accessDeniedCloseBtn) accessDeniedCloseBtn.addEventListener("click", closeAccessDeniedModal);
@@ -154,14 +171,29 @@ document.addEventListener("DOMContentLoaded", () => {
       triggerBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> <span>Generating Access Token...</span>`;
     }
     try {
-      const res = await fetch("/api/ads/generate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email: window.currentUserEmail || null,
-          chat_id: localStorage.getItem("xdroid_tg_chat_id") || null
-        })
-      });
+      let res;
+      try {
+        // Try /api/token/generate first (avoids adblocker /ads/ pattern match)
+        res = await fetch("/api/token/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: window.currentUserEmail || null,
+            chat_id: localStorage.getItem("xdroid_tg_chat_id") || null
+          })
+        });
+      } catch (clientErr) {
+        // Fallback to legacy endpoint if network intercepted
+        res = await fetch("/api/ads/generate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: window.currentUserEmail || null,
+            chat_id: localStorage.getItem("xdroid_tg_chat_id") || null
+          })
+        });
+      }
+
       const data = await res.json();
       if (data.success && data.short_url) {
         if (data.token) {
@@ -176,7 +208,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     } catch (err) {
-      showToast("Could not connect to ad provider. Please retry.", "error");
+      console.error("[!] Ad unlock error:", err);
+      showToast("Ad blocker or network issue detected. Please disable AdBlock / Brave Shields and retry.", "error");
       if (triggerBtn) {
         triggerBtn.disabled = false;
         triggerBtn.innerHTML = originalHtml;
@@ -317,6 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
     switchModalView("input");
 
     modalOverlay.classList.add("active");
+    syncBodyScroll();
     setTimeout(() => tvCodeInput.focus(), 150);
   }
 
@@ -327,6 +361,7 @@ document.addEventListener("DOMContentLoaded", () => {
       clearInterval(progressInterval);
       progressInterval = null;
     }
+    syncBodyScroll();
   }
 
   // Switch Modal Views: "input" | "progress" | "success" | "error"
@@ -371,6 +406,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let cameraStream = null;
   let scanAnimationId = null;
+  let isScannerActive = false;
+  let scanThrottleTimer = 0;
+  let qrOffscreenCanvas = null;
+  let qrOffscreenCtx = null;
 
   // Process an image file from camera capture or upload
   async function handleQrImageFile(file) {
@@ -503,8 +542,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function openLiveScanner() {
     if (!scannerModal || !videoElem) return;
+    isScannerActive = true;
     scannerModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
+
+    // Push history state so mobile hardware/browser back safely dismisses the scanner
+    try {
+      if (!window.history.state || window.history.state.modal !== "camera-scanner") {
+        window.history.pushState({ modal: "camera-scanner" }, "");
+      }
+    } catch (_) {}
 
     if (cameraStatusHint) {
       cameraStatusHint.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Initializing camera...`;
@@ -512,7 +559,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
       if (cameraStatusHint) {
-        cameraStatusHint.innerHTML = `<i class="fa-solid fa-camera"></i> Live webcam unavailable. Click 'Upload Photo' to snap/select QR.`;
+        cameraStatusHint.innerHTML = `<i class="fa-solid fa-camera"></i> Live webcam unavailable. Click 'Upload Photo' to select QR image.`;
       }
       return;
     }
@@ -533,76 +580,138 @@ document.addEventListener("DOMContentLoaded", () => {
         stream = await navigator.mediaDevices.getUserMedia({ video: true });
       }
 
+      // Check if user clicked cancel or navigated back while camera initialized
+      if (!isScannerActive) {
+        if (stream) stream.getTracks().forEach(t => t.stop());
+        return;
+      }
+
       cameraStream = stream;
       videoElem.srcObject = stream;
-      await videoElem.play();
+      videoElem.setAttribute("playsinline", "true");
+      videoElem.setAttribute("muted", "true");
+
+      try {
+        await videoElem.play();
+      } catch (playErr) {
+        console.warn("Video play error:", playErr);
+      }
+
+      if (!isScannerActive) {
+        closeLiveScanner();
+        return;
+      }
 
       if (cameraStatusHint) {
         cameraStatusHint.innerHTML = `<i class="fa-solid fa-camera-rotate"></i> Point camera at TV screen QR...`;
       }
 
+      scanThrottleTimer = 0;
       scanVideoLoop();
     } catch (err) {
       console.warn("Camera getUserMedia not available:", err);
       if (cameraStatusHint) {
-        cameraStatusHint.innerHTML = `<i class="fa-solid fa-triangle-exclamation" style="color: #ef4444;"></i> Camera access blocked. Click 'Upload Photo' to select/take picture.`;
+        cameraStatusHint.innerHTML = `<i class="fa-solid fa-triangle-exclamation" style="color: #ef4444;"></i> Camera access blocked. Click 'Upload Photo' to select QR image.`;
       }
     }
   }
 
-  function closeLiveScanner() {
+  function closeLiveScanner(fromPopstate = false) {
+    isScannerActive = false;
     if (scanAnimationId) {
       cancelAnimationFrame(scanAnimationId);
       scanAnimationId = null;
     }
-    if (cameraStream) {
-      cameraStream.getTracks().forEach(t => t.stop());
-      cameraStream = null;
-    }
     if (videoElem) {
+      try { videoElem.pause(); } catch (_) {}
       videoElem.srcObject = null;
+    }
+    if (cameraStream) {
+      cameraStream.getTracks().forEach(t => {
+        try { t.stop(); } catch (_) {}
+      });
+      cameraStream = null;
     }
     if (scannerModal) {
       scannerModal.classList.remove("active");
     }
-    if (!modalOverlay.classList.contains("active")) {
-      document.body.style.overflow = "";
+    syncBodyScroll();
+
+    if (!fromPopstate && window.history.state && window.history.state.modal === "camera-scanner") {
+      try {
+        window.history.back();
+      } catch (_) {}
     }
   }
 
   function scanVideoLoop() {
-    if (!cameraStream || videoElem.readyState !== videoElem.HAVE_ENOUGH_DATA) {
+    if (!isScannerActive || !cameraStream) return;
+
+    if (!videoElem || videoElem.readyState < 2 || videoElem.videoWidth === 0) {
       scanAnimationId = requestAnimationFrame(scanVideoLoop);
       return;
     }
 
-    const canvas = document.createElement("canvas");
-    canvas.width = videoElem.videoWidth;
-    canvas.height = videoElem.videoHeight;
-    const ctx = canvas.getContext("2d");
-    ctx.drawImage(videoElem, 0, 0, canvas.width, canvas.height);
-
-    const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    let found = null;
-
-    if (typeof jsQR !== "undefined") {
-      const code = jsQR(imgData.data, imgData.width, imgData.height, { inversionAttempts: "dontInvert" });
-      if (code && code.data) {
-        found = code.data;
-      }
-    }
-
-    if (found) {
-      closeLiveScanner();
-      processExtractedQr(found);
+    // Throttle scanning to 5 fps (~200ms) to ensure 0% CPU freeze
+    const now = performance.now();
+    if (now - scanThrottleTimer < 200) {
+      scanAnimationId = requestAnimationFrame(scanVideoLoop);
       return;
     }
+    scanThrottleTimer = now;
 
-    scanAnimationId = requestAnimationFrame(scanVideoLoop);
+    try {
+      const vw = videoElem.videoWidth;
+      const vh = videoElem.videoHeight;
+      const maxDim = 480;
+      let dw = vw;
+      let dh = vh;
+      if (vw > maxDim || vh > maxDim) {
+        if (vw > vh) {
+          dh = Math.round((vh * maxDim) / vw);
+          dw = maxDim;
+        } else {
+          dw = Math.round((vw * maxDim) / vh);
+          dh = maxDim;
+        }
+      }
+
+      if (!qrOffscreenCanvas) {
+        qrOffscreenCanvas = document.createElement("canvas");
+        qrOffscreenCtx = qrOffscreenCanvas.getContext("2d", { willReadFrequently: true });
+      }
+      if (qrOffscreenCanvas.width !== dw || qrOffscreenCanvas.height !== dh) {
+        qrOffscreenCanvas.width = dw;
+        qrOffscreenCanvas.height = dh;
+      }
+
+      qrOffscreenCtx.drawImage(videoElem, 0, 0, dw, dh);
+      const imgData = qrOffscreenCtx.getImageData(0, 0, dw, dh);
+      let found = null;
+
+      if (typeof jsQR !== "undefined") {
+        const code = jsQR(imgData.data, dw, dh, { inversionAttempts: "dontInvert" });
+        if (code && code.data) {
+          found = code.data;
+        }
+      }
+
+      if (found) {
+        closeLiveScanner();
+        processExtractedQr(found);
+        return;
+      }
+    } catch (e) {
+      console.warn("Scan frame error:", e);
+    }
+
+    if (isScannerActive) {
+      scanAnimationId = requestAnimationFrame(scanVideoLoop);
+    }
   }
 
-  if (cameraCloseBtn) cameraCloseBtn.addEventListener("click", closeLiveScanner);
-  if (btnCameraCancel) btnCameraCancel.addEventListener("click", closeLiveScanner);
+  if (cameraCloseBtn) cameraCloseBtn.addEventListener("click", () => closeLiveScanner());
+  if (btnCameraCancel) btnCameraCancel.addEventListener("click", () => closeLiveScanner());
   if (scannerModal) {
     scannerModal.addEventListener("click", (e) => {
       if (e.target === scannerModal) closeLiveScanner();
@@ -872,15 +981,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!policyModal) return;
     switchPolicyTab(tab);
     policyModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
   }
 
   function closePolicy() {
     if (!policyModal) return;
     policyModal.classList.remove("active");
-    if (!modalOverlay.classList.contains("active")) {
-      document.body.style.overflow = "";
-    }
+    syncBodyScroll();
   }
 
   function switchPolicyTab(tab) {
@@ -927,15 +1034,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if (savedId && tgChatIdInput) tgChatIdInput.value = savedId;
     if (verifyStatusBanner) verifyStatusBanner.style.display = "none";
     trialModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
   }
 
   function closeTrialModal() {
     if (!trialModal) return;
     trialModal.classList.remove("active");
-    if (!modalOverlay.classList.contains("active") && (!policyModal || !policyModal.classList.contains("active"))) {
-      document.body.style.overflow = "";
-    }
+    syncBodyScroll();
   }
 
   if (openTrialBtn) openTrialBtn.addEventListener("click", openTrialModal);
@@ -1037,15 +1142,13 @@ document.addEventListener("DOMContentLoaded", () => {
   function openAuthModal() {
     if (!authModal) return;
     authModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
   }
 
   function closeAuthModal() {
     if (!authModal) return;
     authModal.classList.remove("active");
-    if (!modalOverlay.classList.contains("active") && (!trialModal || !trialModal.classList.contains("active")) && (!policyModal || !policyModal.classList.contains("active"))) {
-      document.body.style.overflow = "";
-    }
+    syncBodyScroll();
   }
 
   if (authCloseBtn) authCloseBtn.addEventListener("click", closeAuthModal);
@@ -1260,7 +1363,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (planQrView) planQrView.style.display = "none";
     if (planSuccessView) planSuccessView.style.display = "none";
     paymentModal.classList.add("active");
-    document.body.style.overflow = "hidden";
+    syncBodyScroll();
   }
 
   function closePaymentModal() {
@@ -1270,9 +1373,7 @@ document.addEventListener("DOMContentLoaded", () => {
       activeOrderPoll = null;
     }
     paymentModal.classList.remove("active");
-    if (!modalOverlay.classList.contains("active") && (!authModal || !authModal.classList.contains("active")) && (!trialModal || !trialModal.classList.contains("active"))) {
-      document.body.style.overflow = "";
-    }
+    syncBodyScroll();
   }
 
   if (paymentCloseBtn) paymentCloseBtn.addEventListener("click", closePaymentModal);
@@ -1492,13 +1593,35 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Browser Back Button & Hardware Back Gesture Listener (popstate)
+  window.addEventListener("popstate", () => {
+    if (scannerModal && scannerModal.classList.contains("active")) {
+      closeLiveScanner(true);
+    } else if (modalOverlay && modalOverlay.classList.contains("active")) {
+      closeActivationModal();
+    } else if (paymentModal && paymentModal.classList.contains("active")) {
+      closePaymentModal();
+    } else if (accessDeniedModal && accessDeniedModal.classList.contains("active")) {
+      closeAccessDeniedModal();
+    } else if (authModal && authModal.classList.contains("active")) {
+      closeAuthModal();
+    } else if (trialModal && trialModal.classList.contains("active")) {
+      closeTrialModal();
+    } else if (policyModal && policyModal.classList.contains("active")) {
+      closePolicy();
+    }
+    syncBodyScroll();
+  });
+
   // Keyboard shortcut (Escape closes active modal)
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
+      if (scannerModal && scannerModal.classList.contains("active")) closeLiveScanner();
       if (paymentModal && paymentModal.classList.contains("active")) closePaymentModal();
       if (authModal && authModal.classList.contains("active")) closeAuthModal();
       if (trialModal && trialModal.classList.contains("active")) closeTrialModal();
       if (policyModal && policyModal.classList.contains("active")) closePolicy();
+      if (accessDeniedModal && accessDeniedModal.classList.contains("active")) closeAccessDeniedModal();
       if (modalOverlay && modalOverlay.classList.contains("active")) closeActivationModal();
       if (userDropdownCard) userDropdownCard.classList.remove("show");
     }

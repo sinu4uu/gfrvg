@@ -2262,33 +2262,43 @@ def make_ad_signature(token: str) -> str:
     import hashlib
     return hmac.new(AD_SECRET_SALT.encode(), token.encode(), hashlib.sha256).hexdigest()[:16]
 
+def resolve_public_base_url(request: Request) -> str:
+    site_domain = os.environ.get("SITE_URL", "https://threadore.in").rstrip("/")
+    forwarded_host = (request.headers.get("x-forwarded-host") or request.headers.get("host") or "").strip()
+    if not forwarded_host:
+        return site_domain
+    clean_host = forwarded_host.split(":")[0].lower()
+    if clean_host in ("localhost", "127.0.0.1", "0.0.0.0") or clean_host.endswith(".local"):
+        return site_domain
+    if re.match(r"^(192\.168\.|10\.|172\.(1[6-9]|2[0-9]|3[0-1])\.)", clean_host):
+        return site_domain
+    if "." not in clean_host:
+        return site_domain
+    forwarded_proto = request.headers.get("x-forwarded-proto", "https")
+    return f"{forwarded_proto}://{forwarded_host}"
+
+@app.post("/api/token/generate")
 @app.post("/api/ads/generate")
 async def generate_ad_pass(req: GenerateAdRequest, request: Request):
     """Generates a monetized Shrinkme.io short link to unlock 1 free login for every service."""
     if not SHRINKME_API_KEY:
-        return JSONResponse(status_code=500, content={"success": False, "error": "Shrinkme API token not configured."})
+        return JSONResponse(status_code=500, content={"success": False, "error": "Shrinkme API token not configured in server environment."})
     
-    site_domain = os.environ.get("SITE_URL", "https://threadore.in").rstrip("/")
-    forwarded_host = request.headers.get("x-forwarded-host") or request.headers.get("host") or ""
-    
-    # Shrinkme only accepts valid public domains (rejects localhost/127.0.0.1)
-    if "localhost" in forwarded_host.lower() or "127.0.0.1" in forwarded_host or not forwarded_host:
-        base_url = site_domain
-    else:
-        forwarded_proto = request.headers.get("x-forwarded-proto", "https")
-        base_url = f"{forwarded_proto}://{forwarded_host}"
-    
+    base_url = resolve_public_base_url(request)
     token = secrets.token_urlsafe(16)
     sig = make_ad_signature(token)
-    callback_target = f"{base_url}/api/ads/callback?token={token}&sig={sig}"
+    callback_target = f"{base_url}/api/token/callback?token={token}&sig={sig}"
     
     api_url = f"https://shrinkme.io/api?api={SHRINKME_API_KEY}&url={urllib.parse.quote(callback_target)}"
     
     try:
         def fetch_shrinkme():
-            req_obj = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req_obj, timeout=12) as response:
-                return json.loads(response.read().decode())
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            resp = requests.get(api_url, headers=headers, timeout=12)
+            try:
+                return resp.json()
+            except Exception:
+                return {"status": "error", "message": f"Gateway returned status {resp.status_code}"}
                 
         data = await asyncio.to_thread(fetch_shrinkme)
         if data.get("status") == "success" and data.get("shortenedUrl"):
@@ -2307,21 +2317,16 @@ async def generate_ad_pass(req: GenerateAdRequest, request: Request):
             err_msg = data.get("message")
             if isinstance(err_msg, list):
                 err_msg = ", ".join(err_msg)
-            return JSONResponse(status_code=502, content={"success": False, "error": err_msg or "Ad gateway busy. Please try again."})
+            return JSONResponse(status_code=502, content={"success": False, "error": err_msg or "Ad gateway busy. Please try again in a few moments."})
     except Exception as e:
         print(f"[!] Shrinkme API error: {e}")
-        return JSONResponse(status_code=500, content={"success": False, "error": "Failed to connect to ad shortener. Please try again."})
+        return JSONResponse(status_code=500, content={"success": False, "error": "Failed to connect to ad shortener. Please verify connection and retry."})
 
+@app.get("/api/token/callback")
 @app.get("/api/ads/callback")
 async def ad_pass_callback(token: str, sig: str, request: Request):
     """Callback triggered by Shrinkme after user completes the ad pages."""
-    site_domain = os.environ.get("SITE_URL", "https://threadore.in").rstrip("/")
-    forwarded_host = request.headers.get("x-forwarded-host") or request.headers.get("host") or ""
-    if "localhost" in forwarded_host.lower() or "127.0.0.1" in forwarded_host or not forwarded_host:
-        base_url = site_domain
-    else:
-        forwarded_proto = request.headers.get("x-forwarded-proto", "https")
-        base_url = f"{forwarded_proto}://{forwarded_host}"
+    base_url = resolve_public_base_url(request)
     
     if make_ad_signature(token) != sig:
         return RedirectResponse(f"{base_url}/?ad_error=tampered")
@@ -2353,6 +2358,7 @@ async def ad_pass_callback(token: str, sig: str, request: Request):
         
     return RedirectResponse(f"{base_url}/?ad_unlocked=true&token={token}")
 
+@app.get("/api/token/status")
 @app.get("/api/ads/status")
 async def get_ad_pass_status(token: Optional[str] = None, email: Optional[str] = None):
     """Returns active free service logins for user/token."""
