@@ -564,13 +564,6 @@ document.addEventListener("DOMContentLoaded", () => {
     scannerModal.classList.add("active");
     syncBodyScroll();
 
-    // Push history state so mobile hardware/browser back safely dismisses the scanner
-    try {
-      if (!window.history.state || window.history.state.modal !== "camera-scanner") {
-        window.history.pushState({ modal: "camera-scanner" }, "");
-      }
-    } catch (_) {}
-
     if (cameraStatusHint) {
       cameraStatusHint.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Initializing camera...`;
     }
@@ -634,7 +627,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function closeLiveScanner(fromPopstate = false) {
+  function closeLiveScanner() {
     isScannerActive = false;
     if (scanAnimationId) {
       cancelAnimationFrame(scanAnimationId);
@@ -654,16 +647,6 @@ document.addEventListener("DOMContentLoaded", () => {
       scannerModal.classList.remove("active");
     }
     syncBodyScroll();
-
-    if (!fromPopstate && window.history.state && window.history.state.modal === "camera-scanner") {
-      suppressPopstateModalClose = true;
-      try {
-        window.history.back();
-      } catch (_) {}
-      setTimeout(() => {
-        suppressPopstateModalClose = false;
-      }, 400);
-    }
   }
 
   function scanVideoLoop() {
@@ -800,11 +783,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       tvCodeInput.value = finalUrl;
       showToast("JioHotstar QR Link Ready!", "success");
-      return;
     }
 
     // 2. Netflix: 8-digit numeric code
-    if (selectedService && selectedService.id === "netflix") {
+    else if (selectedService && selectedService.id === "netflix") {
       let netflixCode = "";
       try {
         if (cleanRaw.startsWith("http://") || cleanRaw.startsWith("https://")) {
@@ -833,7 +815,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (netflixCode) {
         tvCodeInput.value = netflixCode;
         showToast(`Netflix Code Auto-filled: ${netflixCode}`, "success");
-        return;
+      } else {
+        tvCodeInput.value = cleanRaw;
+        showToast("QR Code Scanned!", "success");
       }
     }
 
@@ -1627,26 +1611,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Browser Back Button & Hardware Back Gesture Listener (popstate)
   window.addEventListener("popstate", () => {
-    if (suppressPopstateModalClose) {
-      suppressPopstateModalClose = false;
-      return;
-    }
     if (scannerModal && scannerModal.classList.contains("active")) {
-      closeLiveScanner(true);
-    } else if (modalOverlay && modalOverlay.classList.contains("active")) {
-      closeActivationModal();
-    } else if (paymentModal && paymentModal.classList.contains("active")) {
-      closePaymentModal();
-    } else if (accessDeniedModal && accessDeniedModal.classList.contains("active")) {
-      closeAccessDeniedModal();
-    } else if (authModal && authModal.classList.contains("active")) {
-      closeAuthModal();
-    } else if (trialModal && trialModal.classList.contains("active")) {
-      closeTrialModal();
-    } else if (policyModal && policyModal.classList.contains("active")) {
-      closePolicy();
+      closeLiveScanner();
     }
-    syncBodyScroll();
   });
 
   // Keyboard shortcut (Escape closes active modal)
