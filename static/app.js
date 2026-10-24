@@ -8,6 +8,24 @@ document.addEventListener("DOMContentLoaded", () => {
   let servicesData = [];
   let selectedService = null;
   let progressInterval = null;
+  let suppressPopstateModalClose = false;
+
+  function findService(id) {
+    if (Array.isArray(servicesData) && servicesData.length > 0) {
+      const match = servicesData.find(s => s && s.id === id);
+      if (match) return match;
+    }
+    const fallbackList = [
+      { id: "jiohotstar", name: "JioHotstar", code_type: "alphanumeric", code_length: 255, placeholder: "https://www.hotstar.com/activate/device?qr_code=...", description: "Smart TV Screen Activation Link" },
+      { id: "netflix", name: "Netflix", code_type: "numeric", code_length: 8, placeholder: "e.g. 12345678", description: "8-digit TV screen activation code" },
+      { id: "primevideo", name: "Prime Video", code_type: "alphanumeric", code_length: 6, placeholder: "e.g. AB12CD", description: "6-character TV screen code" },
+      { id: "crunchyroll", name: "Crunchyroll", code_type: "alphanumeric", code_length: 6, placeholder: "e.g. CR1234", description: "6-character TV screen code" },
+      { id: "spotify", name: "Spotify", code_type: "alphanumeric", code_length: 6, placeholder: "e.g. SP1234", description: "6-character TV pairing code" },
+      { id: "hbomax", name: "HBO Max", code_type: "alphanumeric", code_length: 6, placeholder: "e.g. MX1234", description: "6-character TV screen code" },
+      { id: "surfshark", name: "Surfshark", code_type: "alphanumeric", code_length: 6, placeholder: "e.g. SF1234", description: "6-character TV login code" }
+    ];
+    return fallbackList.find(s => s.id === id) || null;
+  }
 
   // DOM Elements
   const servicesGrid = document.getElementById("services-grid");
@@ -638,9 +656,13 @@ document.addEventListener("DOMContentLoaded", () => {
     syncBodyScroll();
 
     if (!fromPopstate && window.history.state && window.history.state.modal === "camera-scanner") {
+      suppressPopstateModalClose = true;
       try {
         window.history.back();
       } catch (_) {}
+      setTimeout(() => {
+        suppressPopstateModalClose = false;
+      }, 400);
     }
   }
 
@@ -663,7 +685,7 @@ document.addEventListener("DOMContentLoaded", () => {
     try {
       const vw = videoElem.videoWidth;
       const vh = videoElem.videoHeight;
-      const maxDim = 480;
+      const maxDim = 800;
       let dw = vw;
       let dh = vh;
       if (vw > maxDim || vh > maxDim) {
@@ -690,7 +712,7 @@ document.addEventListener("DOMContentLoaded", () => {
       let found = null;
 
       if (typeof jsQR !== "undefined") {
-        const code = jsQR(imgData.data, dw, dh, { inversionAttempts: "dontInvert" });
+        const code = jsQR(imgData.data, dw, dh, { inversionAttempts: "attemptBoth" });
         if (code && code.data) {
           found = code.data;
         }
@@ -731,32 +753,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const lower = cleanRaw.toLowerCase();
     if (lower.includes("hotstar.com") || lower.includes("jiohotstar") || lower.includes("qr_code=")) {
       if (!selectedService || selectedService.id !== "jiohotstar") {
-        const jioSvc = availableServices.find(s => s.id === "jiohotstar");
+        const jioSvc = findService("jiohotstar");
         if (jioSvc) openActivationModal(jioSvc);
       }
     } else if (lower.includes("netflix.com") || lower.includes("/tv8") || lower.includes("nftv=")) {
       if (!selectedService || selectedService.id !== "netflix") {
-        const nSvc = availableServices.find(s => s.id === "netflix");
+        const nSvc = findService("netflix");
         if (nSvc) openActivationModal(nSvc);
       }
     } else if (lower.includes("amazon.com") || lower.includes("primevideo.com") || lower.includes("/mytv")) {
       if (!selectedService || selectedService.id !== "primevideo") {
-        const pSvc = availableServices.find(s => s.id === "primevideo");
+        const pSvc = findService("primevideo");
         if (pSvc) openActivationModal(pSvc);
       }
     } else if (lower.includes("crunchyroll.com")) {
       if (!selectedService || selectedService.id !== "crunchyroll") {
-        const cSvc = availableServices.find(s => s.id === "crunchyroll");
+        const cSvc = findService("crunchyroll");
         if (cSvc) openActivationModal(cSvc);
       }
     } else if (lower.includes("spotify.com") || lower.startsWith("spotify:")) {
       if (!selectedService || selectedService.id !== "spotify") {
-        const spSvc = availableServices.find(s => s.id === "spotify");
+        const spSvc = findService("spotify");
         if (spSvc) openActivationModal(spSvc);
       }
     } else if (lower.includes("max.com") || lower.includes("hbomax.com")) {
       if (!selectedService || selectedService.id !== "hbomax") {
-        const hSvc = availableServices.find(s => s.id === "hbomax");
+        const hSvc = findService("hbomax");
         if (hSvc) openActivationModal(hSvc);
       }
     }
@@ -861,8 +883,18 @@ document.addEventListener("DOMContentLoaded", () => {
       showToast(`${selectedService ? selectedService.name : "TV"} Code Auto-filled: ${extractedCode}`, "success");
     } else {
       tvCodeInput.value = cleanRaw;
-      showToast("QR Code Scanned!", "success");
+      showToast("QR Code Scanned & Auto-filled!", "success");
     }
+
+    // Ensure modal is active, on input view, and focused on authorize button
+    if (modalOverlay) modalOverlay.classList.add("active");
+    switchModalView("input");
+    syncBodyScroll();
+
+    setTimeout(() => {
+      if (tvCodeInput) tvCodeInput.focus();
+      if (submitBtn) submitBtn.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }, 120);
   }
 
   // Handle Form Submission
@@ -1595,6 +1627,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Browser Back Button & Hardware Back Gesture Listener (popstate)
   window.addEventListener("popstate", () => {
+    if (suppressPopstateModalClose) {
+      suppressPopstateModalClose = false;
+      return;
+    }
     if (scannerModal && scannerModal.classList.contains("active")) {
       closeLiveScanner(true);
     } else if (modalOverlay && modalOverlay.classList.contains("active")) {
